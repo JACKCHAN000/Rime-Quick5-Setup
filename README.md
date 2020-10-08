@@ -6,7 +6,7 @@ RIME配置文件
 https://rime.im/
 
 # 外觀
-仿Windows輸入法外觀
+仿Metro UI風格外觀
 
 ![Snipaste_2020-10-08_22-43-44](https://user-images.githubusercontent.com/61930699/95475227-91390e00-09b8-11eb-9076-f5985ec94be4.png)
 
