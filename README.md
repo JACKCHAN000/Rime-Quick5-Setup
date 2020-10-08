@@ -2,8 +2,12 @@
 RIME 速成輸入法 整合 for Windows小狼毫
 
 RIME配置文件
-# RIME下載
-https://github.com/rime/weasel
+# RIME 教程及下載
+https://rime.im/
+
+# 外觀
+仿Windows輸入法外觀
+
 # 已實現功能
 1. 速成整句連打
 
