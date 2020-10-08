@@ -28,5 +28,4 @@ patch:
   style/color_scheme: metro
   style/horizontal: true
   style/inline_preedit: true  
-  "style/font_face": "翔鶴黑體TC"
   "style/font_point": 15 
