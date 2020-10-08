@@ -1,0 +1,57 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#  BetterRime词库增强包－实用版の准正式版 by @imy0823
+#
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 於重新部署後生效
+#
+
+---
+name: quick5.extended
+version: "2014.09.07"
+sort: by_weight
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+max_phrase_length: 3
+use_preset_vocabulary: true
+#下面的是本词库包含的所有词库，请根据需要开启/禁用，词条前添删#号即可开启/关闭词库。
+#雙拼不支持 quick5.cn_en 詞庫，請用戶手動禁用。
+import_tables:
+  - quick5
+  - moe
+  - sgo
+  - lun
+  - micro
+  - my
+  - emoji
+  - sgmain
+  - sgplus
+  - sgplus2
+  - chat
+  - user
+  - biaoqing
+  - vocab
+  - game
+  - anime
+  - place
+  - poetry
+  - gd
+  - history
+  - music
+  - movie
+  - net
+  - mix
+  #- quick5.movie
+  #- quick5.music
+  #- quick5.computer
+  #- quick5.history
+  #- quick5.name
+  #- quick5.shopping
+...

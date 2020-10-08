@@ -1,0 +1,35 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.10.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Wed Apr  4 13:02:10 2018"
+  rime_version: 1.3.0
+patch:
+  schema_list:
+    - {schema: luna_pinyin}
+    - {schema: luna_pinyin_simp}
+    - {schema: luna_pinyin_fluency}
+    - {schema: bopomofo}
+    - {schema: bopomofo_tw}
+    - {schema: cangjie5}
+    - {schema: stroke}
+    - {schema: terra_pinyin}
+    - {schema: quick5}
+  ascii_composer: # 设置caps、shift、control等键的作用
+    good_old_caps_lock: true # 若为true，caps只切换大小写
+    switch_key:
+      Shift_L: commit_code
+      Shift_R: noop
+      Control_L: noop
+      Control_R: noop
+      Caps_Lock: commit_code
+      Eisu_toggle: clear
+  key_binder/bindings: # 设置哪些键可以翻页，需要哪个取消注释即可
+    # - { when: composing, accept: Tab, send: Page_Up } # Tab 翻页
+    - { when: composing, accept: Tab, send: Right } # Tab 移动光标向右
+    - { when: composing, accept: Shift+Tab, send: Page_Up }
+    - { when: paging, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
+    - { when: paging, accept: bracketleft, send: Page_Up }
+    - { when: has_menu, accept: bracketright, send: Page_Down }
+    

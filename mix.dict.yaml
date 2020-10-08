@@ -1,0 +1,87 @@
+#Rimedictionary
+#encoding:utf-8
+#
+#LunaPinyinExtendedDictionary(Chinese&English)-明月拼音擴充詞庫（含西文的詞彙）
+#
+#瑾昀<cokunhui@gmail.com>
+#
+#部署位置：
+#~/.config/ibus/rime(Linux)
+#~/Library/Rime(MacOS)
+#%APPDATA%\Rime(Windows)
+#
+#於重新部署後生效
+#
+---
+name: mix
+version: "2018"
+sort: by_weight
+use_preset_vocabulary: false
+...
+m字額	mjdjc	100
+Nokia	nokia	100
+samsung	samsung	100
+Face-ID	faceid	100
+Amazon	amazon	100
+馬鞍山	mos	100
+M記	myu	100
+阿Q精神	nrqfbil	100
+阿Q正傳	nrqmmoi	100
+多啦A夢	nirtatn
+卡啦OK	yyrtok	100
+裝B  vvb	100
+A股	abe	100
+H股	hbe	100
+A盤	abt	100
+A片	all	100
+AA制	aahn	100
+AA 	aagripbh	100
+B超	bgr	100
+B淋巴細胞	bedauvwbu	100
+C盤	cbt	100
+D盤	dbt	100
+B細胞	bvwbu	100
+C語言	cyryr	100
+G點	gwr	100
+IP地址	ipgdgm	100
+IP電話	ipmuyr	100
+J圖	jww	100
+J死人	jmpo	100
+條條fing	ododfing	100
+K仔	kod	100
+K歌之王	kmoiomg	100
+K歌	kmo
+唱K	rak	100
+QQ號碼	qqrumf	100
+QQ會員	qqoarc	100
+QQ空間	qqjmaa	100
+T淋巴細胞	tedauvwbu	100
+T細胞	tvwbu	100
+T恤	tpt	100
+tg群	tgsq	100
+U盤	ubt	100
+照X光	afxfu	100
+X染色體	xednubt	100
+Y染色體	yednubt	100
+你有freestyle嗎	ofkbfreestylerf	100
+Kai子	kaind	100
+iPhone	iphone	100
+Android	android	100
+Rime	rime	100
+skr	skr	100
+爆seed	feseed	100
+Ocamp	ocamp	100
+Asso	asso	100
+ive仔	iveod	100
+Jupas	jupas	100
+女神BB	vilbb	100
+我嘅心靈unlock	hirupmounlock	100
+Tree根	treedv	100
+毒L	qil	100
+friend子 friendnd	100
+爛gag	fwgag	100
+gag	gag	100
+O嘴	rrb	100
+OU都係U	oujlofu	100
+Wi-Fi	wifi	100
+	
