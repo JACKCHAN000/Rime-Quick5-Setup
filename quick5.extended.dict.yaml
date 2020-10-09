@@ -48,6 +48,7 @@ import_tables:
   - movie
   - net
   - mix
+  - physics
   #- quick5.movie
   #- quick5.music
   #- quick5.computer
