@@ -1,18 +1,35 @@
-__build_info:
-  rime_version: 1.3.0
-  timestamps:
-    default: 1521801168
-    default.custom: 1522818566
-    quick5.custom: 1522828492
-    quick5.schema: 1521801178
-abc_segmentor:
-  extra_tags:
-    - reverse_lookup
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: quick5
+  name: 速成
+  version: "1.0"
+  author:
+    - 倉頡作者：朱邦復先生
+    - JACKCHAN000@github
+  description: |
+    Rime 速成輸入法
+  dependencies:
+    - luna_pinyin
+menu:
+  page_size: 9
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: ["。，", "．，"]
+  - name: emoji_suggestion
+    reset: 1
+    states: [ 😔, 😀 ]
+
 engine:
-  filters:
-    - simplifier
-    - uniquifier
-    - simplifier@emoji_suggestion
   processors:
     - ascii_composer
     - recognizer
@@ -26,166 +43,84 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
+    - affix_segmentor@ctpinyin
+    - affix_segmentor@phonetic
     - punct_segmentor
     - fallback_segmentor
   translators:
+    - table_translator@ctpinyin
     - punct_translator
-    - script_translator
+    - table_translator@custom_phrase
     - reverse_lookup_translator
+    - script_translator
     - lua_translator@date_translator
     - lua_translator@time_translator
     - lua_translator@week_translator
-key_binder:
-  bindings:
-    - {accept: "Control+p", send: Up, when: composing}
-    - {accept: "Control+n", send: Down, when: composing}
-    - {accept: "Control+b", send: Left, when: composing}
-    - {accept: "Control+f", send: Right, when: composing}
-    - {accept: "Control+a", send: Home, when: composing}
-    - {accept: "Control+e", send: End, when: composing}
-    - {accept: "Control+d", send: Delete, when: composing}
-    - {accept: "Control+k", send: "Shift+Delete", when: composing}
-    - {accept: "Control+h", send: BackSpace, when: composing}
-    - {accept: "Control+g", send: Escape, when: composing}
-    - {accept: "Control+bracketleft", send: Escape, when: composing}
-    - {accept: "Alt+v", send: Page_Up, when: composing}
-    - {accept: "Control+v", send: Page_Down, when: composing}
-    - {accept: ISO_Left_Tab, send: "Shift+Left", when: composing}
-    - {accept: "Shift+Tab", send: "Shift+Left", when: composing}
-    - {accept: Tab, send: "Shift+Right", when: composing}
-    - {accept: minus, send: Page_Up, when: has_menu}
-    - {accept: equal, send: Page_Down, when: has_menu}
-    - {accept: comma, send: Page_Up, when: paging}
-    - {accept: period, send: Page_Down, when: has_menu}
-    - {accept: "Control+Shift+1", select: .next, when: always}
-    - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}
-    - {accept: "Control+Shift+3", toggle: full_shape, when: always}
-    - {accept: "Control+Shift+4", toggle: simplification, when: always}
-    - {accept: "Control+Shift+5", toggle: extended_charset, when: always}
-    - {accept: "Control+Shift+exclam", select: .next, when: always}
-    - {accept: "Control+Shift+at", toggle: ascii_mode, when: always}
-    - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
-    - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
-    - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
-    - {accept: "Shift+space", toggle: full_shape, when: always}
-    - {accept: "Control+period", toggle: ascii_punct, when: always}
-  import_preset: default
-menu:
-  page_size: 9
+    - script_translator@phonetic
+
+  filters:
+    - simplifier
+    - uniquifier
+    - simplifier@emoji_suggestion
+    - reverse_lookup_filter@phonetic_reverse_lookup
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+
+translator:
+  dictionary: quick5.extended
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符··|"
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+ctpinyin:
+  __include: /translator
+  prefix: "`"
+  suffix: "'"
+  tips: 【反查讀音】
+  initial_quality: 300	# 調整該編譯器出字優先度
+  tag: ctpinyin
+
+phonetic:
+  tag: phonetic
+  prefix: "';"
+  suffix: "'"
+  dictionary: luna_pinyin
+  comment_format:	#menu 提示 字碼 顯示
+    - "xlit|abcdefghijklmnopqrstuvwxyz[];',.|abcdefghijklmnopqrstuvwxyz[];',.|"
+  tips: 【拼音】
+  initial_quality: 1.1	# 調整該編譯器出字優先度
+
+phonetic_reverse_lookup:
+  tags: [ ctpinyin ]
+  dictionary: luna_pinyin
+  overwrite_comment: true  # 覆蓋其他提示
+
 punctuator:
-  full_shape:
-    " ": {commit: "　"}
-    "!": {commit: "！"}
-    "\"": {pair: ["“", "”"]}
-    "#": ["＃", "⌘"]
-    "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
-    "%": ["％", "°", "℃"]
-    "&": "＆"
-    "'": {pair: ["‘", "’"]}
-    "(": "（"
-    ")": "）"
-    "*": ["＊", "·", "・", "×", "※", "❂"]
-    "+": "＋"
-    ",": {commit: "，"}
-    "-": "－"
-    .: {commit: "。"}
-    "/": ["／", "÷"]
-    ":": {commit: "："}
-    ";": {commit: "；"}
-    "<": ["《", "〈", "«", "‹"]
-    "=": "＝"
-    ">": ["》", "〉", "»", "›"]
-    "?": {commit: "？"}
-    "@": ["＠", "☯"]
-    "[": ["「", "【", "〔", "［"]
-    "\\": ["、", "＼"]
-    "]": ["」", "】", "〕", "］"]
-    "^": {commit: "……"}
-    _: "——"
-    "`": "｀"
-    "{": ["『", "〖", "｛"]
-    "|": ["·", "｜", "§", "¦"]
-    "}": ["』", "〗", "｝"]
-    "~": "～"
-  half_shape:
-    "!": {commit: "！"}
-    "\"": {pair: ["“", "”"]}
-    "#": "#"
-    "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
-    "%": ["%", "％", "°", "℃"]
-    "&": "&"
-    "'": {pair: ["‘", "’"]}
-    "(": "（"
-    ")": "）"
-    "*": ["*", "＊", "·", "・", "×", "※", "❂"]
-    "+": "+"
-    ",": {commit: "，"}
-    "-": "-"
-    .: {commit: "。"}
-    "/": ["、", "/", "／", "÷"]
-    ":": {commit: "："}
-    ";": {commit: "；"}
-    "<": ["《", "〈", "«", "‹"]
-    "=": "="
-    ">": ["》", "〉", "»", "›"]
-    "?": {commit: "？"}
-    "@": "@"
-    "[": ["「", "【", "〔", "［"]
-    "\\": ["、", "\\", "＼"]
-    "]": ["」", "】", "〕", "］"]
-    "^": {commit: "……"}
-    _: "——"
-    "`": "`"
-    "{": ["『", "〖", "｛"]
-    "|": ["·", "|", "｜", "§", "¦"]
-    "}": ["』", "〗", "｝"]
-    "~": ["~", "～"]
+  import_preset: symbols
+
+key_binder:
   import_preset: default
+
 recognizer:
   import_preset: default
   patterns:
-    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
-    reverse_lookup: "`[a-z]*'?$"
-    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
-    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
-schema:
-  author:
-    - "佛振 <chen.sst@gmail.com>"
-  dependencies:
-    - luna_quanpin
-  description: |
-    速成、倉頡詞句連打
-    碼表源自倉頡之友發佈的《五倉世紀版》
-    www.chinesecj.com
-    
-  name: "速成"
-  schema_id: quick5
-  version: 0.20
-speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " ;'"
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: ["中文", "西文"]
-  - name: full_shape
-    states: ["半角", "全角"]
-  - name: simplification
-    states: ["漢字", "汉字"]
-  - name: ascii_punct
-    states: ["。，", "．，"]
-  - name: emoji_suggestion
-    reset: 1
-    states: [ 😔, 😀 ]
-translator:
-  comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
-  dictionary: quick5.extended
-  disable_user_dict_for_patterns:
-    - "^yyy.*$"
-  preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符··|"
-  prism: quick5
+    email: ^[a-z][-_.0-9a-z]*@.*$
+    url: ^(www[.]|https?:|ftp:|mailto:).*$
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    phonetic: "';[1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/6347-]*'?$"
+    ctpinyin: "`[a-z]*'?$"
+
 emoji_suggestion:
    opencc_config: emoji.json
    option_name: emoji_suggestion
