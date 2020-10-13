@@ -11,6 +11,7 @@ schema:
   description: |
     Rime 速成輸入法
   dependencies:
+    - jyut6ping3
     - luna_pinyin
 menu:
   page_size: 9
@@ -43,12 +44,15 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
-    - affix_segmentor@ctpinyin
+    - affix_segmentor@cantonese
     - affix_segmentor@phonetic
+    - affix_segmentor@pinyin
+    - affix_segmentor@phoneticpinyin
     - punct_segmentor
     - fallback_segmentor
   translators:
-    - table_translator@ctpinyin
+    - table_translator@cantonese
+    - table_translator@pinyin
     - punct_translator
     - table_translator@custom_phrase
     - reverse_lookup_translator
@@ -57,12 +61,14 @@ engine:
     - lua_translator@time_translator
     - lua_translator@week_translator
     - script_translator@phonetic
+    - script_translator@phoneticpinyin
 
   filters:
     - simplifier
     - uniquifier
     - simplifier@emoji_suggestion
     - reverse_lookup_filter@phonetic_reverse_lookup
+    - reverse_lookup_filter@phoneticpinyin_reverse_lookup
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -83,29 +89,52 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
 
-ctpinyin:
+cantonese:
   __include: /translator
   prefix: "`"
   suffix: "'"
-  tips: 【反查讀音】
+  tips: 【反查粵語讀音】
   initial_quality: 300	# 調整該編譯器出字優先度
-  tag: ctpinyin
+  tag: cantonese
+
+pinyin:
+  __include: /translator
+  prefix: "//"
+  suffix: "'"
+  tips: 【反查國語讀音】
+  initial_quality: 300	# 調整該編譯器出字優先度
+  tag: pinyin
 
 phonetic:
+  tag: phonetic
+  prefix: "';"
+  suffix: "'"
+  dictionary: jyut6ping3
+  comment_format:	#menu 提示 字碼 顯示
+    - "xlit|abcdefghijklmnopqrstuvwxyz[];',.|abcdefghijklmnopqrstuvwxyz[];',.|"
+  tips: 【粵語拼音】
+  initial_quality: 1.1	# 調整該編譯器出字優先度
+
+phonetic_reverse_lookup:
+  tags: [ cantonese ]
+  dictionary: jyut6ping3
+  overwrite_comment: true  # 覆蓋其他提示
+
+phoneticpinyin:
   tag: phonetic
   prefix: "';"
   suffix: "'"
   dictionary: luna_pinyin
   comment_format:	#menu 提示 字碼 顯示
     - "xlit|abcdefghijklmnopqrstuvwxyz[];',.|abcdefghijklmnopqrstuvwxyz[];',.|"
-  tips: 【拼音】
+  tips: 【國語拼音】
   initial_quality: 1.1	# 調整該編譯器出字優先度
 
-phonetic_reverse_lookup:
-  tags: [ ctpinyin ]
+phoneticpinyin_reverse_lookup:
+  tags: [ pinyin ]
   dictionary: luna_pinyin
   overwrite_comment: true  # 覆蓋其他提示
-
+  
 punctuator:
   import_preset: symbols
 
@@ -119,7 +148,9 @@ recognizer:
     url: ^(www[.]|https?:|ftp:|mailto:).*$
     punct: '^/([0-9]0?|[A-Za-z]+)$'
     phonetic: "';[1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/6347-]*'?$"
-    ctpinyin: "`[a-z]*'?$"
+    cantonese: "`[a-z]*'?$"
+    phoneticpinyin: "';[1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/6347-]*'?$"
+    pinyin: "//[a-z]*'?$"
 
 emoji_suggestion:
    opencc_config: emoji.json
