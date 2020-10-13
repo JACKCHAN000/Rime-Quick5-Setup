@@ -1,6 +1,8 @@
 # Rime-Quick5-setup
 RIME 速成輸入法 整合 for Windows小狼毫
 
+告別垃圾的Windows速成輸入法
+
 RIME配置文件
 # RIME 教程及下載
 https://rime.im/
@@ -52,6 +54,14 @@ https://rime.im/
 使用方法：z+date/time/week
 
 ![Snipaste_2020-10-09_15-19-09](https://user-images.githubusercontent.com/61930699/95554519-e3267600-0a42-11eb-8975-45109c760c61.png)
+
+10. 反查粵語/國語讀音
+
+  “`“為反查粵語
+
+  ”//“為反查國語
+
+11. 更多功能請自行發掘
 
 # 使用方法
 1. 複製所有文件到用戶資科夾
