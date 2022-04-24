@@ -55,17 +55,21 @@ https://rime.im/
 
 ![Snipaste_2020-10-09_15-19-09](https://user-images.githubusercontent.com/61930699/95554519-e3267600-0a42-11eb-8975-45109c760c61.png)
 
-10. 以速成碼反查粵語/國語讀音
+10. 以速成碼反查粵語/國語拼音
 
-  “`“為反查粵語
+  “`c“為反查粵語拼音
   
   ![Snipaste_2020-10-13_14-27-22](https://user-images.githubusercontent.com/61930699/95823550-63f5b280-0d60-11eb-8197-dc388e2991b8.png) 
 
-  ”//“為反查國語
+  ”`p“為反查國語拼音
   
   ![Snipaste_2020-10-13_14-27-52](https://user-images.githubusercontent.com/61930699/95823548-635d1c00-0d60-11eb-9a4a-8fcac9831ddb.png)
 
-11. 更多功能請自行發掘
+11. 臨時以粵語/國語拼音輸入中文
+
+  ”`qc“為以粵語拼音輸入
+  ”`qp“為以國語拼音輸入
+
 
 # 使用方法
 1. 複製所有文件到用戶資科夾
