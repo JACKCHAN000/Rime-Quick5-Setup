@@ -77,3 +77,7 @@ https://rime.im/
 1. 複製所有文件到用戶資科夾
 2. 重新部署
 3. 完成
+
+註：為了使用粵拼反查等功能，需要同時下載粵拼的方案
+
+https://github.com/rime/rime-cantonese
