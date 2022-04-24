@@ -6,7 +6,7 @@ name: "quick5"
 version: "0.12"
 sort: by_weight
 use_preset_vocabulary: true
-max_phrase_length: 7
+max_phrase_length: 2
 min_phrase_weight: 100
 ...
 日	a
@@ -12788,7 +12788,7 @@ min_phrase_weight: 100
 倜	or
 鸙	of
 龢	od
-僞	of
+偽	of
 伔	on
 伔	ou
 伣	ou
@@ -13075,7 +13075,7 @@ min_phrase_weight: 100
 饙	oc
 伏	ok
 仪	ok
-偽	of
+僞	of
 餴	ot
 餚	ob
 餙	ob

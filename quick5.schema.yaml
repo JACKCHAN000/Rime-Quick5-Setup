@@ -4,7 +4,7 @@
 schema:
   schema_id: quick5
   name: 速成
-  version: "1.0"
+  version: "2022"
   author:
     - 倉頡作者：朱邦復先生
     - JACKCHAN000@github
@@ -32,6 +32,9 @@ switches:
 
 engine:
   processors:
+    #- lua_processor@c2e_processor
+    #- lua_processor@e2c_processor
+    #- lua_processor@google_processor
     - ascii_composer
     - recognizer
     - key_binder
@@ -44,15 +47,20 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
+    - affix_segmentor@cantonese_input
+    - affix_segmentor@pinyin_input
     - affix_segmentor@cantonese
-    - affix_segmentor@phonetic
     - affix_segmentor@pinyin
-    - affix_segmentor@phoneticpinyin
     - punct_segmentor
     - fallback_segmentor
   translators:
-    - table_translator@cantonese
-    - table_translator@pinyin
+    - lua_translator@c2e_translator
+    - lua_translator@e2c_translator
+    - lua_translator@google_translator
+    - script_translator@cantonese_input
+    - script_translator@pinyin_input
+    - script_translator@cantonese
+    - script_translator@pinyin
     - punct_translator
     - table_translator@custom_phrase
     - reverse_lookup_translator
@@ -60,15 +68,12 @@ engine:
     - lua_translator@date_translator
     - lua_translator@time_translator
     - lua_translator@week_translator
-    - script_translator@phonetic
-    - script_translator@phoneticpinyin
-
   filters:
     - simplifier
     - uniquifier
     - simplifier@emoji_suggestion
-    - reverse_lookup_filter@phonetic_reverse_lookup
-    - reverse_lookup_filter@phoneticpinyin_reverse_lookup
+    - reverse_lookup_filter@cantonese_reverse_lookup
+    - reverse_lookup_filter@pinyin_reverse_lookup
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -89,52 +94,56 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
 
+#以速成碼反查拼音
 cantonese:
   __include: /translator
-  prefix: "`"
+  prefix: "`c"
   suffix: "'"
   tips: 【反查粵語讀音】
-  initial_quality: 300	# 調整該編譯器出字優先度
+  initial_quality: 1	# 調整該編譯器出字優先度
   tag: cantonese
 
 pinyin:
   __include: /translator
-  prefix: "//"
+  prefix: "`p"
   suffix: "'"
   tips: 【反查國語讀音】
-  initial_quality: 300	# 調整該編譯器出字優先度
+  initial_quality: 1	# 調整該編譯器出字優先度
   tag: pinyin
-
-phonetic:
-  tag: phonetic
-  prefix: "';"
-  suffix: "'"
-  dictionary: jyut6ping3
-  comment_format:	#menu 提示 字碼 顯示
-    - "xlit|abcdefghijklmnopqrstuvwxyz[];',.|abcdefghijklmnopqrstuvwxyz[];',.|"
-  tips: 【粵語拼音】
-  initial_quality: 1.1	# 調整該編譯器出字優先度
-
-phonetic_reverse_lookup:
+  
+cantonese_reverse_lookup:
   tags: [ cantonese ]
   dictionary: jyut6ping3
   overwrite_comment: true  # 覆蓋其他提示
 
-phoneticpinyin:
-  tag: phonetic
-  prefix: "';"
-  suffix: "'"
-  dictionary: luna_pinyin
-  comment_format:	#menu 提示 字碼 顯示
-    - "xlit|abcdefghijklmnopqrstuvwxyz[];',.|abcdefghijklmnopqrstuvwxyz[];',.|"
-  tips: 【國語拼音】
-  initial_quality: 1.1	# 調整該編譯器出字優先度
-
-phoneticpinyin_reverse_lookup:
+pinyin_reverse_lookup:
   tags: [ pinyin ]
   dictionary: luna_pinyin
   overwrite_comment: true  # 覆蓋其他提示
   
+#臨時以拼音輸入中文
+pinyin_input:
+  tag: pinyin_input
+  dictionary: luna_pinyin
+  prefix: "`qp"
+# 漢語拼音輸入以`qp 引導
+  suffix: ;
+  preedit_format: &pinyin
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  tips: 【國語拼音】
+  initial_quality: 1	# 調整該編譯器出字優先度
+
+cantonese_input:
+  tag: cantonese_input
+  dictionary: jyut6ping3
+  prefix: "`qc"
+# 粵語拼音輸入以`qc 引導
+  suffix: ;
+  tips: 【粵語拼音】
+  initial_quality: 1	# 調整該編譯器出字優先度
+
 punctuator:
   import_preset: symbols
 
@@ -146,11 +155,12 @@ recognizer:
   patterns:
     email: ^[a-z][-_.0-9a-z]*@.*$
     url: ^(www[.]|https?:|ftp:|mailto:).*$
-    punct: '^/([0-9]0?|[A-Za-z]+)$'
-    phonetic: "';[1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/6347-]*'?$"
-    cantonese: "`[a-z]*'?$"
-    phoneticpinyin: "';[1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/6347-]*'?$"
-    pinyin: "//[a-z]*'?$"
+    pinyin: "`p[a-z]*;?$"
+    cantonese: "`c[a-z]*;?$"
+    pinyin_input: "`qp[a-z]*;?$"
+    cantonese_input: "`qc[a-z]*;?$"
+    punct: '^/([0-9]0?|[A-Za-z]*)$'
+
 
 emoji_suggestion:
    opencc_config: emoji.json

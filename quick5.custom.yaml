@@ -37,5 +37,5 @@ patch:
     spelling_hints: 1
     enable_completion: false
     enable_sentence: false
-    initial_quality: 1
+    initial_quality: -3
  
