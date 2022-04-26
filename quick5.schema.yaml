@@ -54,9 +54,9 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
-    - lua_translator@c2e_translator
-    - lua_translator@e2c_translator
-    - lua_translator@google_translator
+    #- lua_translator@c2e_translator
+    #- lua_translator@e2c_translator
+    #- lua_translator@google_translator
     - script_translator@cantonese_input
     - script_translator@pinyin_input
     - script_translator@cantonese
