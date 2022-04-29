@@ -40,9 +40,9 @@ engine:
     - selector
     - navigator
     - express_editor
-    #- lua_processor@c2e_processor
-    #- lua_processor@e2c_processor
-    #- lua_processor@google_processor
+    - lua_processor@c2e_processor
+    - lua_processor@e2c_processor
+    - lua_processor@google_processor
   segmentors:
     - ascii_segmentor
     - matcher
@@ -62,13 +62,13 @@ engine:
     - script_translator@pinyin_input
     - script_translator@cantonese
     - script_translator@pinyin
-    #- lua_translator@c2e_translator
-    #- lua_translator@e2c_translator
-    #- lua_translator@google_translator
-    #- lua_translator@date_translator
-    #- lua_translator@time_translator
-    #- lua_translator@week_translator
-    #- lua_translator@number_translator
+    - lua_translator@c2e_translator
+    - lua_translator@e2c_translator
+    - lua_translator@google_translator
+    - lua_translator@date_translator
+    - lua_translator@time_translator
+    - lua_translator@week_translator
+    - lua_translator@number_translator
   filters:
     - simplifier
     - uniquifier
@@ -126,8 +126,8 @@ pinyin_reverse_lookup:
 pinyin_input:
   tag: pinyin_input
   dictionary: luna_pinyin
-  prefix: "`qp"
-# 漢語拼音輸入以`qp 引導
+  prefix: "`P"
+# 漢語拼音輸入以`+大寫〔P〕 引導
   suffix: ;
   preedit_format: &pinyin
     - xform/([nl])v/$1ü/
@@ -139,8 +139,8 @@ pinyin_input:
 cantonese_input:
   tag: cantonese_input
   dictionary: jyut6ping3
-  prefix: "`qc"
-# 粵語拼音輸入以`qc 引導
+  prefix: "`C"
+# 粵語拼音輸入以`+大寫〔C〕 引導
   suffix: ;
   tips: 【粵語拼音】
   initial_quality: 1	# 調整該編譯器出字優先度
@@ -158,8 +158,8 @@ recognizer:
     url: ^(www[.]|https?:|ftp:|mailto:).*$
     pinyin: "`p[a-z]*;?$"
     cantonese: "`c[a-z]*;?$"
-    pinyin_input: "`qp[a-z]*;?$"
-    cantonese_input: "`qc[a-z]*;?$"
+    pinyin_input: "`P[a-z]*;?$"
+    cantonese_input: "`C[a-z]*;?$"
     punct: '^/([0-9]0?|[A-Za-z]*)$'
     lua: "``[a-z0-9+.*/:-]*'?$"
 
