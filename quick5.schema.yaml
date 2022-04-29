@@ -32,9 +32,6 @@ switches:
 
 engine:
   processors:
-    #- lua_processor@c2e_processor
-    #- lua_processor@e2c_processor
-    #- lua_processor@google_processor
     - ascii_composer
     - recognizer
     - key_binder
@@ -43,6 +40,9 @@ engine:
     - selector
     - navigator
     - express_editor
+    #- lua_processor@c2e_processor
+    #- lua_processor@e2c_processor
+    #- lua_processor@google_processor
   segmentors:
     - ascii_segmentor
     - matcher
@@ -54,20 +54,21 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
-    #- lua_translator@c2e_translator
-    #- lua_translator@e2c_translator
-    #- lua_translator@google_translator
+    - punct_translator
+    - table_translator@custom_phrase
+    - reverse_lookup_translator
+    - script_translator
     - script_translator@cantonese_input
     - script_translator@pinyin_input
     - script_translator@cantonese
     - script_translator@pinyin
-    - table_translator@custom_phrase
-    - reverse_lookup_translator
-    - script_translator
-    - lua_translator@date_translator
-    - lua_translator@time_translator
-    - lua_translator@week_translator
-    - lua_translator@number_translator
+    #- lua_translator@c2e_translator
+    #- lua_translator@e2c_translator
+    #- lua_translator@google_translator
+    #- lua_translator@date_translator
+    #- lua_translator@time_translator
+    #- lua_translator@week_translator
+    #- lua_translator@number_translator
   filters:
     - simplifier
     - uniquifier
@@ -159,7 +160,8 @@ recognizer:
     cantonese: "`c[a-z]*;?$"
     pinyin_input: "`qp[a-z]*;?$"
     cantonese_input: "`qc[a-z]*;?$"
-    lua: "``[a-z0-9+*/:-]*'?$"
+    punct: '^/([0-9]0?|[A-Za-z]*)$'
+    lua: "``[a-z0-9+.*/:-]*'?$"
 
 
 emoji_suggestion:
