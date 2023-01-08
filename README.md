@@ -57,20 +57,20 @@ https://rime.im/
 
 10. 以速成碼反查粵語/國語拼音
 
-  “`c“為反查粵語拼音
+  ``` `c ```為反查粵語拼音
   
   ![Snipaste_2020-10-13_14-27-22](https://user-images.githubusercontent.com/61930699/95823550-63f5b280-0d60-11eb-8197-dc388e2991b8.png) 
 
-  ”`p“為反查國語拼音
+  ``` `p ```為反查國語拼音
   
   ![Snipaste_2020-10-13_14-27-52](https://user-images.githubusercontent.com/61930699/95823548-635d1c00-0d60-11eb-9a4a-8fcac9831ddb.png)
 
 11. 臨時以粵語/國語拼音輸入中文
 
-  ”`qc“為以粵語拼音輸入
+  ``` `C ```為以粵語拼音輸入
 
 
-  ”`qp“為以國語拼音輸入
+  ``` `P ```為以國語拼音輸入
 
 
 # 使用方法
@@ -81,3 +81,10 @@ https://rime.im/
 註：為了使用粵拼反查等功能，需要同時下載粵拼的方案
 
 https://github.com/rime/rime-cantonese
+
+# Lua插件
+Rime配合Lua插件可實現更多的功能，例如Google翻譯/搜尋建議等
+
+https://github.com/JACKCHAN000/Rime-Lua-GoogleTranslate
+
+![final_606b23cc785d7e003d750948_420746](https://user-images.githubusercontent.com/61930699/113588017-3419ce80-9662-11eb-8ce6-51e6443a32e8.gif)
