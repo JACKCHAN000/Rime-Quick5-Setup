@@ -83,8 +83,8 @@ https://rime.im/
 https://github.com/rime/rime-cantonese
 
 # Lua插件
-Rime配合Lua插件可實現更多的功能，例如Google翻譯/搜尋建議等
+Rime配合Lua插件可實現更多的功能，例如Google翻譯/搜尋建議等，請下載
 
-https://github.com/JACKCHAN000/Rime-Lua-GoogleTranslate
+```https://github.com/JACKCHAN000/Rime-Lua-GoogleTranslate```
 
 ![final_606b23cc785d7e003d750948_420746](https://user-images.githubusercontent.com/61930699/113588017-3419ce80-9662-11eb-8ce6-51e6443a32e8.gif)
