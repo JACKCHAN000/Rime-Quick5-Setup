@@ -7,10 +7,6 @@ RIME配置文件
 # RIME 教程及下載
 https://rime.im/
 
-# 外觀
-仿Metro UI風格外觀
-
-![Snipaste_2020-10-08_22-43-44](https://user-images.githubusercontent.com/61930699/95475227-91390e00-09b8-11eb-9076-f5985ec94be4.png)
 
 # 已實現功能
 1. 速成整句連打
@@ -21,7 +17,7 @@ https://rime.im/
 
 使用方法詳見：https://github.com/rime/home/wiki/RimeWithSchemata#%E7%A2%BC%E8%A1%A8%E8%88%87%E8%A9%9E%E5%85%B8
 
-請自行修改my.dict.yaml / user.dict.yaml
+請自行修改cn_dict/*.dict.yaml
 
 ![Snipaste_2020-10-08_22-46-10](https://user-images.githubusercontent.com/61930699/95475219-90a07780-09b8-11eb-8125-7ce725fcc09e.png)
 
@@ -33,7 +29,7 @@ https://rime.im/
 
 ![Snipaste_2020-10-08_22-48-17](https://user-images.githubusercontent.com/61930699/95475216-8f6f4a80-09b8-11eb-866a-3eb8b0f5477f.png)
 
-5. 快捷短語鍵
+5. 快捷短語
 
 ![Snipaste_2020-10-08_23-00-59](https://user-images.githubusercontent.com/61930699/95476761-2983c280-09ba-11eb-9be2-252fcf3f49a2.png)
 
@@ -51,7 +47,7 @@ https://rime.im/
 
 9. Lua腳本：日期、時間、星期輸入
 
-使用方法：z+date/time/week
+使用方法：date/time/week
 
 ![Snipaste_2020-10-09_15-19-09](https://user-images.githubusercontent.com/61930699/95554519-e3267600-0a42-11eb-8975-45109c760c61.png)
 
@@ -88,3 +84,12 @@ Rime配合Lua插件可實現更多的功能，例如Google翻譯/搜尋建議等
 ```https://github.com/JACKCHAN000/Rime-Lua-GoogleTranslate```
 
 ![final_606b23cc785d7e003d750948_420746](https://user-images.githubusercontent.com/61930699/113588017-3419ce80-9662-11eb-8ce6-51e6443a32e8.gif)
+
+
+# 鳴謝
+
+白霜拼音 <https://github.com/Mintimate/oh-my-rime> 主要詞庫
+薄荷拼音 <https://github.com/Mintimate/oh-my-rime>
+霧凇拼音 <https://github.com/iDvel/rime-ice>
+粵語拼音輸入方案 <https://github.com/rime/rime-cantonese> 粵語詞庫
+融合拼音 <https://github.com/tumuyan/rime-melt> 維基/動漫詞庫

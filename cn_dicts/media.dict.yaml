@@ -1,0 +1,19 @@
+# Rime dictionary
+# encoding: utf-8
+# 自媒体
+#
+---
+name: media
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+完讀	6
+完讀率	10
+完播	31
+完播率	100
+大神碼字	3
+橙瓜	33
+飛盧	240
+七貓	30
+橙光	456

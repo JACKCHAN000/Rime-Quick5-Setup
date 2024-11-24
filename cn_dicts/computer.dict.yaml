@@ -1,0 +1,17 @@
+# Rime dictionary
+# encoding: utf-8
+# 计算机 互联网相关
+#
+---
+name: computer
+version: "2024-07-19"
+sort: by_weight
+...
+入參	50
+出參	10
+強依賴	38
+弱依賴	4
+發版	111
+競業	194
+父級目錄	0
+會邀	0

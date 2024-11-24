@@ -1,0 +1,352 @@
+# Rime default settings
+# encoding: utf-8
+
+
+# 要比共享目錄的同名文件的 config_version 大才可以生效
+config_version: '2024-07-12'
+
+
+# 方案列表
+schema_list:
+  # 可以直接刪除或註釋不需要的方案，對應的 *.schema.yaml 方案文件也可以直接刪除
+  - schema: quick5
+
+
+# 菜單
+menu:
+  page_size: 9  # 候選詞個數
+  # alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⑩ ]  # 修改候選項標籤
+  # alternative_select_keys: ASDFGHJKL  # 如編碼字符佔用數字鍵，則需另設選字鍵
+
+
+# 方案選單相關
+switcher:
+  caption: 「方案選單」
+  hotkeys:
+    - F4
+    - Control+grave
+    - Control+Shift+grave
+    # - Alt+grave
+  save_options:  # 開關記憶（方案中的 switches），從方案選單（而非快捷鍵）切換時會記住的選項，需要記憶的開關不能設定 reset
+    - ascii_punct
+    - simplification
+    - emoji
+    - full_shape
+  fold_options: true            # 呼出時是否摺疊，多方案時建議摺疊 true ，一個方案建議展開 false
+  abbreviate_options: true      # 摺疊時是否縮寫選項
+  option_list_separator: ' / '  # 摺疊時的選項分隔符
+
+
+# 中西文切換
+#
+# good_old_caps_lock:
+# true   切換大寫
+# false  切換中英
+# macOS 偏好設置的優先級更高，如果勾選【使用大寫鎖定鍵切換“ABC”輸入法】則始終會切換輸入法。
+#
+# 切換中英：
+# 不同的選項表示：打字打到一半時按下了 CapsLock、Shift、Control 後：
+# commit_code  上屏原始的編碼，然後切換到英文
+# commit_text  上屏拼出的詞句，然後切換到英文
+# clear        清除未上屏內容，然後切換到英文
+# inline_ascii 切換到臨時英文模式，按回車上屏後回到中文狀態
+# noop         屏蔽快捷鍵，不切換中英，但不要屏蔽 CapsLock
+ascii_composer:
+  good_old_caps_lock: true  # true | false
+  switch_key:
+    Caps_Lock: clear      # commit_code | commit_text | clear
+    Shift_L: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
+    Shift_R: noop         # commit_code | commit_text | inline_ascii | clear | noop
+    Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
+    Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
+
+
+###################################################################################
+
+
+# 下面的 punctuator recognizer key_binder 寫了一些所有方案通用的配置項。
+# 寫在 default.yaml 裡，方便多個方案引用，就是不用每個方案都寫一遍了。
+
+
+# 標點符號
+# 設置為一個映射，就自動上屏；設置為多個映射，如 '/' : [ '/', ÷ ] 則進行復選。
+#   full_shape: 全角沒改，使用預設值
+#   half_shape: 標點符號全部直接上屏，和 macOS 自帶輸入法的區別是
+#              '|' 是半角的，
+#              '~' 是半角的，
+#              '`'（反引號）沒有改成 '·'（間隔號）。
+punctuator:
+  full_shape:
+    ' ' : { commit: '　' }
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '<' : [ 《, 〈, «, ‹ ]
+    '>' : [ 》, 〉, », › ]
+    '/' : [ ／, ÷ ]
+    '?' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\' : [ 、, ＼ ]
+    '|' : [ ·, ｜, '§', '¦' ]
+    '`' : ｀
+    '~' : ～
+    '!' : { commit: ！ }
+    '@' : [ ＠, ☯ ]
+    '#' : [ ＃, ⌘ ]
+    '%' : [ ％, '°', '℃' ]
+    '$' : [ '$', ￥, '€', '£', '¥', '¢', '¤' ]
+    '^' : { commit: …… }
+    '&' : ＆
+    '*' : [ ＊, ·, ・, ×, ※, ❂ ]
+    '(' : （
+    ')' : ）
+    '-' : －
+    '_' : ——
+    '+' : ＋
+    '=' : ＝
+    '[' : [ 「, 【, 〔, ［ ]
+    ']' : [ 」, 】, 〕, ］ ]
+    '{' : [ 『, 〖, ｛ ]
+    '}' : [ 』, 〗, ｝ ]
+  half_shape:
+    ',' : '，'
+    '.' : '。'
+    '<' : '《'
+    '>' : '》'
+    '/' : [ /, ÷ ]
+    '?' : '？'
+    ';' : '；'
+    ':' : '：'
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\' : '、'
+    '|' : '|'
+    '`' : '`'
+    '~' : '~'
+    '!' : '！'
+    '@' : '@'
+    '#' : '#'
+    '%' : '%'
+    '$' : '$'
+    '^' : '……'
+    '&' : '&'
+    '*' : '*'
+    '(' : '（'
+    ')' : '）'
+    '-' : '-'
+    '_' : ——
+    '+' : '+'
+    '=' : '='
+    '[' : '【'
+    ']' : '】'
+    '{' : '「'
+    '}' : '」'
+
+# 處理符合特定規則的輸入碼，如網址、反查
+# 此處配置較為通用的選項，各方案中另增加了和方案功能綁定的 patterns。
+recognizer:
+  patterns:
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"                            # email @ 之後不上屏
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"  # URL
+    underscore: "^[A-Za-z]+_.*"  # 下劃線不上屏
+    url_2: "^[A-Za-z]+[.].*"   # 句號不上屏，支持 google.com abc.txt 等網址或文件名，使用句號翻頁時需要註釋掉
+    # colon: "^[A-Za-z]+:.*"     # 冒號不上屏
+
+
+# 快捷鍵
+key_binder:
+  # Lua 配置: 以詞定字（上屏當前詞句的第一個或最後一個字），和中括號翻頁有衝突
+  select_first_character: "bracketleft"  # 左中括號 [
+  select_last_character: "bracketright"  # 右中括號 ]
+
+  bindings:
+    # Tab / Shift+Tab 切換光標至下/上一個拼音
+    - { when: composing, accept: Shift+Tab, send: Shift+Left }
+    #- { when: composing, accept: Tab, send: Shift+Right }
+    - { when: always, accept: Tab, send: Down }
+    - {accept: Delete, send: Delete, when: composing}
+    # Tab / Shift+Tab 翻頁
+    # - { when: has_menu, accept: Shift+Tab, send: Page_Up }
+    # - { when: has_menu, accept: Tab, send: Page_Down }
+
+    # Option/Alt + ←/→ 切換光標至下/上一個拼音
+    - { when: composing, accept: Alt+Left, send: Shift+Left }
+    - { when: composing, accept: Alt+Right, send: Shift+Right }
+
+    # 翻頁 - =
+    - { when: has_menu, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
+
+    # 翻頁 , .
+    # - { when: paging, accept: comma, send: Page_Up }
+    # - { when: has_menu, accept: period, send: Page_Down }
+
+    # 翻頁 [ ]
+    # - { when: paging, accept: bracketleft, send: Page_Up }
+    # - { when: has_menu, accept: bracketright, send: Page_Down }
+
+    # 兩種按鍵配置，鼠須管 Control+Shift+4 生效，小狼毫 Control+Shift+dollar 生效，都寫上了。
+    # numbered_mode_switch:
+    # - { when: always, select: .next, accept: Control+Shift+1 }                  # 在最近的兩個方案之間切換
+    # - { when: always, select: .next, accept: Control+Shift+exclam }             # 在最近的兩個方案之間切換
+    # - { when: always, toggle: ascii_mode, accept: Control+Shift+2 }             # 切換中英
+    # - { when: always, toggle: ascii_mode, accept: Control+Shift+at }            # 切換中英
+    - { when: always, toggle: ascii_punct, accept: Control+Shift+3 }              # 切換中英標點
+    - { when: always, toggle: ascii_punct, accept: Control+Shift+numbersign }     # 切換中英標點
+    - { when: always, toggle: simplification, accept: Control+Shift+4 }       # 切換簡繁
+    - { when: always, toggle: simplification, accept: Control+Shift+dollar }  # 切換簡繁
+    # - { when: always, toggle: full_shape, accept: Control+Shift+5 }             # 切換全半角
+    # - { when: always, toggle: full_shape, accept: Control+Shift+percent }       # 切換全半角
+
+    # emacs_editing:
+    # - { when: composing, accept: Control+p, send: Up }
+    # - { when: composing, accept: Control+n, send: Down }
+    # - { when: composing, accept: Control+b, send: Left }
+    # - { when: composing, accept: Control+f, send: Right }
+    # - { when: composing, accept: Control+a, send: Home }
+    # - { when: composing, accept: Control+e, send: End }
+    # - { when: composing, accept: Control+d, send: Delete }
+    - { when: composing, accept: Control+k, send: Shift+Delete }
+    # - { when: composing, accept: Control+h, send: BackSpace }
+    # - { when: composing, accept: Control+g, send: Escape }
+    # - { when: composing, accept: Control+bracketleft, send: Escape }
+    # - { when: composing, accept: Control+y, send: Page_Up }
+    # - { when: composing, accept: Alt+v, send: Page_Up }
+    # - { when: composing, accept: Control+v, send: Page_Down }
+
+    # optimized_mode_switch:
+    # - { when: always, accept: Control+Shift+space, select: .next }
+    # - { when: always, accept: Shift+space, toggle: ascii_mode }
+    # - { when: always, accept: Control+comma, toggle: full_shape }
+    # - { when: always, accept: Control+period, toggle: ascii_punct }
+    # - { when: always, accept: Control+slash, toggle: traditionalization }
+
+    # 將小鍵盤 0~9 . 映射到主鍵盤，數字金額大寫的 Lua 如 R1234.5678 可使用小鍵盤輸入
+    - {accept: KP_0, send: 0, when: composing}
+    - {accept: KP_1, send: 1, when: composing}
+    - {accept: KP_2, send: 2, when: composing}
+    - {accept: KP_3, send: 3, when: composing}
+    - {accept: KP_4, send: 4, when: composing}
+    - {accept: KP_5, send: 5, when: composing}
+    - {accept: KP_6, send: 6, when: composing}
+    - {accept: KP_7, send: 7, when: composing}
+    - {accept: KP_8, send: 8, when: composing}
+    - {accept: KP_9, send: 9, when: composing}
+    - {accept: KP_Decimal, send: period, when: composing}
+
+
+# 按鍵速查
+# https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
+# （沒有 Command 鍵，不支持）
+# accept 和 send 可用字段除 A-Za-z0-9 外，還包含以下鍵盤上實際有的鍵：
+# （區分大小寫）
+# BackSpace	退格
+# Tab	水平定位符
+# Linefeed	換行
+# Clear	清除
+# Return	回車
+# Pause	暫停
+# Sys_Req	印屏
+# Escape	退出
+# Delete	刪除
+# Home	原位
+# Left	左箭頭
+# Up	上箭頭
+# Right	右箭頭
+# Down	下箭頭
+# Prior、Page_Up	上翻
+# Next、Page_Down	下翻
+# End	末位
+# Begin	始位
+# Shift_L	左Shift
+# Shift_R	右Shift
+# Control_L	左Ctrl
+# Control_R	右Ctrl
+# Meta_L	左Meta
+# Meta_R	右Meta
+# Alt_L	左Alt
+# Alt_R	右Alt
+# Super_L	左Super
+# Super_R	右Super
+# Hyper_L	左Hyper
+# Hyper_R	右Hyper
+# Caps_Lock	大寫鎖
+# Shift_Lock	上檔鎖
+# Scroll_Lock	滾動鎖
+# Num_Lock	小鍵板鎖
+# Select	選定
+# Print	打印
+# Execute	運行
+# Insert	插入
+# Undo	還原
+# Redo	重做
+# Menu	菜單
+# Find	搜尋
+# Cancel	取消
+# Help	幫助
+# Break	中斷
+# space	空格
+# exclam	!
+# quotedbl	"
+# numbersign	#
+# dollar	$
+# percent	%
+# ampersand	&
+# apostrophe	'
+# parenleft	(
+# parenright	)
+# asterisk	*
+# plus	+
+# comma	,
+# minus	-
+# period	.
+# slash	/
+# colon	:
+# semicolon	;
+# less	<
+# equal	=
+# greater	>
+# question	?
+# at	@
+# bracketleft	[
+# backslash	\
+# bracketright	]
+# asciicircum	^
+# underscore	_
+# grave	`
+# braceleft	{
+# bar	|
+# braceright	}
+# asciitilde	~
+# KP_Space	小鍵板空格
+# KP_Tab	小鍵板水平定位符
+# KP_Enter	小鍵板回車
+# KP_Delete	小鍵板刪除
+# KP_Home	小鍵板原位
+# KP_Left	小鍵板左箭頭
+# KP_Up	小鍵板上箭頭
+# KP_Right	小鍵板右箭頭
+# KP_Down	小鍵板下箭頭
+# KP_Prior、KP_Page_Up	小鍵板上翻
+# KP_Next、KP_Page_Down	小鍵板下翻
+# KP_End	小鍵板末位
+# KP_Begin	小鍵板始位
+# KP_Insert	小鍵板插入
+# KP_Equal	小鍵板等於
+# KP_Multiply	小鍵板乘號
+# KP_Add	小鍵板加號
+# KP_Subtract	小鍵板減號
+# KP_Divide	小鍵板除號
+# KP_Decimal	小鍵板小數點
+# KP_0	小鍵板0
+# KP_1	小鍵板1
+# KP_2	小鍵板2
+# KP_3	小鍵板3
+# KP_4	小鍵板4
+# KP_5	小鍵板5
+# KP_6	小鍵板6
+# KP_7	小鍵板7
+# KP_8	小鍵板8
+# KP_9	小鍵板9

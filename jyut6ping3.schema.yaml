@@ -1,0 +1,220 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: jyut6ping3
+  name: 粵語拼音
+  version: "2022.06.07"
+  author:
+    - Ayaka Mikazuki <ayaka@mail.shn.hk>
+    - LeiMaau <leimaau@qq.com>
+    - chaaklau <chaakming@gmail.com>
+    - laubonghaudoi <laubonghaudoi@icloud.com>
+    - tanxpyox <tanxpyox@gmail.com>
+    - William915 <William915@gmail.com>
+    - szc126 (@szc126)
+    - Bing Jeung <bing@ososo.io>
+    - graphemecluster <graphemecluster@gmail.com>
+
+  description: |-
+    採用香港語言學學會粵語拼音方案
+    https://www.lshk.org/jyutping
+    支援聲調顯示同輸入
+    Telegram 用户交流組 https://t.me/rime_cantonese
+
+  dependencies:
+    - luna_pinyin
+    - loengfan
+    - stroke
+    - cangjie5
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 粵, 英 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - options: [ noop, variants_hk, trad_tw, simplification ]
+    states: [ 傳統漢字, 香港傳統漢字, 臺灣傳統漢字, 大陆简化汉字 ]
+    # 修改下行，改變預設用字 [0, 1, 2, 3 --> 對應上表]
+    # Edit the following line to change the default character style
+    #    [0 = OpenCC Traditional Chinese; 1 = Hong Kong TC; 2 = Taiwan TC; 3 = Mainland Simplified Chinese]
+    # Or remove to remember user setting
+    reset: 1
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: emoji_suggestion
+    # 取消下行註釋，預設啓動 emoji
+    #reset: 1
+    states: [ 冇 Emoji, 有 Emoji ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@luna_pinyin
+    - affix_segmentor@loengfan
+    - affix_segmentor@stroke
+    - affix_segmentor@cangjie5
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - script_translator@luna_pinyin
+    - script_translator@loengfan
+    - table_translator@stroke
+    - table_translator@cangjie5
+  filters:
+    - simplifier@variants_hk
+    - simplifier@trad_tw
+    - simplifier
+    - simplifier@emoji_suggestion
+    - uniquifier
+    - reverse_lookup_filter@jyut6ping3_reverse_lookup
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    # 取消下兩行註釋，支援疑影交替： ng- 通 Ø-，Ø- 通 ng-
+    #- derive/^ng([aeiou])/$1/
+    #- derive/^([aeiou])/ng$1/
+
+    # 取消下行註釋，支援泥來合流： n- 併入 l- ，如「你」讀若「理」
+    #- derive/^n(?!g)/l/
+
+    # 取消下行註釋，支援圓唇輔音合口韻缺位：韻母o之前 gw-, kw- 併入 g-, k- ，如「國」讀若「各」、「廓」讀若「確」
+    #- derive/^(g|k)wo/$1o/
+
+    # 取消下行註釋，支援獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
+    #- derive/^ng([123456])$/m$1/
+
+    # 取消下行註釋，支援韻尾-ng併入-n，如「恒生」讀若「痕身」
+    #- derive/ng([1234s56])$/n$1/
+    # 取消下行註釋，支援韻尾–k併入-t，如「北」讀若「不」
+    #- derive/k([123456])$/t$1/
+    # 取消下行註釋，支援韻尾–m併入-n，如「點」讀 din2
+    #- derive/m([123456])$/n$1/
+
+    - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
+    - derive/^jy?([aeiou])/y$1/   # 容錯 je -> ye, jyu -> yu
+    - derive/^jyu/ju/             # 容錯 jyu -> ju
+    - derive/yu(?!ng|k)/y/        # 容錯 yu -> y
+    - derive/(g|k)u(?!ng|k)/$1wu/ # 輔音圓唇
+    - derive/eoi(?=\d)/eoy/       # 容錯
+    - derive/eo/oe/               # 容錯 eo/oe 不分
+    - derive/oe/eo/               # 容錯 eo/oe 不分
+    - derive/aa(?=\d)/a/          # 容錯
+    - derive/\d//                 # 忽略聲調
+
+    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+
+    - xform/1/v/                  # 陰平
+    - xform/4/vv/                 # 陽平
+    - xform/2/x/                  # 陰上
+    - xform/5/xx/                 # 陽上
+    - xform/3/q/                  # 陰去
+    - xform/6/qq/                 # 陽去
+
+translator:
+  dictionary: jyut6ping3
+  spelling_hints: 8  # 將呢度改作 0，可以去除候選字後邊嘅粵拼提示
+  preedit_format:
+    - xform/([aeiouymngptk])vv/${1}4/
+    - xform/([aeiouymngptk])xx/${1}5/
+    - xform/([aeiouymngptk])qq/${1}6/
+    - xform/([aeiouymngptk])v/${1}1/
+    - xform/([aeiouymngptk])x/${1}2/
+    - xform/([aeiouymngptk])q/${1}3/
+
+luna_pinyin:
+  tag: luna_pinyin
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: ";"
+  tips: 〔普通話〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+loengfan:
+  tag: loengfan
+  dictionary: loengfan
+  prefix: "r"
+  suffix: ";"
+  tips: 〔粵語兩分〕
+
+stroke:
+  tag: stroke
+  dictionary: stroke
+  prefix: "x"
+  suffix: ";"
+  tips: 〔筆畫〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+
+cangjie5:
+  tag: cangjie5
+  dictionary: cangjie5
+  enable_user_dict: false
+  prefix: "v"
+  suffix: ";"
+  tips: 〔倉頡五代〕
+  preedit_format:
+    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+    - "^yyy.*$"
+
+jyut6ping3_reverse_lookup:
+  tags: [ luna_pinyin, loengfan, stroke, cangjie5 ]
+  overwrite_comment: false
+  dictionary: jyut6ping3
+
+variants_hk:
+  option_name: variants_hk
+  opencc_config: t2hkf.json
+
+trad_tw:
+  option_name: trad_tw
+  opencc_config: t2tw.json
+
+emoji_suggestion:
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: all
+
+punctuator:
+  full_shape:
+    __include: default:/punctuator/full_shape
+  half_shape:
+    __include: default:/punctuator/half_shape
+  symbols:
+    __include: symbols_cantonese:/symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
+    luna_pinyin: "^`[a-z']*;?$"
+    loengfan: "^r[a-z']*;?$"
+    stroke: "^x[hspnz]*;?$"
+    cangjie5: "^v[a-z]*;?$"

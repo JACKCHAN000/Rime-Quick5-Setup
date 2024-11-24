@@ -1,58 +1,231 @@
 # Rime dictionary
 # encoding: utf-8
-#
-#  BetterRime词库增强包－实用版の准正式版 by @imy0823
-#
-#
-# 部署位置：
-# ~/.config/ibus/rime  (Linux)
-# ~/Library/Rime  (Mac OS)
-# %APPDATA%\Rime  (Windows)
-#
-# 於重新部署後生效
-#
 
 ---
 name: quick5.extended
-version: "2014.09.07"
+version: "2023-11-13"
 sort: by_weight
-encoder:
-  exclude_patterns:
-    - '^z.*$'
-max_phrase_length: 3
-use_preset_vocabulary: true
-#下面的是本词库包含的所有词库，请根据需要开启/禁用，词条前添删#号即可开启/关闭词库。
-#雙拼不支持 quick5.cn_en 詞庫，請用戶手動禁用。
+vocabulary: essay-cantonese
 import_tables:
-  - quick5
-  - moe
-  - sgo
-  - lun
-  - micro
-  - my
-  - emoji
-  - sgmain
-  - sgplus
-  - sgplus2
-  - chat
-  - user
-  - biaoqing
-  - vocab
-  - game
-  - anime
-  - place
-  - poetry
-  - gd
-  - history
-  - music
-  - movie
-  - net
-  - mix
-  - physics
-  #- quick5.movie
-  #- quick5.music
-  #- quick5.computer
-  #- quick5.history
-  #- quick5.name
-  #- quick5.shopping
+  - cn_dicts/quick5     # 基礎詞庫
+  - cn_dicts/ext      # 擴展詞庫
+  - cn_dicts/tencent  # 騰訊詞向量（大詞庫，部署時間較長）
+  - cn_dicts/others   # 一些雜項
+  - cn_dicts/my
+  - cn_dicts/user
+  - cn_dicts/anime
+  - cn_dicts/cantonese
+  - cn_dicts/wiki
+
+  # 細胞詞庫
+  - cn_dicts/medication
+  - cn_dicts/industry_product
+  - cn_dicts/exthot
+  - cn_dicts/chess
+  - cn_dicts/chess2
+  - cn_dicts/animal
+  - cn_dicts/game
+  - cn_dicts/idiom
+  - cn_dicts/sport
+  - cn_dicts/media
+  - cn_dicts/shulihua
+  - cn_dicts/food
+  - cn_dicts/inputmethod
+  - cn_dicts/history
+  - cn_dicts/place
+  - cn_dicts/geography
+  - cn_dicts/name2
+  - cn_dicts/literature
+  - cn_dicts/music
+  - cn_dicts/computer
+  - cn_dicts/composite
+  - cn_dicts/name
 ...
+
+# 按需啟用：
+
+# 大寫字母
+# 可在拼音方案下直接輸入大寫字母（Shift + 字母），大寫字母參與造句。
+# 示例：輸入 `nihaoASDFzaijian` 得到 `你好ASDF再見`
+# （非霧凇方案的雙拼如果要啟用，需要參考雙拼方案下的 speller/algebra 將大寫字母搭橋改成一些特殊字符）
+A	A
+B	B
+C	C
+D	D
+E	E
+F	F
+G	G
+H	H
+I	I
+J	J
+K	K
+L	L
+M	M
+N	N
+O	O
+P	P
+Q	Q
+R	R
+S	S
+T	T
+U	U
+V	V
+W	W
+X	X
+Y	Y
+Z	Z
+
+# 數字參與中文造詞，方便輸入一些特殊的 ID。配合大寫字母造詞可以自動為 `5G網絡`，`3D打印` 等詞彙注音
+0	mi
+1	m
+2	mm
+3	mm
+4	wc
+5	mm
+6	yc
+7	ju
+8	ho
+9	kn
+# 加入詞典，響應 opencc/others.txt 的 emoji 集合
+V動物
+V國旗
+V手勢
+V表情
+V分數
+V按鍵
+V星號
+V特殊
+V常用
+V中華
+V中餐
+V串串
+V亞裔
+V亞裔女
+V亞裔男
+V運動
+V運動員
+V元素
+V公交
+V動物臉
+V包
+V午餐
+V飯
+V景點
+V器官
+V圓形
+V地鐵
+V交通
+V堅果
+V外匯
+V鈔票
+V紙幣
+V貨幣
+V多媒體
+V夜晚
+V夜空
+V大自然
+V自然
+V氣象
+V天氣
+V娛樂
+V宗教
+V家禽
+V冷
+V寒冷
+V工具
+V帽
+V帽子
+V心心
+V快餐
+V怪物
+V拉丁
+V拉丁裔
+V拉美
+V拉美人
+V拉美裔
+V卷
+V數碼
+V方形
+V正方形
+V日料
+V日式料理
+V日本菜
+V日用
+V早餐
+V早點
+V星座
+V時鐘
+V月亮
+V有毒
+V服裝
+V服飾
+V東亞人
+V東亞裔
+V果
+V水果
+V棕色人
+V棕色人種
+V植物
+V樂器
+V機械
+V正餐
+V武器
+V車
+V汽車
+V火車
+V熱飲
+V牲畜
+V獎
+V獎項
+V獎牌
+V球
+V甜食
+V甜點
+V生肖
+V畜生
+V白人
+V白種人
+V眼鏡
+V科學
+V穆斯林
+V節日
+V粗糧
+V精靈
+V肉
+V膚色
+V船
+V花
+V花朵
+V菜
+V蔬菜
+V葉子
+V蟲
+V血型
+V衣服
+V西餐
+V調料
+V遊樂園
+V酒
+V野味
+V野生動物
+V阿拉伯
+V阿拉伯人
+V雪
+V零食
+V電器
+V電子
+V鞋
+V鞋子
+V顏色
+V飛行器
+V飲料
+V餐具
+V髮型
+V髮色
+V魚
+V鳥
+V麵包
+V黃種人
+V黑人
+V點心
+

@@ -1,37 +1,45 @@
 # Rime schema
 # encoding: utf-8
 
+
+# 方案說明
 schema:
   schema_id: quick5
   name: 速成
-  version: "2022"
+  version: "2024-11"
   author:
     - 倉頡作者：朱邦復先生
     - JACKCHAN000@github
-  description: |
+  description:
     Rime 速成輸入法
   dependencies:
+    - melt_eng        # 英文輸入，作為次翻譯器掛載到拼音方案
     - jyut6ping3
     - luna_pinyin
-menu:
-  page_size: 9
 
+
+# 開關
+# reset: 默認狀態。註釋掉後，切換窗口時不會重置到默認狀態。
+# states: 方案選單顯示的名稱。可以註釋掉，仍可以通過快捷鍵切換。
+# abbrev: 默認的縮寫取 states 的第一個字符，abbrev 可自定義一個字符
 switches:
   - name: ascii_mode
-    reset: 0
     states: [ 中文, 西文 ]
+  - name: ascii_punct  # 中英標點
+    states: [ 。，, ．， ]
+  - name: simplification
+    states: [ 繁, 簡 ]
+  - name: emoji
+    states: [ 💀, 😄 ]
+    reset: 1
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
-  - name: ascii_punct
-    states: ["。，", "．，"]
-  - name: emoji_suggestion
-    reset: 1
-    states: [ 😔, 😀 ]
 
+
+# 輸入引擎
 engine:
   processors:
+    - lua_processor@select_character          # 以詞定字
     - ascii_composer
     - recognizer
     - key_binder
@@ -40,13 +48,11 @@ engine:
     - selector
     - navigator
     - express_editor
-    - lua_processor@c2e_processor
-    - lua_processor@e2c_processor
-    - lua_processor@google_processor
   segmentors:
     - ascii_segmentor
     - matcher
     - abc_segmentor
+    #- affix_segmentor@radical_lookup  # 部件拆字自定義 tag
     - affix_segmentor@cantonese_input
     - affix_segmentor@pinyin_input
     - affix_segmentor@cantonese
@@ -55,45 +61,158 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator@custom_phrase
-    - reverse_lookup_translator
     - script_translator
+    - lua_translator@*date_translator    # 時間、日期、星期
+    - lua_translator@*lunar              # 農曆
+    - table_translator@custom_phrase    # 自定義短語 custom_phrase.txt
+    - table_translator@melt_eng         # 英文輸入
+    - table_translator@cn_en            # 中英混合詞彙
+    #- table_translator@radical_lookup   # 部件拆字反查
     - script_translator@cantonese_input
     - script_translator@pinyin_input
     - script_translator@cantonese
     - script_translator@pinyin
-    - lua_translator@c2e_translator
-    - lua_translator@e2c_translator
-    - lua_translator@google_translator
-    - lua_translator@date_translator
-    - lua_translator@time_translator
-    - lua_translator@week_translator
-    - lua_translator@number_translator
+    - lua_translator@*unicode            # Unicode
+    - lua_translator@*number_translator  # 數字、金額大寫
+    - lua_translator@*force_gc           # 暴力 GC
+    - lua_translator@*calculator    # 計算器
   filters:
-    - simplifier
-    - uniquifier
-    - simplifier@emoji_suggestion
-    - reverse_lookup_filter@cantonese_reverse_lookup
-    - reverse_lookup_filter@pinyin_reverse_lookup
+    - lua_filter@*is_in_user_dict # 用戶詞典的詞加上一個*
+    - lua_filter@*corrector                          # 錯音錯字提示
+    - reverse_lookup_filter@cantonese_reverse_lookup  # 部件拆字濾鏡
+    - reverse_lookup_filter@pinyin_reverse_lookup  # 部件拆字濾鏡
+    - lua_filter@*autocap_filter                     # 英文自動大寫
+    - lua_filter@*v_filter                           # v 模式 symbols 優先
+    #- lua_filter@*pin_cand_filter                    # 置頂候選項（順序要求：置頂候選項 > Emoji > 簡繁切換）
+    - lua_filter@*long_word_filter                   # 長詞優先（順序要求：長詞優先 > Emoji）
+    - lua_filter@*reduce_english_filter              # 降低部分英語單詞在候選項的位置
+    - simplifier@emoji                              # Emoji
+    - simplifier@simplification                    # 簡繁切換
+    #- lua_filter@*aux_code                 # 墨奇輔助碼
+    - reverse_lookup_filter
+    - uniquifier                                    # 去重
 
-speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " '"
+# Lua 配置: 日期、時間、星期、ISO 8601、時間戳的觸發關鍵字
+date_translator:
+  date: date       # 日期： 2022-11-29
+  time: time       # 時間： 18:13
+  week: week       # 星期： 星期二
+  datetime: datetime   # ISO 8601： 2022-11-29T18:13:11+08:00
+  timestamp: timestamp  # 時間戳： 1669716794
 
+
+# Lua 配置：農曆的觸發關鍵字
+lunar: lunar  # 農曆： 二〇二三年冬月二十 癸卯年（兔）冬月二十
+
+
+# Lua 配置：長詞優先
+# 提升 count 個詞語，插入到第 idx 個位置。
+# 示例：將 2 個詞插入到第 4、5 個候選項，輸入 jie 得到「1接 2解 3姐 4飢餓 5極惡」
+long_word_filter:
+  count: 2
+  idx: 4
+
+
+# Lua 配置：為 corrector 格式化 comment，佔位符為 {comment}
+# 默認 "{comment}" 輸入 hun dun 時會在「餛飩」旁邊生成 hún tun 的 comment
+# 例如左右加個括號 "({comment})" 就會變成 (hún tun)
+corrector: "{comment}"
+
+
+# Lua 配置: 降低部分英語單詞在候選項的位置。
+# 詳細介紹 https://dvel.me/posts/make-rime-en-better/#短單詞置頂的問題
+# 正常情況： 輸入 rug 得到 「1.rug 2.如果 …… 」
+# 降低之後： 輸入 rug 得到 「1.如果 2.rug …… 」
+# 幾種模式：
+# all     降低腳本內置的單詞（所有 3~4 位長度、前 2~3 位是完整拼音、最後一位是聲母），words 作為自定義的額外補充
+# custom  完全自定義，只降低 words 裡的
+# none    不降低任何單詞，相當於沒有啟用這個 Lua
+# （匹配的是編碼，不是單詞）
+reduce_english_filter:
+  mode: custom  # all | custom | none
+  idx: 2        # 降低到第 idx 個位置
+  # 自定義的單詞列表，示例列表沒有降低部分常用單詞，如 and cat mail Mac but bad shit ……
+  words: [
+    aid, ann,
+    bail, bait, bam, band, bans, bat, bay, bend, bent, benz, bib, bid, bien, biz, boc, bop, bos, bud, buf, bach, bench, bush,
+    cab, cad, cain, cam, cans, cap, cas, cef, chad, chan, chap, chef, cher, chew, chic, chin, chip, chit, coup, cum, cunt, cur, couch,
+    dab, dag, dal, dam, dent, dew, dial, diet, dim, din, dip, dis, dit, doug, dub, dug, dunn, don,
+    fab, fax, fob, fog, foul, fur,
+    gag, gail, gain, gal, gam, gaol, ged, gel, ger, guam, gus, gut,
+    hail, ham, hank, hans, hat, hay, heil, heir, hem, hep, hud, hum, hung, hunk, hut, hush,
+    jim, jug,
+    kat,
+    lab, lad, lag, laid, lam, laos, lap, lat, lax, lay, led, leg, lex, liam, lib, lid, lied, lien, lies, linn, lip, lit, liz, lob, lug, lund, lung, lux, lash, loch, lush,
+    mag, maid, mann, mar, mat, med, mel, mend, mens, ment, mil, mins, mint, mob, moc, mop, mos, mot, mud, mug, mum, mesh,
+    nap, nat, nay, neil, nib, nip, noun, nous, nun, nut, nail, nash,
+    pac, paid, pail, pain, pair, pak, pal, pam, pans, pant, pap, par, pat, paw, pax, pens, pic, pier, pies, pins, pint, pit, pix, pod, pop, pos, pot, pour, pow, pub, pinch, pouch,
+    rand, rant, rent, rep, res, ret, rex, rib, rid, rig, rim, rub, rug, rum, runc, runs, ranch,
+    sac, sail, sal, sam, sans, sap, saw, sax, sew, sham, shaw, shin, sig, sin, sip, sis, suit, sung, suns, sup, sur, sus,
+    tad, tail, taj, tar, tax, tec, ted, tel, ter, tex, tic, tied, tier, ties, tim, tin, tit, tour, tout, tum,
+    wag, wand, womens, wap, wax, weir, won,
+    yan, yen,
+    zach
+  ]
+
+# 主翻譯器，拼音
 translator:
   dictionary: quick5.extended
+  vocabulary: essay-cantonese
+  spelling_hints: 8           # corrector.lua ：為了讓錯音錯字提示的 Lua 同時適配全拼雙拼，將拼音顯示在 comment 中
+  always_show_comments: false  # corrector.lua ：Rime 默認在 preedit 等於 comment 時取消顯示 comment，這裡強制一直顯示，供 corrector.lua 做判斷用。
+  initial_quality: 1.2        # 拼音的權重應該比英文大
   comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口屍廿山女田難卜符～|"
   preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符··|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口屍廿山女田難卜符··|"
 
+
+# 次翻譯器，英文
+melt_eng:
+  dictionary: melt_eng     # 掛載詞庫 melt_eng.dict.yaml
+  enable_sentence: false   # 禁止造句
+  enable_user_dict: false  # 禁用用戶詞典
+  initial_quality: 1.1     # 初始權重
+  comment_format:          # 自定義提示碼
+    - xform/.*//           # 清空提示碼
+
+
+# 中英混合詞彙
+cn_en:
+  dictionary: ""
+  user_dict: en_dicts/cn_en
+  db_class: stabledb
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: 0.5
+  comment_format:
+    - xform/^.+$//
+
+
+# 自定義短語：custom_phrase.txt
 custom_phrase:
   dictionary: ""
-  user_dict: custom_phrase
-  db_class: stabledb
-  enable_completion: false
-  enable_sentence: false
-  initial_quality: 1
+  user_dict: custom_phrase  # 可以修改這裡，改成自己的 txt 文件
+  db_class: stabledb        # 只讀數據庫，無法動態調頻；設為 tabledb 可以動態調頻
+  enable_completion: false  # 補全提示
+  enable_sentence: false    # 禁止造句
+  initial_quality: 99       # custom_phrase 的權重應該比 pinyin 和 melt_eng 大
+
+
+# Emoji
+emoji:
+  option_name: emoji
+  opencc_config: emoji.json
+  inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空註釋
+
+
+# 簡繁切換
+simplification:
+  option_name: simplification
+  opencc_config: t2s.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
+  tips: none               # 轉換提示: all 都顯示 | char 僅單字顯示 | none 不顯示。
+  tags: [ abc, number, gregorian_to_lunar ]  # 限制在對應 tag，不對其他如反查的內容做簡繁轉換
+
 
 #以速成碼反查拼音
 cantonese:
@@ -133,8 +252,8 @@ pinyin_input:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
-  tips: 【國語拼音】
-  initial_quality: 1	# 調整該編譯器出字優先度
+  tips: 【國語拼音輸入】
+  initial_quality: 1.3	# 調整該編譯器出字優先度
 
 cantonese_input:
   tag: cantonese_input
@@ -142,28 +261,53 @@ cantonese_input:
   prefix: "`C"
 # 粵語拼音輸入以`+大寫〔C〕 引導
   suffix: ;
-  tips: 【粵語拼音】
-  initial_quality: 1	# 調整該編譯器出字優先度
+  tips: 【粵語拼音輸入】
+  initial_quality: 1.3	# 調整該編譯器出字優先度
 
+# 標點符號
+# punctuator 下面有三個子項：
+#   full_shape 全角標點映射
+#   half_shape 半角標點映射
+#   symbols    Rime 的預設配置是以 '/' 前綴開頭輸出一系列字符，自定義的 symbols_v.yaml 修改成了 'v' 開頭。
 punctuator:
-  import_preset: symbols
+  full_shape:
+    __include: default:/punctuator/full_shape
+  half_shape:
+    __include: default:/punctuator/half_shape
+  symbols:
+    __include: symbols_cantonese:/symbols
 
-key_binder:
-  import_preset: default
 
+
+
+# 處理符合特定規則的輸入碼，如網址、反查
 recognizer:
-  import_preset: default
-  patterns:
-    email: ^[a-z][-_.0-9a-z]*@.*$
-    url: ^(www[.]|https?:|ftp:|mailto:).*$
+  import_preset: default  # 從 default.yaml 繼承通用的
+  patterns:  # 再增加方案專有的：
+    punct: "^/([0-9]|10|[A-Za-z]+)$"    # 響應 symbols_v.yaml 的 symbols，用 'v' 替換 '/'
+    radical_lookup: "^uU[a-z]+$"        # 響應部件拆字的反查，與 radical_lookup/prefix 匹配
+    unicode: "^U[a-f0-9]+"              # 腳本將自動獲取第 2 個字符 U 作為觸發前綴，響應 lua_translator@*unicode，輸出 Unicode 字符
+    number: "^R[0-9]+[.]?[0-9]*"        # 腳本將自動獲取第 2 個字符 R 作為觸發前綴，響應 lua_translator@*number_translator，數字金額大寫
+    gregorian_to_lunar: "^N[0-9]{1,8}"  # 腳本將自動獲取第 2 個字符 N 作為觸發前綴，響應 lua_translator@*lunar，公曆轉農曆，輸入 N20240115 得到「二〇二三年臘月初五」
+    calculator: "^V.*$"                 #計算器功能引導
+    reverse_lookup: "`[a-z]*;?$"
     pinyin: "`p[a-z]*;?$"
     cantonese: "`c[a-z]*;?$"
     pinyin_input: "`P[a-z]*;?$"
     cantonese_input: "`C[a-z]*;?$"
-    punct: '^/([0-9]0?|[A-Za-z]*)$'
-    lua: "``[a-z0-9+.*/:-]*'?$"
 
 
-emoji_suggestion:
-   opencc_config: emoji.json
-   option_name: emoji_suggestion
+# 從 default 繼承快捷鍵
+key_binder:
+  import_preset: default  # 從 default.yaml 繼承通用的
+  #search: "`"             # 輔碼引導符，要添加到 speller/alphabet
+  # bindings:             # 也可以再增加方案專有的快捷鍵
+
+
+# 拼寫設定
+speller:
+  # 如果不想讓什麼標點直接上屏，可以加在 alphabet，或者編輯標點符號為兩個及以上的映射
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`/
+  # initials 定義僅作為始碼的按鍵，排除 ` 讓單個的 ` 可以直接上屏
+  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  delimiter: " '"  # 第一位<空格>是拼音之間的分隔符；第二位<'>表示可以手動輸入單引號來分割拼音。
