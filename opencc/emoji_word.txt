@@ -4449,7 +4449,9 @@ Cambodia	Cambodia 🇰🇭
 基里巴斯	基里巴斯 🇰🇮
 Kiribati	Kiribati 🇰🇮
 朝鮮	朝鮮 🇰🇵
+北韓	北韓 🇰🇵
 韓國	韓國 🇰🇷
+南韓	南韓 🇰🇷
 Korea	Korea 🇰🇵 🇰🇷
 科威特	科威特 🇰🇼
 Kuwait	Kuwait 🇰🇼
@@ -4586,6 +4588,10 @@ Tunisia	Tunisia 🇹🇳
 土耳其	土耳其 🇹🇷
 Turkey	Turkey 🇹🇷
 臺灣	臺灣 🇹🇼
+台灣	台灣 🇹🇼
+Taiwan	Taiwan 🇹🇼
+中華民國	中華民國 🇹🇼
+ROC	ROC 🇹🇼
 坦桑尼亞	坦桑尼亞 🇹🇿
 Tanzania	Tanzania 🇹🇿
 烏克蘭	烏克蘭 🇺🇦
@@ -4869,3 +4875,13 @@ at	at @ At 砹 Astatine 85 210
 字母	字母 🔤
 vs	vs 🆚
 信息	信息 ℹ
+圓周率	圓周率 π
+圓面積	圓面積 πr²
+圓體積	圓體積 4/3πr³
+Pi	Pi π
+pi	pi π
+度	度 ° ℃ ℉
+攝氏度	攝氏度 ℃
+華氏度	華氏度 ℉
+攝氏	攝氏 ℃
+華氏	華氏 ℉
