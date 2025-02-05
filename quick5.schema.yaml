@@ -162,9 +162,9 @@ translator:
   always_show_comments: false  # corrector.lua ：Rime 默認在 preedit 等於 comment 時取消顯示 comment，這裡強制一直顯示，供 corrector.lua 做判斷用。
   initial_quality: 1.2        # 拼音的權重應該比英文大
   comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口屍廿山女田難卜符～|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
   preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口屍廿山女田難卜符··|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符··|"
 
 
 # 次翻譯器，英文
