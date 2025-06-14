@@ -52,7 +52,7 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
-    #- affix_segmentor@radical_lookup  # 部件拆字自定義 tag
+    # - affix_segmentor@radical_lookup  # 部件拆字自定義 tag
     - affix_segmentor@cantonese_input
     - affix_segmentor@pinyin_input
     - affix_segmentor@cantonese
@@ -67,7 +67,7 @@ engine:
     - table_translator@custom_phrase    # 自定義短語 custom_phrase.txt
     - table_translator@melt_eng         # 英文輸入
     - table_translator@cn_en            # 中英混合詞彙
-    #- table_translator@radical_lookup   # 部件拆字反查
+    # - table_translator@radical_lookup   # 部件拆字反查
     - script_translator@cantonese_input
     - script_translator@pinyin_input
     - script_translator@cantonese
@@ -78,17 +78,17 @@ engine:
     - lua_translator@*calculator    # 計算器
   filters:
     - lua_filter@*is_in_user_dict # 用戶詞典的詞加上一個*
-    - lua_filter@*corrector                          # 錯音錯字提示
+    # - lua_filter@*corrector                          # 錯音錯字提示
     - reverse_lookup_filter@cantonese_reverse_lookup  # 部件拆字濾鏡
     - reverse_lookup_filter@pinyin_reverse_lookup  # 部件拆字濾鏡
     - lua_filter@*autocap_filter                     # 英文自動大寫
-    - lua_filter@*v_filter                           # v 模式 symbols 優先
-    #- lua_filter@*pin_cand_filter                    # 置頂候選項（順序要求：置頂候選項 > Emoji > 簡繁切換）
+    # - lua_filter@*v_filter                           # v 模式 symbols 優先
+    # - lua_filter@*pin_cand_filter                    # 置頂候選項（順序要求：置頂候選項 > Emoji > 簡繁切換）
     - lua_filter@*long_word_filter                   # 長詞優先（順序要求：長詞優先 > Emoji）
     - lua_filter@*reduce_english_filter              # 降低部分英語單詞在候選項的位置
     - simplifier@emoji                              # Emoji
     - simplifier@simplification                    # 簡繁切換
-    #- lua_filter@*aux_code                 # 墨奇輔助碼
+    # - lua_filter@*aux_code                 # 墨奇輔助碼
     - reverse_lookup_filter
     - uniquifier                                    # 去重
 
@@ -162,9 +162,9 @@ translator:
   always_show_comments: false  # corrector.lua ：Rime 默認在 preedit 等於 comment 時取消顯示 comment，這裡強制一直顯示，供 corrector.lua 做判斷用。
   initial_quality: 1.2        # 拼音的權重應該比英文大
   comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口屍廿山女田難卜符～|"
   preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符··|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz;'|日月金木水火土竹戈十大中一弓人心手口屍廿山女田難卜符··|"
 
 
 # 次翻譯器，英文
