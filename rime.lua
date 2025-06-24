@@ -24,10 +24,10 @@ number_translator = require("number_translator")
 
 -- 错音错字提示
 -- 关闭此 Lua 时，同时需要关闭 translator/spelling_hints，否则 comment 里都是拼音
-corrector = require("corrector")
+-- corrector = require("corrector")
 
 -- v 模式 symbols 优先（全拼）
-v_filter = require("v_filter")
+-- v_filter = require("v_filter")
 
 -- 自动大写英文词汇
 autocap_filter = require("autocap_filter")
@@ -72,8 +72,8 @@ is_in_user_dict = require("is_in_user_dict")
 -- turn_down_cand: "Control+j"  # 匹配当前输入码后隐藏指定的候选字词 或候选词条放到第四候选位置
 -- drop_cand: "Control+d"       # 强制删词, 无视输入的编码
 -- get_record_filername() 函数中仅支持了 Windows、macOS、Linux
-cold_word_drop_processor = require("cold_word_drop.processor")
-cold_word_drop_filter = require("cold_word_drop.filter")
+-- cold_word_drop_processor = require("cold_word_drop.processor")
+-- cold_word_drop_filter = require("cold_word_drop.filter")
 
 
 -- 暴力 GC

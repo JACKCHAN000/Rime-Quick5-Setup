@@ -1,14 +1,11 @@
-phrase	code
 # Rime table
 # coding: utf-8
 #@/db_name	cn_en.txt
 #@/db_type	tabledb
 #
-# https://github.com/iDvel/rime-ice
-# ------- 中英混输词库 for 全拼 -------
-# 由 others/cn_en.txt 自动生成
+# ------- 中英混輸詞庫 -------
 #
-# 此行之后不能写注释
+# 此行之後不能寫註釋
 0尊	miti
 7仔	juod
 A區	asr
@@ -302,6 +299,7 @@ Z高達	zyryq
 γ射線	zfhive
 三K黨	mmkff
 不OK	mfok
+唔OK	rrok
 互fo	mmfo
 做B超	okbgr
 充Q幣	yuqfb
@@ -329,7 +327,6 @@ Z高達	zyryq
 on9	onkn
 fd子	fdnd
 Tg群	tgsq
-4S店	wcsir
 24小時	mmwcncai
 85大樓	hommkdv
 AAA級	aaave
@@ -491,6 +488,7 @@ OK便利店	okokhnir
 Papi醬	papivw
 Pro版本	proxedm
 QQ輸入法	qqjnohei
+RIME輸入法	rimejnohei
 RNA病毒	rnakbqi
 T淋巴細胞	tedauvwbu
 USB接口	usbqvr
@@ -504,6 +502,7 @@ Web開發	webatne
 WiFi通	wifiyb
 Win版本	winxedm
 XY染色體	xyednubt
+XX染色體	xxednubt
 互射12碼	mmhimmmmf
 人均GDP	ogmgdp
 兩盒Thx	mootthx
@@ -647,8 +646,69 @@ SHINee	shinee
 RIIZE	riize
 MISAMO	misamo
 ENHYPEN	enhypen
-SSERAFIM	sserafim
+LESSERAFIM	lesserafim
 fromis9	fromiskn
 ZICO	zico
 BOYNEXTDOOR	boynextdoor
 ADOR	ador
+隨身WiFi	nbhhwifi
+加Line	krline
+加Whatsapp	krwhatsapp
+加IG	krig
+加Instagram	krinstagram
+加Facebook	krfacebook
+加FB	krfb
+打call	qncall
+city不city	citymfcity
+hold住	holdog
+AI助手	aibsq
+多模態LLM	nidkipllm
+寫code	jfcode
+k折交叉驗證	kqlykxisoyt
+USB手指	usbqqa
+LLM模型	llmdkmg
+AI模型	aidkmg
+High翻	highhm
+High翻天	highhmmk
+P牌仔	pljod
+P牌	plj
+AR眼鏡	arbvcu
+VR眼鏡	vrbvcu
+iPhone手機	iphoneqdi
+iOS系統	ioshfvu
+Android系統	androidhfvu
+iOS開發	iosatne
+Android開發	androidatne
+iOS應用	iosipbq
+Android應用	androidipbq
+AI助理	aibsmg
+AI工具	aimmbc
+AI代理	aiopmg
+AI代理人	aiopmgo
+AI智能體	aioaipbt
+Docker部署	dockerylwa
+Python語言	pythonyryr
+Python代碼	pythonopmf
+Python版本	pythonxedm
+3D模型	mmddkmg
+3D列印	mmdmnhl
+ROC曲線	rocxwve
+SGS檢測	sgsdoen
+SGS認證	sgsypyt
+API接口	apiqvr
+修bug	ohbug
+修復bug	ohhebug
+修正bug	ohmmbug
+修補bug	ohlbbug
+修理bug	ohmgbug
+SD高達	sdyryq
+SD鋼彈	sdcunj
+HG模型	hgdkmg
+MG模型	mgdkmg
+PG模型	pgdkmg
+RG模型	rgdkmg
+PO相	podu
+PO相片	poduln
+PO圖	poww
+PO文	poyk
+P圖	pww

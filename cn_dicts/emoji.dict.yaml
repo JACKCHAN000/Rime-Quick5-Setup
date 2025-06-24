@@ -1,0 +1,402 @@
+# emoji.dict.yaml
+# 雪齋 <leoyoontsaw@gmail.com>
+# 編碼以 Unicode 分類為主，Kunki Chou 整理
+# 29-Apr-2014 添加字頻，字頻得自 http://www.emojitracker.com ，統計自 twitter.com
+
+---
+name: emoji
+version: "2.5"
+sort: by_weight
+use_preset_vocabulary: false
+...
+#天氣
+☀	zwe	10908516
+☔	zwe	951774
+⛈	zwe
+⛆	zwe
+⛅	zwe	771487
+☁	zwe	2024540
+❄	zwe	2407391
+⚡	zwe	952903
+🌊	zwe	1043014
+🌀	zwe	1434111
+🌂	zwe	139837
+#表情
+#微笑
+😀	zss	5732540
+😉	zss	34784906
+😊	zss	87799028
+😅	zss	12998885
+😇	zss	3762620
+😈	zss	12022677
+😎	zss	28860296
+😺	zss	841816
+#大笑
+😂	zls	241199504
+😃	zls	13208072
+😄	zls	22690419
+😆	zls	8660315
+😋	zls	25368750
+😸	zls	1349135
+😹	zls	3046282
+#厭惡
+😱	zdi	17443628
+😲	zdi	2292518
+😷	zdi	12164762
+😗	zdi	1007647
+😩	zdi	77509573
+😴	zdi	22627074
+😵	zdi	2344824
+🙀	zdi	1532341
+#嘆气
+😣	zsa	11902724
+😥	zsa	8279481
+😪	zsa	14381841
+😞	zsa	24327038
+😟	zsa	4067110
+#哭泣
+😭	zcr	68806085
+😫	zcr	18084845
+#冷淡
+👽	zco	2040806
+😌	zco	31636039
+😒	zco	120603862
+😔	zco	79868168
+😚	zco	8044811
+😐	zco	19934628
+😑	zco	27128491
+😕	zco	20956092
+😶	zco	7690554
+#喜歡
+😍	zli	108789568
+😘	zli	89072430
+😙	zli	1719673
+😚	zli	8044811
+😻	zli	6298445
+😽	zli	1303998
+#驚喜
+😨	zsp	3633824
+😳	zsp	51861810
+😖	zsp	9940594
+😦	zsp	1695715
+😧	zsp	2069022
+😬	zsp	9749617
+😮	zsp	2636735
+😯	zsp	2548727
+#咧嘴笑
+😏	zhe	71614858
+😁	zhe	65097366
+😜	zhe	25047549
+😝	zhe	14206104
+😛	zhe	6849627
+😼	zhe	1676259
+#生气
+👿	zan	1834205
+😠	zan	9979042
+😡	zan	19714661
+😤	zan	13445053
+😾	zan	958974
+#懷疑
+😢	zdo	19730321
+😓	zdo	8695126
+😰	zdo	5641447
+😿	zdo	1841188
+
+#手
+👆	zfi	2257487
+👇	zfi	2325308
+👈	zfi	3478729
+👉	zfi	3766346
+👊	zfi	13226267
+👋	zfi	12301045
+👌	zfi	97194094
+👍	zfi	37332839
+👎	zfi	8034991
+👏	zfi	21997828
+👐	zfi	4304078
+🙌	zfi	35777430
+🙏	zfi	26838022
+
+# 小写希腊字母
+α	zalpha
+β	zbeta
+γ	zgamma
+δ	zdelta
+ε	zepsilon
+ζ	zzeta
+η	zeta
+θ	ztheta
+ι	ziota
+κ	zkappa
+λ	zlambda
+μ	zmu
+ν	znu
+ξ	zxi
+ο	zomicron
+π	zpi
+ρ	zrho
+σ	zsigma
+τ	ztau
+υ	zupsilon
+φ	zphi
+χ	zchi
+ψ	zpsi
+ω	zomega
+
+# 大写希腊字母
+Α	zalpha
+Β	zbeta
+Γ	zgamma
+Δ	zdelta
+Ε	zepsilon
+Ζ	zzeta
+Η	zeta
+Θ	ztheta
+Ι	ziota
+Κ	zkappa
+Λ	zlambda
+Μ	zmu
+Ν	znu
+Ξ	zxi
+Ο	zomicron
+Π	zpi
+Ρ	zrho
+Σ	zsigma
+Τ	ztau
+Υ	zupsilon
+Φ	zphi
+Χ	zchi
+Ψ	zpsi
+Ω	zomega
+Ω	zohm
+
+# 希腊字母变体
+# 只收录用作数学符号的
+ϵ	zepsilon
+ϑ	ztheta
+ϰ	zkappa
+ϖ	zpi
+ϱ	zrho
+ς	zsigma
+ϕ	zphi
+Ϝ	zdigamma
+ϝ	zdigamma
+
+# 其他数学符号
+# 主要参考的是 TeX
+# https://en.wikipedia.org/wiki/Help:Displaying_a_formula
+∂	zpartial
+∇	znabla
+∞	zinfty
+ℵ	zaleph
+√	zsqrt
+√	zsurd
+±	zpm
+×	ztimes
+÷	zdiv
+∘	zcirc
+⊕	zoplus
+⊗	zotimes
+∅	zempty
+∈	zin
+∉	znotin
+∋	zni
+∩	zcap
+∪	zcup
+⊂	zsubset
+⊃	zsupset
+⊆	zsubseteq
+⊇	zsupseteq
+≠	zne
+≡	zequiv
+≅	zcong
+≈	zapprox
+≤	zle
+≥	zge
+∀	zforall
+∃	zexists
+∨	zor
+∧	zand
+∨	zvee
+∧	zwedge
+¬	zneg
+→	zto
+∑	zsum
+∏	zprod
+∐	zcoprod
+∫	zint
+∮	zoint
+
+#日文
+ぁ	zxa
+あ	za
+ぃ	zxi
+い	zi
+ぅ	zxu
+う	zu
+ぇ	zxe
+え	ze
+ぉ	zxo
+お	zo
+か	zka
+が	zga
+き	zki
+ぎ	zgi
+く	zku
+ぐ	zgu
+け	zke
+げ	zge
+こ	zko
+ご	zgo
+さ	zsa
+ざ	zza
+し	zsi
+じ	zzi
+す	zsu
+ず	zzu
+せ	zse
+ぜ	zze
+そ	zso
+ぞ	zzo
+た	zta
+だ	zda
+ち	zti
+ぢ	zdi
+っ	zxtu
+つ	ztu
+づ	zdu
+て	zte
+で	zde
+と	zto
+ど	zdo
+な	zna
+に	zni
+ぬ	znu
+ね	zne
+の	zno
+は	zha
+ば	zba
+ぱ	zpa
+ひ	zhi
+び	zbi
+ぴ	zpi
+ふ	zhu
+ぶ	zbu
+ぷ	zpu
+へ	zhe
+べ	zbe
+ぺ	zpe
+ほ	zho
+ぼ	zbo
+ぽ	zpo
+ま	zma
+み	zmi
+む	zmu
+め	zme
+も	zmo
+ゃ	zxya
+や	zya
+ゅ	zxyu
+ゆ	zyu
+ょ	zxyo
+よ	zyo
+ら	zla
+り	zli
+る	zlu
+れ	zle
+ろ	zlo
+ゎ	zxwa
+わ	zwa
+ゐ	zwi
+ゑ	zwe
+を	zwo
+ん	zn
+ゔ	zvu
+ァ	zxa
+ア	za
+ィ	zxi
+イ	zi
+ゥ	zxu
+ウ	zu
+ェ	zxe
+エ	ze
+ォ	zxo
+オ	zo
+カ	zka
+ガ	zga
+キ	zki
+ギ	zgi
+ク	zku
+グ	zgu
+ケ	zke
+ゲ	zge
+コ	zko
+ゴ	zgo
+サ	zsa
+ザ	zza
+シ	zsi
+ジ	zzi
+ス	zsu
+ズ	zzu
+セ	zse
+ゼ	zze
+ソ	zso
+ゾ	zzo
+タ	zta
+ダ	zda
+チ	zti
+ヂ	zdi
+ッ	zxtu
+ツ	ztu
+ヅ	zdu
+テ	zte
+デ	zde
+ト	zto
+ド	zdo
+ナ	zna
+ニ	zni
+ヌ	znu
+ネ	zne
+ノ	zno
+ハ	zha
+バ	zba
+パ	zpa
+ヒ	zhi
+ビ	zbi
+ピ	zpi
+フ	zhu
+ブ	zbu
+プ	zpu
+ヘ	zhe
+ベ	zbe
+ペ	zpe
+ホ	zho
+ボ	zbo
+ポ	zpo
+マ	zma
+ミ	zmi
+ム	zmu
+メ	zme
+モ	zmo
+ャ	zxya
+ヤ	zya
+ュ	zxyu
+ユ	zyu
+ョ	zxyo
+ヨ	zyo
+ラ	zla
+リ	zli
+ル	zlu
+レ	zle
+ロ	zlo
+ヮ	zxwa
+ワ	zwa
+ヰ	zwi
+ヱ	zwe
+ヲ	zwo
+ン	zn
+ヴ	zvu
+ヵ	zxka
+ヶ	zxke
+
+

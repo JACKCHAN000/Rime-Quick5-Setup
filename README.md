@@ -88,7 +88,8 @@ Rime配合Lua插件可實現更多的功能，例如Google翻譯/搜尋建議等
 
 # 鳴謝
 
-白霜拼音 <https://github.com/Mintimate/oh-my-rime> 主要詞庫
+萬象詞庫 <https://github.com/amzxyz/RIME-LMDG>主要詞庫
+白霜拼音 <https://github.com/gaboolic/rime-frost>
 薄荷拼音 <https://github.com/Mintimate/oh-my-rime>
 霧凇拼音 <https://github.com/iDvel/rime-ice>
 粵語拼音輸入方案 <https://github.com/rime/rime-cantonese> 粵語詞庫

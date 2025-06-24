@@ -7,42 +7,24 @@ version: "2023-11-13"
 sort: by_weight
 vocabulary: essay-cantonese
 import_tables:
-  - cn_dicts/quick5     # 基礎詞庫
-  - cn_dicts/ext      # 擴展詞庫
-  - cn_dicts/tencent  # 騰訊詞向量（大詞庫，部署時間較長）
-  - cn_dicts/others   # 一些雜項
+  - cn_dicts/quick5
+  - cn_dicts/base
+  - cn_dicts/correlation
+  - cn_dicts/suggestion_one
+  - cn_dicts/suggestion_two
   - cn_dicts/my
   - cn_dicts/user
+  # 按需啟用：
   - cn_dicts/anime
   - cn_dicts/cantonese
   - cn_dicts/wiki
-
-  # 細胞詞庫
-  - cn_dicts/medication
-  - cn_dicts/industry_product
-  - cn_dicts/exthot
-  - cn_dicts/chess
-  - cn_dicts/chess2
-  - cn_dicts/animal
-  - cn_dicts/game
-  - cn_dicts/idiom
-  - cn_dicts/sport
-  - cn_dicts/media
-  - cn_dicts/shulihua
-  - cn_dicts/food
-  - cn_dicts/inputmethod
-  - cn_dicts/history
+  # - cn_dicts/medication
+  - cn_dicts/people
   - cn_dicts/place
-  - cn_dicts/geography
-  - cn_dicts/name2
-  - cn_dicts/literature
-  - cn_dicts/music
-  - cn_dicts/computer
-  - cn_dicts/composite
-  - cn_dicts/name
+  - cn_dicts/poetry
+  - cn_dicts/others
+  - cn_dicts/emoji
 ...
-
-# 按需啟用：
 
 # 大寫字母
 # 可在拼音方案下直接輸入大寫字母（Shift + 字母），大寫字母參與造句。

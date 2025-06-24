@@ -52,7 +52,6 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
-    # - affix_segmentor@radical_lookup  # 部件拆字自定義 tag
     - affix_segmentor@cantonese_input
     - affix_segmentor@pinyin_input
     - affix_segmentor@cantonese
@@ -67,7 +66,6 @@ engine:
     - table_translator@custom_phrase    # 自定義短語 custom_phrase.txt
     - table_translator@melt_eng         # 英文輸入
     - table_translator@cn_en            # 中英混合詞彙
-    # - table_translator@radical_lookup   # 部件拆字反查
     - script_translator@cantonese_input
     - script_translator@pinyin_input
     - script_translator@cantonese
@@ -78,17 +76,13 @@ engine:
     - lua_translator@*calculator    # 計算器
   filters:
     - lua_filter@*is_in_user_dict # 用戶詞典的詞加上一個*
-    # - lua_filter@*corrector                          # 錯音錯字提示
     - reverse_lookup_filter@cantonese_reverse_lookup  # 部件拆字濾鏡
     - reverse_lookup_filter@pinyin_reverse_lookup  # 部件拆字濾鏡
     - lua_filter@*autocap_filter                     # 英文自動大寫
-    # - lua_filter@*v_filter                           # v 模式 symbols 優先
     # - lua_filter@*pin_cand_filter                    # 置頂候選項（順序要求：置頂候選項 > Emoji > 簡繁切換）
     - lua_filter@*long_word_filter                   # 長詞優先（順序要求：長詞優先 > Emoji）
-    - lua_filter@*reduce_english_filter              # 降低部分英語單詞在候選項的位置
     - simplifier@emoji                              # Emoji
     - simplifier@simplification                    # 簡繁切換
-    # - lua_filter@*aux_code                 # 墨奇輔助碼
     - reverse_lookup_filter
     - uniquifier                                    # 去重
 
@@ -112,47 +106,6 @@ long_word_filter:
   count: 2
   idx: 4
 
-
-# Lua 配置：為 corrector 格式化 comment，佔位符為 {comment}
-# 默認 "{comment}" 輸入 hun dun 時會在「餛飩」旁邊生成 hún tun 的 comment
-# 例如左右加個括號 "({comment})" 就會變成 (hún tun)
-corrector: "{comment}"
-
-
-# Lua 配置: 降低部分英語單詞在候選項的位置。
-# 詳細介紹 https://dvel.me/posts/make-rime-en-better/#短單詞置頂的問題
-# 正常情況： 輸入 rug 得到 「1.rug 2.如果 …… 」
-# 降低之後： 輸入 rug 得到 「1.如果 2.rug …… 」
-# 幾種模式：
-# all     降低腳本內置的單詞（所有 3~4 位長度、前 2~3 位是完整拼音、最後一位是聲母），words 作為自定義的額外補充
-# custom  完全自定義，只降低 words 裡的
-# none    不降低任何單詞，相當於沒有啟用這個 Lua
-# （匹配的是編碼，不是單詞）
-reduce_english_filter:
-  mode: custom  # all | custom | none
-  idx: 2        # 降低到第 idx 個位置
-  # 自定義的單詞列表，示例列表沒有降低部分常用單詞，如 and cat mail Mac but bad shit ……
-  words: [
-    aid, ann,
-    bail, bait, bam, band, bans, bat, bay, bend, bent, benz, bib, bid, bien, biz, boc, bop, bos, bud, buf, bach, bench, bush,
-    cab, cad, cain, cam, cans, cap, cas, cef, chad, chan, chap, chef, cher, chew, chic, chin, chip, chit, coup, cum, cunt, cur, couch,
-    dab, dag, dal, dam, dent, dew, dial, diet, dim, din, dip, dis, dit, doug, dub, dug, dunn, don,
-    fab, fax, fob, fog, foul, fur,
-    gag, gail, gain, gal, gam, gaol, ged, gel, ger, guam, gus, gut,
-    hail, ham, hank, hans, hat, hay, heil, heir, hem, hep, hud, hum, hung, hunk, hut, hush,
-    jim, jug,
-    kat,
-    lab, lad, lag, laid, lam, laos, lap, lat, lax, lay, led, leg, lex, liam, lib, lid, lied, lien, lies, linn, lip, lit, liz, lob, lug, lund, lung, lux, lash, loch, lush,
-    mag, maid, mann, mar, mat, med, mel, mend, mens, ment, mil, mins, mint, mob, moc, mop, mos, mot, mud, mug, mum, mesh,
-    nap, nat, nay, neil, nib, nip, noun, nous, nun, nut, nail, nash,
-    pac, paid, pail, pain, pair, pak, pal, pam, pans, pant, pap, par, pat, paw, pax, pens, pic, pier, pies, pins, pint, pit, pix, pod, pop, pos, pot, pour, pow, pub, pinch, pouch,
-    rand, rant, rent, rep, res, ret, rex, rib, rid, rig, rim, rub, rug, rum, runc, runs, ranch,
-    sac, sail, sal, sam, sans, sap, saw, sax, sew, sham, shaw, shin, sig, sin, sip, sis, suit, sung, suns, sup, sur, sus,
-    tad, tail, taj, tar, tax, tec, ted, tel, ter, tex, tic, tied, tier, ties, tim, tin, tit, tour, tout, tum,
-    wag, wand, womens, wap, wax, weir, won,
-    yan, yen,
-    zach
-  ]
 
 # 主翻譯器，拼音
 translator:
@@ -184,7 +137,7 @@ cn_en:
   db_class: stabledb
   enable_completion: true
   enable_sentence: false
-  initial_quality: 0.5
+  initial_quality: 2
   comment_format:
     - xform/^.+$//
 
@@ -310,4 +263,4 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`/
   # initials 定義僅作為始碼的按鍵，排除 ` 讓單個的 ` 可以直接上屏
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
-  delimiter: " '"  # 第一位<空格>是拼音之間的分隔符；第二位<'>表示可以手動輸入單引號來分割拼音。
+  delimiter: " /"  # 第一位<空格>是拼音之間的分隔符；第二位</>表示可以手動輸入單引號來分割拼音。
