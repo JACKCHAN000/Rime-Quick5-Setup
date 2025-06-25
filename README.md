@@ -1,12 +1,12 @@
 # Rime-Quick5-setup
-RIME 速成輸入法 整合 for Windows小狼毫
+RIME 速成輸入法 整合 for RIME輸入法
 
-告別垃圾的Windows速成輸入法
+告別系統內建速成輸入法的垃圾輸入體驗
 
-RIME配置文件
 # RIME 教程及下載
 https://rime.im/
 
+可用平台: Winsows(小狼毫)、macOS(鼠鬚管)...
 
 # 已實現功能
 1. 速成整句連打
@@ -89,8 +89,13 @@ Rime配合Lua插件可實現更多的功能，例如Google翻譯/搜尋建議等
 # 鳴謝
 
 萬象詞庫 <https://github.com/amzxyz/RIME-LMDG>主要詞庫
+
 白霜拼音 <https://github.com/gaboolic/rime-frost>
+
 薄荷拼音 <https://github.com/Mintimate/oh-my-rime>
+
 霧凇拼音 <https://github.com/iDvel/rime-ice>
+
 粵語拼音輸入方案 <https://github.com/rime/rime-cantonese> 粵語詞庫
+
 融合拼音 <https://github.com/tumuyan/rime-melt> 維基/動漫詞庫
