@@ -24,14 +24,14 @@ schema:
 # abbrev: 默認的縮寫取 states 的第一個字符，abbrev 可自定義一個字符
 switches:
   - name: ascii_mode
-    states: [ 中文, 西文 ]
+    states: [ 中文, 英文 ]
+    reset: 1  # 預設是英文模式
   - name: ascii_punct  # 中英標點
     states: [ 。，, ．， ]
   - name: simplification
     states: [ 繁, 簡 ]
   - name: emoji
     states: [ 💀, 😄 ]
-    reset: 1
   - name: full_shape
     states: [ 半角, 全角 ]
 
@@ -111,8 +111,8 @@ long_word_filter:
 translator:
   dictionary: quick5.extended
   vocabulary: essay-cantonese
-  spelling_hints: 8           # corrector.lua ：為了讓錯音錯字提示的 Lua 同時適配全拼雙拼，將拼音顯示在 comment 中
-  always_show_comments: false  # corrector.lua ：Rime 默認在 preedit 等於 comment 時取消顯示 comment，這裡強制一直顯示，供 corrector.lua 做判斷用。
+  enable_completion: true
+  # spelling_hints: 8           # 速成碼提示
   initial_quality: 1.2        # 拼音的權重應該比英文大
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
@@ -135,7 +135,7 @@ cn_en:
   dictionary: ""
   user_dict: en_dicts/cn_en
   db_class: stabledb
-  enable_completion: true
+  enable_completion: false
   enable_sentence: false
   initial_quality: 2
   comment_format:
