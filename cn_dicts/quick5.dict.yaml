@@ -112,7 +112,6 @@ vocabulary: essay-cantonese
 昂	al
 晲	au
 敡	ae
-晷	ar
 旷	ai
 晙	ae
 鵖	af
@@ -123,7 +122,6 @@ vocabulary: essay-cantonese
 昽	ap
 既	au
 昹	ae
-昈	as
 即	al
 昪	at
 曠	ac
@@ -235,7 +233,6 @@ vocabulary: essay-cantonese
 閬	av
 闙	ar
 曻	aq
-闙	ak
 閾	am
 閞	at
 闐	ac
@@ -263,7 +260,6 @@ vocabulary: essay-cantonese
 闄	av
 閇	ay
 閻	ax
-闞	ak
 閮	ag
 闋	ak
 閃	ao
@@ -280,7 +276,6 @@ vocabulary: essay-cantonese
 閟	ah
 闚	au
 問	ar
-閭	ar
 閭	ar
 闡	aj
 闆	ar
@@ -334,7 +329,6 @@ vocabulary: essay-cantonese
 旳	ai
 昀	am
 旳	am
-昀	am
 暅	am
 昆	ap
 鹍	am
@@ -897,7 +891,6 @@ vocabulary: essay-cantonese
 冤	bi
 脃	bu
 脕	bu
-冎	bb
 膽	br
 孚	bd
 腬	bd
@@ -911,7 +904,6 @@ vocabulary: essay-cantonese
 肷	bo
 胫	bm
 膯	bt
-膙	bi
 肠	bh
 贝	bo
 赗	bu
@@ -1008,7 +1000,6 @@ vocabulary: essay-cantonese
 脭	bg
 彫	bh
 戙	bi
-脭	bg
 脵	bk
 郮	bl
 脶	bb
@@ -1024,7 +1015,6 @@ vocabulary: essay-cantonese
 鵩	bf
 豸	bh
 肕	bi
-脃	bu
 冣	be
 腒	br
 服	be
@@ -1057,7 +1047,6 @@ vocabulary: essay-cantonese
 羘	bq
 胼	bt
 肼	bt
-膳	br
 岡	bu
 膿	bv
 膁	bc
@@ -1151,7 +1140,6 @@ vocabulary: essay-cantonese
 瞊	br
 眿	be
 眙	br
-睙	bk
 矌	bc
 眓	bv
 瞋	bc
@@ -1209,7 +1197,6 @@ vocabulary: essay-cantonese
 瞲	bb
 眵	bn
 眳	br
-瞰	bk
 睷	bq
 睩	be
 睽	bk
@@ -1244,7 +1231,6 @@ vocabulary: essay-cantonese
 睊	bb
 睈	bg
 眖	bu
-睈	bg
 矂	bd
 睱	be
 眠	bp
@@ -1279,7 +1265,6 @@ vocabulary: essay-cantonese
 眑	bs
 鼎	bl
 鼎	bn
-睩	be
 睏	bd
 睤	bl
 瞮	bk
@@ -1341,7 +1326,6 @@ vocabulary: essay-cantonese
 腁	bj
 膸	bb
 脐	bl
-肺	bb
 刐	bn
 胩	by
 脺	bj
@@ -1452,7 +1436,6 @@ vocabulary: essay-cantonese
 鍅	ci
 鎃	cv
 釵	ci
-釵	ci
 鈥	cf
 釥	cf
 銷	cb
@@ -1540,7 +1523,6 @@ vocabulary: essay-cantonese
 鈠	ce
 釩	ci
 邠	cl
-鉛	cr
 攽	ck
 鏦	co
 錉	ca
@@ -1604,9 +1586,6 @@ vocabulary: essay-cantonese
 鋱	cp
 銭	cq
 鈶	cr
-鈩	cs
-鍽	cb
-錑	ck
 翁	cm
 鐮	cc
 鑛	cc
@@ -1660,7 +1639,6 @@ vocabulary: essay-cantonese
 銪	cb
 鎩	ce
 鐐	cf
-鎩	ce
 鍷	cg
 斧	cl
 鈜	ci
@@ -1725,7 +1703,6 @@ vocabulary: essay-cantonese
 勜	cs
 錏	cm
 鐂	cw
-銢	ce
 鐚	cp
 鋙	cr
 釫	cs
@@ -1789,8 +1766,6 @@ vocabulary: essay-cantonese
 鍨	ck
 鐙	ct
 鑱	ci
-鏹	ci
-錚	cd
 鑥	ca
 釞	co
 鍑	ce
@@ -1845,7 +1820,6 @@ vocabulary: essay-cantonese
 鈎	ci
 鈞	cm
 鍯	cp
-鈞	cm
 鋾	cu
 鈚	cp
 鍇	ca
@@ -1883,7 +1857,6 @@ vocabulary: essay-cantonese
 鋘	ck
 鏴	cr
 谺	ch
-豃	ck
 郤	cl
 欲	co
 谻	cq
@@ -1892,7 +1865,6 @@ vocabulary: essay-cantonese
 懖	cp
 鍲	ca
 鹆	cm
-鋁	cr
 鐰	cd
 鍔	cs
 鍜	ce
@@ -1902,7 +1874,6 @@ vocabulary: essay-cantonese
 谼	cc
 釲	cu
 鐉	cc
-鋘	ck
 鈱	cp
 豅	cp
 鋜	co
@@ -1942,7 +1913,6 @@ vocabulary: essay-cantonese
 鏐	ch
 鐞	ci
 鉰	cr
-鑑	ct
 鋹	cv
 鈬	co
 鈮	cp
@@ -2048,7 +2018,6 @@ vocabulary: essay-cantonese
 兽	cr
 鍡	cv
 鎅	cl
-鎾	ct
 鍶	cp
 兾	cc
 鏎	cj
@@ -2082,7 +2051,6 @@ vocabulary: essay-cantonese
 鈄	cj
 鏈	cj
 鈫	ck
-鏟	cm
 鈰	cb
 鑓	cr
 錹	cb
@@ -2274,8 +2242,6 @@ vocabulary: essay-cantonese
 桫	dh
 柽	dg
 杈	di
-杈	di
-樑	dd
 頗	dc
 颇	do
 皯	dj
@@ -2377,7 +2343,6 @@ vocabulary: essay-cantonese
 楀	db
 櫍	dc
 枛	do
-檓	de
 析	dl
 栃	ds
 梔	du
@@ -2470,11 +2435,6 @@ vocabulary: essay-cantonese
 桟	dq
 枱	dr
 棫	dm
-枦	ds
-楄	db
-棙	dk
-椖	ds
-槴	du
 械	dt
 櫎	dc
 樜	df
@@ -2603,7 +2563,6 @@ vocabulary: essay-cantonese
 敕	dk
 惁	dp
 橷	dn
-賴	dc
 榈	dr
 櫢	dk
 柚	dw
@@ -2651,7 +2610,6 @@ vocabulary: essay-cantonese
 梇	dt
 榞	df
 櫪	dm
-榗	da
 桎	dg
 杆	dj
 橄	dk
@@ -2701,7 +2659,6 @@ vocabulary: essay-cantonese
 檟	dc
 標	df
 槱	df
-樮	df
 橝	dj
 橿	dm
 槚	do
@@ -2720,7 +2677,6 @@ vocabulary: essay-cantonese
 李	dd
 杍	dd
 槂	df
-極	dm
 櫯	dd
 杻	dg
 橻	dg
@@ -2735,7 +2691,6 @@ vocabulary: essay-cantonese
 栘	dn
 杼	dn
 桝	dq
-橄	dk
 梃	dg
 梴	dm
 楗	dq
@@ -2758,14 +2713,12 @@ vocabulary: essay-cantonese
 榤	dd
 欃	di
 桗	dd
-棦	dd
 杨	dh
 楹	dt
 櫈	dn
 杩	dm
 櫓	da
 橹	da
-櫷	du
 朲	do
 杁	do
 椱	de
@@ -2842,7 +2795,6 @@ vocabulary: essay-cantonese
 枃	dm
 楤	dp
 杓	dm
-枃	dm
 枨	do
 枇	dp
 楷	da
@@ -2893,7 +2845,6 @@ vocabulary: essay-cantonese
 韝	db
 韤	di
 韣	di
-韞	dt
 韠	dj
 韕	dd
 杏	dr
@@ -2904,9 +2855,7 @@ vocabulary: essay-cantonese
 柷	du
 檝	di
 柺	ds
-桯	dg
 枵	ds
-梠	dr
 橾	dd
 樿	dj
 欕	dk
@@ -2949,7 +2898,6 @@ vocabulary: essay-cantonese
 栩	dm
 柌	dr
 榋	ds
-檻	dt
 棖	dv
 樼	dd
 柩	do
@@ -3028,7 +2976,6 @@ vocabulary: essay-cantonese
 栟	dt
 構	db
 椪	dc
-橏	dr
 欁	dd
 槽	da
 樽	di
@@ -3058,7 +3005,6 @@ vocabulary: essay-cantonese
 朻	dl
 梉	dg
 橼	do
-椂	de
 椽	do
 欚	di
 樔	dd
@@ -3123,7 +3069,6 @@ vocabulary: essay-cantonese
 梳	du
 枓	dj
 槤	dj
-楌	dh
 梿	dq
 柿	db
 杫	dm
@@ -3358,7 +3303,6 @@ vocabulary: essay-cantonese
 毲	eu
 叠	em
 汊	ei
-汊	ei
 溞	ei
 碆	er
 滩	eg
@@ -3489,7 +3433,6 @@ vocabulary: essay-cantonese
 渢	ei
 沨	ek
 洬	en
-沿	er
 鯊	ef
 鲨	em
 潃	eb
@@ -3537,16 +3480,12 @@ vocabulary: essay-cantonese
 淣	eu
 裟	ev
 叉	ei
-叉	ei
 戏	ei
 浪	ev
 溥	ei
 浚	ee
 灖	ey
-梁	ed
 沭	ed
-灖	ey
-粱	ed
 灋	ei
 滅	ef
 洠	eq
@@ -3581,15 +3520,10 @@ vocabulary: essay-cantonese
 治	er
 淢	em
 澸	ep
-沪	es
-淭	ed
-淚	ek
 涙	ek
-滬	eu
 瀇	ec
 濂	ec
 渡	ee
-浝	eh
 泧	ev
 泼	ee
 浒	ej
@@ -3762,12 +3696,10 @@ vocabulary: essay-cantonese
 源	ef
 鴻	ef
 瀝	em
-溍	ea
 洷	eg
 汗	ej
 澉	ek
 汚	es
-添	ep
 沥	es
 沞	eb
 浭	ek
@@ -3792,7 +3724,6 @@ vocabulary: essay-cantonese
 滒	er
 浢	et
 湢	ew
-涙	ek
 涿	eo
 汧	et
 濿	eb
@@ -3841,7 +3772,6 @@ vocabulary: essay-cantonese
 沀	en
 洺	er
 汛	ej
-澉	ek
 涏	eg
 涎	em
 湕	eq
@@ -3869,7 +3799,6 @@ vocabulary: essay-cantonese
 涨	eo
 滐	ed
 瀺	ei
-漒	ei
 浄	ed
 汤	eh
 渳	ej
@@ -3954,7 +3883,6 @@ vocabulary: essay-cantonese
 汋	ei
 汮	em
 浺	el
-汮	em
 淘	eu
 沘	ep
 湝	ea
@@ -3990,7 +3918,6 @@ vocabulary: essay-cantonese
 潜	ea
 濽	ec
 湁	er
-滶	ek
 呇	er
 浥	eu
 涓	eb
@@ -4000,7 +3927,6 @@ vocabulary: essay-cantonese
 況	eu
 濈	ei
 渑	eu
-浧	eg
 洖	ek
 潞	er
 涡	eb
@@ -4014,7 +3940,6 @@ vocabulary: essay-cantonese
 湒	ej
 汜	eu
 潠	ec
-洖	ek
 泯	ep
 澠	eu
 浞	eo
@@ -4055,7 +3980,6 @@ vocabulary: essay-cantonese
 濢	ej
 瀈	ej
 泀	er
-濫	et
 涱	ev
 潺	ed
 沢	eo
@@ -4163,7 +4087,6 @@ vocabulary: essay-cantonese
 汹	ek
 湠	ef
 湍	eb
-湠	ef
 漄	eg
 瑬	ei
 滍	ei
@@ -4176,7 +4099,6 @@ vocabulary: essay-cantonese
 灩	et
 灧	eu
 泏	eu
-溦	ek
 汝	ev
 灤	ed
 濰	eg
@@ -4270,10 +4192,8 @@ vocabulary: essay-cantonese
 滧	ek
 济	el
 済	el
-滻	em
 浏	en
 涟	eq
-沛	eb
 瀢	ec
 洂	ec
 涉	eh
@@ -4327,7 +4247,6 @@ vocabulary: essay-cantonese
 滰	eu
 淁	ev
 漓	eb
-滮	eh
 汒	ev
 澭	eg
 泫	ei
@@ -4411,7 +4330,6 @@ vocabulary: essay-cantonese
 瓽	fn
 嘗	fa
 掌	fq
-営	fr
 甞	fm
 當	fw
 黨	ff
@@ -4462,7 +4380,6 @@ vocabulary: essay-cantonese
 糄	fb
 糗	fk
 粺	fj
-糌	fa
 粮	fv
 糐	fi
 粧	fg
@@ -4471,7 +4388,6 @@ vocabulary: essay-cantonese
 糠	fe
 糖	fr
 粐	fs
-糄	fb
 麊	fp
 籵	fj
 粀	fk
@@ -4493,7 +4409,6 @@ vocabulary: essay-cantonese
 粳	fk
 粝	fs
 煒	fq
-粐	fs
 糲	fb
 糣	fa
 糎	fg
@@ -4508,7 +4423,6 @@ vocabulary: essay-cantonese
 粶	fe
 糑	fm
 糈	fb
-糨	fi
 敉	fk
 敩	fk
 糩	fa
@@ -4547,7 +4461,6 @@ vocabulary: essay-cantonese
 糉	fe
 籹	fv
 娄	fv
-粶	fe
 畨	fw
 粿	fd
 煉	ff
@@ -4659,7 +4572,6 @@ vocabulary: essay-cantonese
 燆	fb
 劣	fs
 焮	fo
-燬	fe
 炘	fl
 炈	fe
 煈	fi
@@ -4693,10 +4605,6 @@ vocabulary: essay-cantonese
 爊	ff
 烒	fm
 炲	fr
-炉	fs
-煸	fb
-煽	fm
-熩	fu
 爌	fc
 燫	fc
 熫	ff
@@ -4740,7 +4648,6 @@ vocabulary: essay-cantonese
 彆	fn
 鱉	ff
 鳖	fm
-龞	fu
 憋	fp
 撆	fq
 鄨	fu
@@ -4772,13 +4679,11 @@ vocabulary: essay-cantonese
 烦	fo
 爧	fo
 兴	fc
-烣	ff
 炋	ff
 爏	fm
 厳	fk
 焐	fr
 灯	fn
-厳	fk
 炣	fr
 炳	fb
 炻	fr
@@ -4883,7 +4788,6 @@ vocabulary: essay-cantonese
 焒	fr
 炾	fu
 獣	fk
-焒	fr
 燥	fd
 燀	fj
 煰	fr
@@ -5111,8 +5015,6 @@ vocabulary: essay-cantonese
 毊	gb
 鼛	gr
 鼙	gj
-鼛	gr
-墚	gd
 螜	gi
 鼘	gl
 磬	gr
@@ -5376,7 +5278,6 @@ vocabulary: essay-cantonese
 墢	ge
 墱	gt
 垜	gd
-埩	gd
 场	gh
 圦	go
 塲	gh
@@ -5424,7 +5325,6 @@ vocabulary: essay-cantonese
 埨	gb
 趰	gb
 赶	gj
-趑	go
 堬	gn
 趔	gn
 垥	gr
@@ -5434,7 +5334,6 @@ vocabulary: essay-cantonese
 堠	gk
 趢	ge
 赼	go
-趓	gd
 趋	gm
 趡	gg
 趭	gf
@@ -5443,7 +5342,6 @@ vocabulary: essay-cantonese
 趝	gp
 趖	gg
 趜	gd
-赹	gm
 赹	gm
 趨	gu
 堢	gd
@@ -5457,7 +5355,6 @@ vocabulary: essay-cantonese
 趣	ge
 趯	gg
 趐	gm
-起	gu
 趞	ga
 趥	gw
 墲	gf
@@ -5465,7 +5362,6 @@ vocabulary: essay-cantonese
 赸	gu
 趉	gu
 赳	gl
-趢	ge
 嗇	gr
 趩	gc
 赴	gy
@@ -5478,7 +5374,6 @@ vocabulary: essay-cantonese
 地	gd
 圽	gh
 圴	gi
-均	gm
 均	gm
 堩	gm
 堦	ga
@@ -5510,7 +5405,6 @@ vocabulary: essay-cantonese
 颉	go
 噽	gm
 嚭	gr
-埕	gg
 郆	gl
 歖	go
 欯	go
@@ -5564,9 +5458,7 @@ vocabulary: essay-cantonese
 墴	gc
 墐	gm
 坩	gm
-墴	gc
 墷	gj
-懿	gp
 堪	gv
 埖	gp
 塔	gr
@@ -5574,7 +5466,6 @@ vocabulary: essay-cantonese
 壦	gg
 壾	gs
 垪	gt
-墡	gr
 亄	gu
 墈	gs
 墫	gi
@@ -5609,7 +5500,6 @@ vocabulary: essay-cantonese
 塄	gs
 夁	gw
 堺	gl
-塭	gt
 坶	gi
 圤	gy
 壠	gp
@@ -5737,7 +5627,6 @@ vocabulary: essay-cantonese
 皪	hd
 簋	ht
 畠	hw
-馧	ht
 皎	hk
 梟	hd
 鳥	hf
@@ -5833,7 +5722,6 @@ vocabulary: essay-cantonese
 舉	hq
 擧	hq
 嬃	hv
-籙	he
 箪	hj
 頾	hp
 譽	hr
@@ -5921,7 +5809,6 @@ vocabulary: essay-cantonese
 穮	hf
 秮	hr
 稢	hm
-稨	hb
 穬	hc
 稽	ha
 嵇	hu
@@ -5976,7 +5863,6 @@ vocabulary: essay-cantonese
 穭	ha
 穞	ha
 穐	hu
-龝	hu
 秂	ho
 稪	he
 黍	he
@@ -6000,7 +5886,6 @@ vocabulary: essay-cantonese
 積	hc
 和	hr
 积	hc
-程	hg
 程	hg
 稆	hr
 鼄	hu
@@ -6072,7 +5957,6 @@ vocabulary: essay-cantonese
 処	hn
 箲	hu
 籓	hw
-簗	hd
 簿	hi
 箈	hr
 务	hs
@@ -6150,7 +6034,6 @@ vocabulary: essay-cantonese
 鶀	hc
 鸌	he
 媝	hv
-鵦	he
 鷻	hk
 壬	hg
 皩	hu
@@ -6236,7 +6119,6 @@ vocabulary: essay-cantonese
 笔	hu
 篩	hb
 躳	hr
-躳	hr
 軃	hj
 躽	hv
 篇	hb
@@ -6302,8 +6184,6 @@ vocabulary: essay-cantonese
 鸱	hm
 笞	hr
 啔	hr
-篇	hb
-簄	hu
 笲	ht
 簾	hc
 魌	hc
@@ -6442,14 +6322,11 @@ vocabulary: essay-cantonese
 籗	hg
 籱	hg
 眚	hu
-簭	hr
 竽	hd
 籋	hb
 箌	hn
 籈	hn
 筭	ht
-鴟	hf
-鷎	hf
 斵	hl
 筑	hn
 毁	he
@@ -6464,7 +6341,6 @@ vocabulary: essay-cantonese
 甀	hn
 築	hd
 郵	hl
-邸	hl
 筇	hl
 篫	hq
 笴	hr
@@ -6536,7 +6412,6 @@ vocabulary: essay-cantonese
 颓	ho
 箓	he
 飋	hh
-風	hi
 飅	hw
 篛	hm
 凨	hi
@@ -6623,14 +6498,12 @@ vocabulary: essay-cantonese
 筏	hi
 籂	hb
 術	hn
-術	hn
 笭	hi
 籤	hm
 笒	hn
 笩	hp
 篬	hr
 筨	hr
-徧	hb
 篒	hv
 徝	hm
 衠	hn
@@ -6720,7 +6593,6 @@ vocabulary: essay-cantonese
 徴	hk
 微	hk
 徾	hk
-微	hk
 媭	hv
 後	he
 衟	hn
@@ -6752,7 +6624,6 @@ vocabulary: essay-cantonese
 氐	hm
 頿	hc
 顖	hc
-笉	hm
 旣	hu
 鄎	hl
 笓	hp
@@ -6796,7 +6667,6 @@ vocabulary: essay-cantonese
 牫	hi
 犙	hh
 犥	hf
-犏	hb
 牻	hh
 犆	hm
 篲	hm
@@ -6890,7 +6760,6 @@ vocabulary: essay-cantonese
 頶	hc
 頢	hc
 筽	hk
-舔	hp
 師	hb
 簬	hr
 舚	hr
@@ -6903,14 +6772,12 @@ vocabulary: essay-cantonese
 惒	hp
 鹄	hm
 鸹	hm
-筥	hr
 簞	hj
 箿	hj
 甜	hm
 乱	hu
 峊	hu
 簨	hc
-筽	hk
 舏	hl
 笢	hp
 烏	hf
@@ -6947,7 +6814,6 @@ vocabulary: essay-cantonese
 箼	hg
 筺	hi
 笥	hr
-籃	ht
 戹	hn
 扅	hn
 雇	hg
@@ -6986,7 +6852,6 @@ vocabulary: essay-cantonese
 衄	hg
 欰	ho
 籆	he
-衆	ho
 憇	hp
 衂	hi
 衈	hj
@@ -7010,7 +6875,6 @@ vocabulary: essay-cantonese
 墍	hg
 鶂	hf
 鶞	hf
-鷉	hf
 鵚	hf
 毨	hu
 兟	hu
@@ -7034,7 +6898,6 @@ vocabulary: essay-cantonese
 毽	hq
 郳	hl
 郋	hl
-歋	ho
 氌	ha
 氇	ha
 毺	hn
@@ -7071,7 +6934,6 @@ vocabulary: essay-cantonese
 鼭	hi
 鼨	hy
 鼪	hm
-兜	hu
 魏	hi
 鼶	hn
 鼶	hu
@@ -7088,7 +6950,6 @@ vocabulary: essay-cantonese
 鼯	hr
 鼫	hr
 瓾	hn
-箓	he
 鼮	hg
 篆	ho
 氏	hp
@@ -7154,7 +7015,6 @@ vocabulary: essay-cantonese
 敮	he
 舃	hf
 忄	hy
-昝	ha
 艒	hu
 舥	hu
 簻	hb
@@ -7185,7 +7045,6 @@ vocabulary: essay-cantonese
 般	he
 舤	hi
 舧	hi
-船	hr
 簉	hr
 籩	hs
 舮	hs
@@ -7193,12 +7052,9 @@ vocabulary: essay-cantonese
 艘	he
 艆	hv
 舣	hk
-舮	hs
-艑	hb
 艔	he
 舵	hp
 舦	hi
-簅	hm
 舿	hs
 艜	hb
 笾	hs
@@ -7238,7 +7094,6 @@ vocabulary: essay-cantonese
 虒	hu
 箎	hu
 鸼	hm
-咎	hr
 笘	hr
 篙	hb
 艥	hi
@@ -7252,7 +7107,6 @@ vocabulary: essay-cantonese
 艦	ht
 艍	hr
 簇	hk
-艦	ht
 箊	hy
 笠	ht
 艨	ho
@@ -7333,25 +7187,15 @@ vocabulary: essay-cantonese
 术	id
 廂	iu
 麻	id
-糜	id
 塺	ig
 穈	id
 黁	ia
 麽	ii
 犘	iq
-麾	iu
-魔	ii
-黂	ic
-靡	iy
-磨	ir
 庲	io
 怸	ip
-摩	iq
-麿	ir
 麿	ir
 书	is
-黀	ie
-麼	ii
 縻	if
 氷	ie
 昶	ia
@@ -7459,7 +7303,6 @@ vocabulary: essay-cantonese
 祸	ib
 禪	ij
 祀	iu
-祦	ik
 蹙	io
 祒	ir
 祲	ie
@@ -7562,7 +7405,6 @@ vocabulary: essay-cantonese
 欴	io
 啔	ir
 郒	iu
-庐	is
 庬	ih
 废	ie
 廘	ip
@@ -7586,7 +7428,6 @@ vocabulary: essay-cantonese
 义	ik
 庆	ik
 晵	ia
-盋	it
 貵	ic
 棨	id
 犮	ie
@@ -7680,7 +7521,6 @@ vocabulary: essay-cantonese
 冺	ip
 臧	il
 馮	if
-凞	if
 凘	il
 廈	ie
 凒	it
@@ -7761,7 +7601,6 @@ vocabulary: essay-cantonese
 麂	in
 麔	ir
 麑	iu
-麔	ir
 麙	ir
 麤	ip
 螚	ii
@@ -7791,7 +7630,6 @@ vocabulary: essay-cantonese
 麣	ik
 麚	ie
 庖	iu
-麌	ik
 聋	ij
 麏	ir
 龚	ic
@@ -7811,7 +7649,6 @@ vocabulary: essay-cantonese
 緳	if
 庪	ie
 劺	is
-廒	ik
 台	ir
 戓	ir
 枲	id
@@ -7873,8 +7710,6 @@ vocabulary: essay-cantonese
 廣	ic
 廑	im
 懬	ip
-廣	ic
-懬	ip
 庻	io
 慿	ip
 庠	iq
@@ -7883,7 +7718,6 @@ vocabulary: essay-cantonese
 庿	iw
 廉	ic
 焈	if
-尨	ih
 戉	iv
 谒	iv
 谩	ie
@@ -7940,7 +7774,6 @@ vocabulary: essay-cantonese
 发	ie
 诙	if
 诳	ig
-勆	is
 训	il
 诽	iy
 谰	iw
@@ -8076,7 +7909,6 @@ vocabulary: essay-cantonese
 寀	jd
 鶦	jf
 寪	jf
-櫜	jd
 櫜	jd
 献	jk
 宜	jm
@@ -8263,7 +8095,6 @@ vocabulary: essay-cantonese
 宬	js
 載	jj
 宊	jk
-寪	jf
 宠	jp
 载	jq
 蛓	ji
@@ -8333,7 +8164,6 @@ vocabulary: essay-cantonese
 軾	jm
 軩	jr
 轗	jp
-軶	jn
 轆	jp
 轉	ji
 轟	jj
@@ -8417,7 +8247,6 @@ vocabulary: essay-cantonese
 輑	jr
 軭	jg
 轇	jh
-轞	jt
 轏	jd
 輾	jv
 轥	jg
@@ -8475,7 +8304,6 @@ vocabulary: essay-cantonese
 耇	jr
 协	jc
 協	js
-考	js
 耉	jr
 暫	ja
 覱	ju
@@ -8536,7 +8364,6 @@ vocabulary: essay-cantonese
 宐	jm
 宛	ju
 剚	jn
-麴	jd
 惌	jp
 卖	jk
 寉	jg
@@ -8567,7 +8394,6 @@ vocabulary: essay-cantonese
 実	jk
 寈	jb
 憲	jp
-害	jr
 古	jr
 胡	jb
 鶘	jf
@@ -8630,7 +8456,6 @@ vocabulary: essay-cantonese
 兝	jh
 尅	ji
 鵷	jf
-鴧	jf
 鵍	jf
 兛	jj
 兞	ju
@@ -8728,18 +8553,14 @@ vocabulary: essay-cantonese
 瘅	kj
 东	kd
 杀	kd
-閷	ko
 痳	kd
 疲	ke
-殺	ke
 夺	ki
 疛	ki
 弑	km
-弒	km
 疦	kk
 癩	kc
 瘷	kk
-剎	kn
 刹	kn
 瘌	kn
 瘶	ko
@@ -8848,10 +8669,7 @@ vocabulary: essay-cantonese
 狵	kh
 犹	ku
 疺	ko
-猵	kb
-猏	kb
 獷	kc
-狵	kh
 狘	kv
 狱	kk
 犻	kb
@@ -8941,7 +8759,6 @@ vocabulary: essay-cantonese
 狾	kl
 獉	kd
 猜	kb
-獓	kk
 狷	kb
 玁	kk
 猳	ke
@@ -8961,7 +8778,6 @@ vocabulary: essay-cantonese
 獚	kc
 猉	kc
 獲	ke
-猐	ku
 獾	kg
 獇	ki
 猫	kw
@@ -9251,7 +9067,6 @@ vocabulary: essay-cantonese
 力	ks
 办	kc
 癜	ke
-犭	kh
 鴮	kf
 綔	kf
 瓠	ko
@@ -9315,7 +9130,6 @@ vocabulary: essay-cantonese
 尥	ki
 鹌	km
 尷	kt
-尷	kt
 尲	kc
 癵	kb
 癴	kq
@@ -9328,7 +9142,6 @@ vocabulary: essay-cantonese
 瘝	kf
 癏	kv
 痹	kl
-瘟	kt
 痐	kr
 瘰	kf
 癳	kf
@@ -9478,7 +9291,6 @@ vocabulary: essay-cantonese
 褬	ld
 裰	le
 坚	lg
-衩	li
 衩	li
 紧	lf
 竖	lt
@@ -9657,14 +9469,11 @@ vocabulary: essay-cantonese
 蛷	le
 蚁	lk
 蛂	le
-蟡	lf
 蛂	lk
 蚘	lu
 螗	lr
 蠀	lc
 蜮	lm
-蝙	lb
-蜧	lk
 蠊	lc
 蟅	lf
 蝷	lu
@@ -9742,7 +9551,6 @@ vocabulary: essay-cantonese
 蛃	lb
 螎	lb
 蝠	lw
-蚅	lu
 蚈	lt
 蠣	lb
 蟩	lo
@@ -9797,7 +9605,6 @@ vocabulary: essay-cantonese
 虵	ld
 虳	li
 蚐	lm
-蚐	lm
 蜪	lu
 蚍	lp
 蝔	la
@@ -9821,11 +9628,9 @@ vocabulary: essay-cantonese
 蟬	lj
 蝦	le
 蟤	lc
-蜈	lk
 蠅	lu
 门	ls
 蝘	lv
-褊	lb
 蠾	li
 蠮	lm
 虭	lh
@@ -9868,7 +9673,6 @@ vocabulary: essay-cantonese
 蠂	ld
 蛘	lq
 蝆	lq
-蜣	lu
 蠸	lg
 蛢	lt
 蟮	lr
@@ -9900,7 +9704,6 @@ vocabulary: essay-cantonese
 蝿	lu
 蠉	lv
 蝈	li
-蝹	lt
 蛔	lr
 蜖	ll
 螺	lf
@@ -9974,8 +9777,6 @@ vocabulary: essay-cantonese
 牔	li
 牋	li
 牗	lb
-牖	lb
-牑	lb
 褴	lt
 牍	lk
 川	ll
@@ -10051,46 +9852,23 @@ vocabulary: essay-cantonese
 鬬	ll
 费	lo
 費	lc
-覑	lu
 襜	lr
 桨	ld
 浆	le
-牉	lq
-牘	lc
 衱	le
-版	le
-牐	lx
-牖	lb
-牑	lb
-牌	lj
-牕	lp
 鬩	lu
 鬮	lu
-牔	li
 襁	li
-牋	li
-牗	lb
 袳	ln
-牖	lb
-牑	lb
-牍	lk
 奖	lk
 刜	ln
 酱	lw
 鬫	lk
 鬪	li
 艴	lu
-鬫	lk
-鬮	lu
 襏	le
-牏	ln
-牎	lp
-牒	ld
-襁	li
 鬭	ll
-牊	lr
 鬨	lc
-牓	ls
 鬦	lj
 鬧	lb
 複	le
@@ -10118,11 +9896,9 @@ vocabulary: essay-cantonese
 背	lb
 衪	ld
 袐	lh
-兠	lu
 袀	lm
 軰	lj
 丠	lm
-袀	lm
 裪	lu
 袧	lr
 袍	lu
@@ -10137,7 +9913,6 @@ vocabulary: essay-cantonese
 衭	lo
 袆	ls
 裐	lb
-裎	lg
 裎	lg
 襙	ld
 襌	lj
@@ -10182,7 +9957,6 @@ vocabulary: essay-cantonese
 闬	lj
 韭	lm
 闫	lm
-襤	lt
 阎	lx
 阚	lk
 阕	lk
@@ -10253,7 +10027,6 @@ vocabulary: essay-cantonese
 畁	ll
 甹	ls
 邮	ll
-褞	lt
 曳	lp
 襅	lj
 电	lu
@@ -10329,7 +10102,6 @@ vocabulary: essay-cantonese
 霗	mi
 霟	mc
 霮	mv
-霈	mb
 霔	mg
 霑	mr
 霶	ms
@@ -10412,7 +10184,6 @@ vocabulary: essay-cantonese
 孁	mv
 霞	me
 霨	mi
-雪	mm
 雪	mm
 霫	ma
 翮	mm
@@ -10679,7 +10450,6 @@ vocabulary: essay-cantonese
 珏	mi
 琊	ml
 瓑	mm
-瑨	ma
 臸	mg
 玕	mj
 璢	mw
@@ -10706,7 +10476,6 @@ vocabulary: essay-cantonese
 玖	mo
 歅	mo
 璒	mt
-琤	md
 玚	mh
 玛	mm
 珡	mo
@@ -10749,9 +10518,7 @@ vocabulary: essay-cantonese
 玞	mo
 瓉	mc
 玮	ms
-璈	mk
 琄	mb
-珵	mg
 珵	mg
 璐	mr
 瑉	ma
@@ -10771,7 +10538,6 @@ vocabulary: essay-cantonese
 璕	mi
 璻	mj
 珝	mm
-璼	mt
 瑪	mf
 玘	mu
 弄	mt
@@ -10794,7 +10560,6 @@ vocabulary: essay-cantonese
 瓁	me
 珜	mq
 瑳	mm
-琷	mu
 瓘	mg
 璥	mk
 玌	mu
@@ -10805,7 +10570,6 @@ vocabulary: essay-cantonese
 瓅	md
 璣	mi
 璏	mp
-琭	me
 瑑	mo
 璅	md
 瑙	mw
@@ -10815,7 +10579,6 @@ vocabulary: essay-cantonese
 玾	ml
 環	mv
 琾	ml
-瑥	mt
 瓃	mw
 琸	mj
 璭	mj
@@ -10962,7 +10725,6 @@ vocabulary: essay-cantonese
 麗	mp
 婯	mv
 項	mc
-丽	mb
 项	mo
 示	mf
 堊	mg
@@ -11069,7 +10831,6 @@ vocabulary: essay-cantonese
 甅	mg
 殭	mm
 歿	me
-殛	mm
 邒	ml
 邷	ml
 鮤	mf
@@ -11099,7 +10860,6 @@ vocabulary: essay-cantonese
 姴	mv
 瓼	mg
 殬	mj
-殟	mt
 殩	md
 殧	mu
 裂	mv
@@ -11132,7 +10892,6 @@ vocabulary: essay-cantonese
 甤	mm
 豟	mn
 豧	mb
-豟	mn
 豬	ma
 豶	mc
 豮	mo
@@ -11163,9 +10922,7 @@ vocabulary: essay-cantonese
 蹷	mo
 厏	ms
 姿	mv
-豱	mt
 豴	mb
-豣	mj
 豥	mo
 貮	mc
 鸝	mf
@@ -11173,7 +10930,6 @@ vocabulary: essay-cantonese
 弐	mm
 酈	ml
 武	mm
-厫	mk
 石	mr
 碭	mh
 碍	mi
@@ -11287,8 +11043,6 @@ vocabulary: essay-cantonese
 磣	mh
 碜	mh
 磄	mr
-碥	mb
-砨	mn
 礦	mc
 硥	mh
 磌	mc
@@ -11375,7 +11129,6 @@ vocabulary: essay-cantonese
 磴	mt
 磔	md
 哥	mr
-碀	md
 砀	mh
 码	mm
 確	mg
@@ -11410,7 +11163,6 @@ vocabulary: essay-cantonese
 碡	my
 砖	mi
 砆	mo
-磝	mk
 磒	mc
 磾	mj
 礹	mk
@@ -11459,7 +11211,6 @@ vocabulary: essay-cantonese
 硭	mv
 磞	mb
 碳	mf
-碳	mf
 硸	mj
 碋	mr
 磑	mt
@@ -11470,7 +11221,6 @@ vocabulary: essay-cantonese
 础	mu
 礫	md
 磯	mi
-碌	me
 碯	mw
 畐	mw
 硱	md
@@ -11524,7 +11274,6 @@ vocabulary: essay-cantonese
 亚	mc
 严	mh
 厮	ml
-烎	mf
 鳽	mf
 形	mh
 毭	mu
@@ -11568,7 +11317,6 @@ vocabulary: essay-cantonese
 卼	mu
 鹴	mm
 尶	mt
-尶	mt
 画	mw
 匚	mv
 匸	mv
@@ -11577,8 +11325,6 @@ vocabulary: essay-cantonese
 辱	mi
 旡	mu
 蜃	mi
-頋	mc
-顾	mo
 瓦	mi
 互	mm
 敐	mk
@@ -11693,7 +11439,6 @@ vocabulary: essay-cantonese
 酜	mo
 靣	mr
 酲	mg
-酲	mg
 釅	mk
 面	ml
 醪	mh
@@ -11701,9 +11446,6 @@ vocabulary: essay-cantonese
 配	mu
 醋	ma
 醭	mo
-覇	mb
-覊	mf
-覉	mr
 醼	mf
 酣	mm
 醛	mg
@@ -11714,7 +11456,6 @@ vocabulary: essay-cantonese
 酗	mk
 要	mv
 酳	mb
-醁	me
 醳	mj
 醞	mt
 醸	mv
@@ -11809,7 +11550,6 @@ vocabulary: essay-cantonese
 觽	ns
 觻	nd
 觓	nl
-觮	ne
 觸	ni
 斛	nj
 觪	nj
@@ -11932,7 +11672,6 @@ vocabulary: essay-cantonese
 鱮	nc
 鯓	nh
 鯢	nu
-鯦	nr
 鮻	ne
 鰰	nl
 鯳	ni
@@ -11950,8 +11689,6 @@ vocabulary: essay-cantonese
 鱇	ne
 鮐	nr
 鱤	np
-魲	ns
-鯿	nb
 鰫	nr
 鮇	nd
 鱄	ni
@@ -11967,7 +11704,6 @@ vocabulary: essay-cantonese
 鰭	na
 鮕	nr
 鰗	nb
-鱝	nc
 鮟	nv
 鮪	nb
 鯑	nb
@@ -11992,7 +11728,6 @@ vocabulary: essay-cantonese
 鱩	nw
 鯂	nw
 鮃	nj
-鰰	nl
 魾	nm
 玺	ni
 鱷	nr
@@ -12008,7 +11743,6 @@ vocabulary: essay-cantonese
 鱖	no
 魱	nm
 鰾	nf
-鱏	nj
 鱌	no
 鮸	nu
 鯭	nt
@@ -12092,7 +11826,6 @@ vocabulary: essay-cantonese
 鱃	ng
 鱹	ng
 鮩	nt
-鱔	nr
 鰦	ni
 鰽	na
 鱒	ni
@@ -12162,7 +11895,6 @@ vocabulary: essay-cantonese
 矝	ni
 矜	nn
 敄	nk
-務	ns
 弤	nm
 乃	ns
 夃	ne
@@ -12259,7 +11991,6 @@ vocabulary: essay-cantonese
 陗	nb
 隚	ng
 隣	nq
-隙	nf
 隲	nf
 陵	ne
 陸	ng
@@ -12294,7 +12025,6 @@ vocabulary: essay-cantonese
 隇	nv
 陠	nb
 陇	np
-阸	nn
 陼	na
 院	nu
 陀	np
@@ -12363,7 +12093,6 @@ vocabulary: essay-cantonese
 階	na
 陛	ng
 陦	ni
-隞	nk
 陆	nu
 隕	nc
 陨	no
@@ -12387,7 +12116,6 @@ vocabulary: essay-cantonese
 阧	nj
 隨	nb
 随	nb
-隡	nm
 陟	nh
 阯	nm
 阽	nr
@@ -12644,7 +12372,6 @@ vocabulary: essay-cantonese
 尕	nf
 熃	nf
 埅	ng
-夃	ne
 弨	nr
 弭	nj
 呄	nr
@@ -12657,12 +12384,10 @@ vocabulary: essay-cantonese
 孕	nd
 邹	nl
 雏	ng
-急	np
 彄	nr
 弡	ns
 彅	nh
 覴	nu
-凳	nn
 戤	ni
 勐	ns
 彉	nc
@@ -12703,13 +12428,11 @@ vocabulary: essay-cantonese
 馕	nv
 饶	nu
 馆	nr
-蜑	ni
 蚀	ni
 馈	no
 饤	nn
 饾	nt
 馅	nx
-郔	nl
 饮	no
 饧	nh
 馋	ny
@@ -12812,7 +12535,6 @@ vocabulary: essay-cantonese
 俔	ou
 俀	ov
 傒	ok
-龣	oe
 仈	oc
 佾	ob
 伀	oi
@@ -13002,9 +12724,7 @@ vocabulary: essay-cantonese
 傯	op
 傁	oe
 倪	ou
-偺	oa
 傂	on
-倃	or
 傂	ou
 伐	oi
 仏	oi
@@ -13127,7 +12847,6 @@ vocabulary: essay-cantonese
 餼	od
 餱	ok
 飵	os
-餩	oo
 代	op
 怤	op
 儦	of
@@ -13138,10 +12857,7 @@ vocabulary: essay-cantonese
 鸰	om
 佁	or
 饌	oc
-偏	ob
-僱	og
 餌	oj
-傓	om
 翎	om
 飼	or
 餦	ov
@@ -13166,7 +12882,6 @@ vocabulary: essay-cantonese
 餜	od
 饠	og
 餵	ov
-饂	ot
 饆	oj
 餃	ok
 飳	og
@@ -13308,16 +13023,7 @@ vocabulary: essay-cantonese
 儘	ot
 俳	oy
 候	ok
-脩	ob
-條	od
-絛	of
-鯈	of
-儵	of
-修	oh
-鞗	oj
 攸	ok
-倏	ok
-翛	om
 偝	ob
 侓	oq
 伷	ow
@@ -13373,7 +13079,6 @@ vocabulary: essay-cantonese
 伝	oi
 仨	om
 佱	om
-佽	oo
 儷	op
 僫	op
 俉	or
@@ -13488,7 +13193,6 @@ vocabulary: essay-cantonese
 儳	oi
 氧	oq
 氙	ou
-氯	oe
 氤	ok
 氳	ot
 氦	oo
@@ -13581,7 +13285,6 @@ vocabulary: essay-cantonese
 铍	oe
 钵	om
 铼	ot
-钗	oi
 钗	oi
 铴	oh
 铎	oq
@@ -13689,7 +13392,6 @@ vocabulary: essay-cantonese
 钰	oi
 铘	ol
 铚	og
-伨	om
 铻	or
 钉	on
 钶	or
@@ -13844,7 +13546,6 @@ vocabulary: essay-cantonese
 僣	oa
 儧	oc
 伟	os
-傲	ok
 智	oa
 俋	ou
 傊	oc
@@ -13869,7 +13570,6 @@ vocabulary: essay-cantonese
 頷	oc
 颔	oo
 颌	oo
-侱	og
 俣	ok
 盫	ot
 舒	on
@@ -13916,7 +13616,6 @@ vocabulary: essay-cantonese
 偓	og
 僇	oh
 伺	or
-儖	ot
 倀	ov
 僝	od
 飮	oo
@@ -13945,7 +13644,6 @@ vocabulary: essay-cantonese
 儀	oi
 僐	or
 備	ob
-儰	of
 偌	or
 僙	oc
 偀	ok
@@ -13964,7 +13662,6 @@ vocabulary: essay-cantonese
 傇	oj
 併	ot
 傋	ob
-僐	or
 傮	oa
 僔	oi
 儚	on
@@ -14241,7 +13938,6 @@ vocabulary: essay-cantonese
 邲	pl
 忽	pp
 惛	pa
-匓	pe
 怟	pm
 性	pm
 怢	po
@@ -14278,8 +13974,6 @@ vocabulary: essay-cantonese
 怡	pr
 惐	pm
 憾	pp
-惼	pb
-悷	pk
 悈	pt
 懭	pc
 怴	pv
@@ -14365,7 +14059,6 @@ vocabulary: essay-cantonese
 怦	pj
 匉	pj
 怌	pm
-忹	pg
 恎	pg
 恹	pk
 恸	ps
@@ -14478,7 +14171,6 @@ vocabulary: essay-cantonese
 懳	pp
 情	pb
 愫	pf
-慠	pk
 句	pr
 吢	pr
 悒	pu
@@ -14490,7 +14182,6 @@ vocabulary: essay-cantonese
 斪	pl
 怳	pu
 劬	ps
-悜	pg
 悮	pk
 够	pn
 邭	pl
@@ -14522,7 +14213,6 @@ vocabulary: essay-cantonese
 恇	pg
 憀	ph
 憳	pi
-懢	pt
 悵	pv
 怩	pp
 慪	pr
@@ -14767,7 +14457,6 @@ vocabulary: essay-cantonese
 掇	qe
 挱	qh
 扠	qi
-扠	qi
 搔	qi
 掻	qi
 麺	ql
@@ -14880,7 +14569,6 @@ vocabulary: essay-cantonese
 攢	qc
 搝	qk
 擤	ql
-擨	qo
 攒	qo
 撬	qu
 抵	qi
@@ -14890,10 +14578,8 @@ vocabulary: essay-cantonese
 捭	qj
 摠	qp
 搜	qe
-捏	qg
 揑	qm
 掜	qu
-揝	qa
 搬	qe
 齧	qu
 搋	qn
@@ -14906,7 +14592,6 @@ vocabulary: essay-cantonese
 捘	qe
 攠	qy
 擵	qq
-攠	qy
 热	qf
 焘	qf
 垫	qg
@@ -14943,10 +14628,6 @@ vocabulary: essay-cantonese
 掝	qm
 撼	qp
 护	qs
-掮	qb
-揙	qb
-捩	qk
-搧	qm
 拚	qt
 擴	qc
 摭	qf
@@ -15010,7 +14691,6 @@ vocabulary: essay-cantonese
 邫	qu
 捾	qr
 彗	qm
-彗	qm
 熭	qf
 慧	qp
 攓	qo
@@ -15023,7 +14703,6 @@ vocabulary: essay-cantonese
 鏊	qc
 摋	qe
 撩	qf
-摋	qe
 寿	qi
 泰	qe
 抜	qe
@@ -15042,7 +14721,6 @@ vocabulary: essay-cantonese
 螯	qi
 掩	qu
 捺	qf
-奏	qk
 掎	qr
 挎	qs
 挗	qn
@@ -15135,11 +14813,9 @@ vocabulary: essay-cantonese
 挵	qt
 捓	ql
 攊	qm
-搢	qa
 挃	qg
 扞	qj
 撖	qk
-掭	qp
 抚	qu
 掚	qb
 挭	qk
@@ -15194,7 +14870,6 @@ vocabulary: essay-cantonese
 抒	qn
 拸	qn
 扟	qj
-撖	qk
 挺	qg
 挻	qm
 揵	qq
@@ -15208,7 +14883,6 @@ vocabulary: essay-cantonese
 撜	qt
 搩	qd
 攙	qi
-摾	qi
 挣	qd
 挅	qd
 扬	qh
@@ -15279,7 +14953,6 @@ vocabulary: essay-cantonese
 揔	qp
 揯	qm
 搄	qm
-抣	qm
 掏	qu
 批	qp
 揩	qa
@@ -15319,8 +14992,6 @@ vocabulary: essay-cantonese
 擑	qi
 拐	qs
 剨	qn
-挰	qg
-捛	qr
 操	qd
 撣	qj
 拐	qh
@@ -15495,7 +15166,6 @@ vocabulary: essay-cantonese
 抆	qk
 挞	qk
 挤	ql
-摌	qm
 捗	qh
 扯	qm
 掯	qb
@@ -15707,7 +15377,6 @@ vocabulary: essay-cantonese
 吒	rp
 喞	rl
 呧	rm
-嘅	ru
 吽	rq
 哦	ri
 呹	ro
@@ -15728,7 +15397,6 @@ vocabulary: essay-cantonese
 啤	rj
 嗖	re
 唲	ru
-喒	ra
 嗁	rn
 嗁	ru
 哴	rv
@@ -15747,7 +15415,6 @@ vocabulary: essay-cantonese
 哺	rb
 嘛	rc
 吠	rk
-噅	rf
 咙	rp
 嘃	rb
 唥	ri
@@ -15755,8 +15422,6 @@ vocabulary: essay-cantonese
 雖	rg
 唉	rk
 咍	rr
-唳	rk
-呝	rn
 嚝	rc
 喥	re
 嗻	rf
@@ -15899,7 +15564,6 @@ vocabulary: essay-cantonese
 呸	rm
 跘	rq
 踡	ru
-呈	rg
 踜	re
 踛	rg
 跱	ri
@@ -15949,7 +15613,6 @@ vocabulary: essay-cantonese
 跋	re
 跋	rk
 跆	rr
-蹁	rb
 踱	re
 蹠	rf
 躔	rg
@@ -16161,7 +15824,6 @@ vocabulary: essay-cantonese
 吸	re
 啗	rx
 哆	rn
-噉	rk
 唌	rm
 唌	rv
 吲	rl
@@ -16237,7 +15899,6 @@ vocabulary: essay-cantonese
 呁	rm
 蟁	ri
 刡	rn
-呁	rm
 敃	rk
 啕	ru
 吡	rp
@@ -16260,7 +15921,6 @@ vocabulary: essay-cantonese
 嘒	rm
 嚖	rp
 嘒	rs
-嚽	rc
 嗪	rd
 唪	rq
 啨	rb
@@ -16270,7 +15930,6 @@ vocabulary: essay-cantonese
 咑	rn
 啧	ro
 呋	ro
-嗷	rk
 唞	rj
 啦	rt
 吕	rr
@@ -16290,7 +15949,6 @@ vocabulary: essay-cantonese
 嚻	rr
 嚴	rk
 咢	rs
-嚴	rk
 嚣	rr
 噐	rr
 呺	rs
@@ -16347,7 +16005,6 @@ vocabulary: essay-cantonese
 噚	ri
 噿	rj
 呞	rr
-嚂	rt
 鄂	rl
 呎	ro
 飸	rv
@@ -16398,7 +16055,6 @@ vocabulary: essay-cantonese
 嚿	rx
 咩	rq
 嗟	rm
-唴	ru
 嚾	rg
 嗍	rb
 嗴	ri
@@ -16422,7 +16078,6 @@ vocabulary: essay-cantonese
 哕	ri
 鄳	rl
 嗺	rg
-饕	rv
 攺	rk
 异	rt
 巽	rc
@@ -16463,7 +16118,6 @@ vocabulary: essay-cantonese
 啯	ri
 喂	rv
 鄙	rl
-嗢	rt
 嗶	rj
 呣	ri
 黽	ru
@@ -16491,7 +16145,6 @@ vocabulary: essay-cantonese
 嗹	rj
 呅	rk
 哒	rk
-喭	rh
 哜	rl
 啃	rb
 噦	rh
@@ -16535,7 +16188,6 @@ vocabulary: essay-cantonese
 嚃	re
 嚃	rf
 嚺	ro
-啚	rr
 嚌	rx
 尸	s
 鷵	sf
@@ -16545,7 +16197,6 @@ vocabulary: essay-cantonese
 屭	sc
 朢	sg
 刷	sn
-朢	sg
 屃	so
 屓	sc
 匷	sg
@@ -16579,8 +16230,6 @@ vocabulary: essay-cantonese
 孯	sd
 臋	so
 匯	sg
-聚	so
-聚	so
 鹥	sm
 掔	sq
 翳	sm
@@ -16652,9 +16301,6 @@ vocabulary: essay-cantonese
 駲	sl
 騃	sk
 駘	sr
-馿	ss
-騙	sb
-騸	sm
 駴	st
 駹	sh
 騼	sp
@@ -16754,7 +16400,6 @@ vocabulary: essay-cantonese
 駢	st
 騣	se
 驨	sb
-騄	se
 駟	sc
 騍	sd
 駰	sk
@@ -16801,7 +16446,6 @@ vocabulary: essay-cantonese
 鬎	sn
 鬆	si
 髲	se
-鬎	sn
 髿	sh
 髾	sb
 鬈	su
@@ -16845,7 +16489,6 @@ vocabulary: essay-cantonese
 凥	sn
 髳	sh
 鄝	sl
-鬇	sd
 屩	sb
 髹	sd
 屧	sd
@@ -16907,7 +16550,6 @@ vocabulary: essay-cantonese
 镹	so
 忍	sp
 慰	sp
-匾	sb
 镼	su
 匥	st
 彠	se
@@ -17055,7 +16697,6 @@ vocabulary: essay-cantonese
 翬	sj
 翚	sq
 帚	sb
-監	st
 翂	sh
 翍	se
 寻	si
@@ -17141,7 +16782,6 @@ vocabulary: essay-cantonese
 刟	sn
 剾	sn
 頵	sc
-聖	sg
 甌	sn
 孠	sd
 郡	sl
@@ -17193,9 +16833,6 @@ vocabulary: essay-cantonese
 屫	sb
 匨	sg
 郾	sl
-邔	sl
-改	sk
-妀	sv
 屇	sw
 鹽	st
 覽	su
@@ -17329,7 +16966,6 @@ vocabulary: essay-cantonese
 苜	tu
 蔝	td
 蘨	tf
-繤	tf
 萈	ti
 藈	tk
 薡	tl
@@ -17635,7 +17271,6 @@ vocabulary: essay-cantonese
 蒑	te
 薂	tk
 蔰	tu
-蘈	tc
 蒐	ti
 蒠	tp
 蘶	ti
@@ -17659,9 +17294,6 @@ vocabulary: essay-cantonese
 蘑	tr
 蘼	ty
 蔴	td
-藦	tq
-蘑	tr
-蘼	ty
 茂	th
 鷷	tf
 鷀	tf
@@ -17676,7 +17308,6 @@ vocabulary: essay-cantonese
 蔵	ts
 葳	tv
 菚	ti
-蓢	tb
 蔘	th
 蓈	tl
 茙	tj
@@ -17707,10 +17338,6 @@ vocabulary: essay-cantonese
 鹚	tm
 苔	tr
 葈	td
-芦	ts
-萹	tb
-菺	tb
-蔰	tu
 蓆	tb
 薕	tc
 蔗	tf
@@ -17749,7 +17376,6 @@ vocabulary: essay-cantonese
 芰	te
 鞜	ta
 蘻	tf
-靫	ti
 靫	ti
 鞘	tb
 鞺	tg
@@ -17877,7 +17503,6 @@ vocabulary: essay-cantonese
 芖	tk
 蔱	te
 檠	td
-蔱	te
 苃	te
 蕏	ta
 鶧	tf
@@ -17988,7 +17613,6 @@ vocabulary: essay-cantonese
 茿	tn
 荎	tg
 芉	tj
-菾	tp
 勤	ts
 苈	ts
 芜	tu
@@ -17998,7 +17622,6 @@ vocabulary: essay-cantonese
 兰	tm
 其	tc
 芸	ti
-茨	to
 葝	ts
 芌	ts
 芫	tu
@@ -18034,7 +17657,6 @@ vocabulary: essay-cantonese
 蓐	ti
 莖	tm
 蔈	tf
-蘸	tf
 蕈	tj
 薑	tm
 蓜	tu
@@ -18103,7 +17725,6 @@ vocabulary: essay-cantonese
 蕟	te
 葵	tk
 茎	tm
-蔃	ti
 葞	tj
 莻	tp
 萾	tt
@@ -18280,12 +17901,9 @@ vocabulary: essay-cantonese
 菢	tu
 荴	to
 苇	ts
-蔜	tk
 翔	tm
 萔	tr
 羴	tq
-羌	tu
-羰	tf
 羰	tf
 蘀	tj
 譱	tr
@@ -18308,7 +17926,6 @@ vocabulary: essay-cantonese
 敬	tk
 敾	tk
 荶	tn
-莒	tr
 雚	tg
 蕇	tj
 虈	tr
@@ -18317,7 +17934,6 @@ vocabulary: essay-cantonese
 葭	te
 葺	tj
 莂	tn
-茣	tk
 苠	tp
 莡	to
 苉	tc
@@ -18349,7 +17965,6 @@ vocabulary: essay-cantonese
 蓼	th
 蕁	ti
 荨	ti
-藍	tt
 萇	tv
 荩	ty
 懃	tp
@@ -18364,7 +17979,6 @@ vocabulary: essay-cantonese
 卌	tt
 葥	tn
 並	tc
-虁	te
 藄	tf
 蘣	tg
 蘳	tg
@@ -18380,7 +17994,6 @@ vocabulary: essay-cantonese
 丼	ti
 蘜	td
 蓳	tm
-荆	tn
 苷	tm
 頩	tc
 萁	tc
@@ -18392,7 +18005,6 @@ vocabulary: essay-cantonese
 鄷	tl
 鹢	tm
 蒫	tm
-善	tr
 剙	tc
 刱	ti
 剏	ti
@@ -18455,7 +18067,6 @@ vocabulary: essay-cantonese
 莼	tu
 蘠	tw
 葘	tw
-菉	te
 夦	tn
 歁	to
 蒃	to
@@ -18551,7 +18162,6 @@ vocabulary: essay-cantonese
 荠	tl
 萕	tl
 莲	tq
-芾	tb
 荹	th
 芷	tm
 蘃	td
@@ -18798,7 +18408,6 @@ vocabulary: essay-cantonese
 峏	ul
 嶀	us
 巎	ue
-炭	uf
 岼	uj
 岯	um
 崖	ug
@@ -18852,7 +18461,6 @@ vocabulary: essay-cantonese
 嵥	ud
 凾	ue
 巉	ui
-嵹	ui
 峥	ud
 翙	um
 崔	ug
@@ -18990,8 +18598,6 @@ vocabulary: essay-cantonese
 嵭	us
 巐	ut
 峧	uk
-嵃	uh
-嵼	um
 嵃	uh
 嵼	um
 訔	ur
@@ -19203,7 +18809,6 @@ vocabulary: essay-cantonese
 紙	vp
 綼	vj
 總	vp
-綹	vr
 縛	vi
 絉	vd
 縬	vf
@@ -19226,8 +18831,6 @@ vocabulary: essay-cantonese
 紿	vr
 緎	vm
 緿	vp
-編	vb
-綟	vk
 纊	vc
 纏	vg
 纒	vg
@@ -19297,7 +18900,6 @@ vocabulary: essay-cantonese
 紑	vf
 緻	vk
 縓	vf
-縉	va
 絰	vg
 緉	vb
 綆	vk
@@ -19309,7 +18911,6 @@ vocabulary: essay-cantonese
 經	vm
 縹	vf
 緾	vg
-纒	vg
 緸	vg
 緬	vl
 繮	vm
@@ -19389,7 +18990,6 @@ vocabulary: essay-cantonese
 縜	vc
 絽	vr
 緡	va
-絽	vr
 繰	vd
 繟	vj
 縀	ve
@@ -19405,7 +19005,6 @@ vocabulary: essay-cantonese
 緅	ve
 綅	ve
 繆	vh
-繿	vt
 紀	vu
 纜	vu
 縸	vk
@@ -19422,7 +19021,6 @@ vocabulary: essay-cantonese
 縒	vm
 縙	vj
 絣	vt
-繕	vr
 緢	vw
 繜	vi
 繷	vv
@@ -19608,9 +19206,7 @@ vocabulary: essay-cantonese
 以	vo
 娭	vk
 始	vr
-妒	vs
 幻	vs
-媥	vb
 嬚	vc
 嫬	vf
 乣	vu
@@ -19885,7 +19481,6 @@ vocabulary: essay-cantonese
 婏	vi
 娩	vu
 媍	vc
-嫓	vp
 好	vd
 妳	vf
 煭	vf
@@ -19910,7 +19505,6 @@ vocabulary: essay-cantonese
 奺	vo
 婿	vb
 嬁	vt
-婙	vd
 嬎	vm
 嬔	vm
 妈	vm
@@ -20037,7 +19631,6 @@ vocabulary: essay-cantonese
 姘	vt
 妌	vt
 媾	vb
-嫸	vr
 嬨	vp
 媌	vw
 嫌	vc
@@ -20049,7 +19642,6 @@ vocabulary: essay-cantonese
 媺	vk
 孈	vb
 雝	vg
-媺	vk
 奻	vv
 巜	vv
 災	vf
@@ -20098,7 +19690,6 @@ vocabulary: essay-cantonese
 妨	vs
 嬂	va
 妏	vk
-姉	vb
 娮	vr
 嫭	vd
 婋	vn
@@ -20336,7 +19927,6 @@ vocabulary: essay-cantonese
 囫	wh
 畇	wm
 顋	wc
-畇	wm
 毗	wp
 毘	wp
 囤	wu
@@ -20349,7 +19939,6 @@ vocabulary: essay-cantonese
 圆	wo
 圖	ww
 囻	wp
-圖	ww
 囙	ws
 囬	wl
 疁	wh
@@ -20431,7 +20020,6 @@ vocabulary: essay-cantonese
 帝	yb
 啻	yr
 睿	yu
-望	yg
 遯	yo
 迵	yr
 甋	yn
@@ -20445,7 +20033,6 @@ vocabulary: essay-cantonese
 敵	yk
 遙	yu
 遥	yu
-啻	yr
 迥	yr
 邎	yf
 髞	yd
@@ -20496,7 +20083,6 @@ vocabulary: essay-cantonese
 親	yu
 亸	yj
 鶉	yf
-鶐	yf
 虨	yh
 新	yl
 过	yi
@@ -20625,7 +20211,6 @@ vocabulary: essay-cantonese
 逘	yk
 迨	yr
 袬	yv
-遍	yb
 弃	yt
 棄	yd
 遮	yf
@@ -20685,7 +20270,6 @@ vocabulary: essay-cantonese
 斒	yb
 迏	yi
 斏	yv
-斒	yb
 逩	yt
 効	ys
 螡	yi
@@ -20745,7 +20329,6 @@ vocabulary: essay-cantonese
 逦	yb
 赟	yo
 贇	yc
-覷	yu
 覰	yu
 迺	yw
 逎	yw
@@ -20783,7 +20366,6 @@ vocabulary: essay-cantonese
 迃	ys
 远	yu
 迾	yn
-歔	yo
 欤	yo
 仧	yo
 此	yp
@@ -20908,7 +20490,6 @@ vocabulary: essay-cantonese
 呰	yr
 虞	yk
 啙	yr
-虞	yk
 聾	yj
 虐	ym
 驡	yf
@@ -20918,7 +20499,6 @@ vocabulary: essay-cantonese
 龔	yc
 虡	yc
 虛	ym
-虡	yc
 迍	yu
 袌	yv
 姕	yv
@@ -20937,7 +20517,6 @@ vocabulary: essay-cantonese
 亵	yv
 逰	yd
 违	ys
-遨	yk
 占	yr
 亯	ya
 誯	ya
@@ -20999,7 +20578,6 @@ vocabulary: essay-cantonese
 誻	ya
 諁	ye
 訍	yi
-訍	yi
 京	yf
 点	yf
 誚	yb
@@ -21041,7 +20619,6 @@ vocabulary: essay-cantonese
 話	yr
 訞	yk
 譑	yb
-譭	ye
 訢	yl
 詬	yr
 訴	yy
@@ -21087,8 +20664,6 @@ vocabulary: essay-cantonese
 諮	yr
 試	ym
 詒	yr
-諞	yb
-謆	ym
 誡	yt
 譧	yc
 謶	yf
@@ -21136,7 +20711,6 @@ vocabulary: essay-cantonese
 謣	ys
 訏	yd
 評	yj
-逞	yg
 讍	yr
 謜	yf
 讈	ym
@@ -21149,7 +20723,6 @@ vocabulary: essay-cantonese
 訂	yn
 訶	yr
 誣	yo
-諮	yr
 謌	yr
 諨	yw
 諑	yo
@@ -21173,7 +20746,6 @@ vocabulary: essay-cantonese
 誃	yn
 詺	yr
 訊	yj
-譀	yk
 誔	yg
 誕	ym
 誕	yv
@@ -21186,7 +20758,6 @@ vocabulary: essay-cantonese
 證	yt
 謋	yd
 讒	yi
-諍	yd
 誸	yi
 訥	yb
 詂	yi
@@ -21236,7 +20807,6 @@ vocabulary: essay-cantonese
 諘	yv
 譛	ya
 讃	yc
-謸	yk
 郶	yu
 詋	yu
 誤	yk
@@ -21249,7 +20819,6 @@ vocabulary: essay-cantonese
 遻	yu
 譔	yc
 襄	yv
-誤	yk
 譝	yu
 遐	ye
 訒	yi
@@ -21342,7 +20911,6 @@ vocabulary: essay-cantonese
 訪	ys
 識	ya
 謰	yj
-諺	yh
 讉	yc
 訨	ym
 譴	yr
@@ -21480,7 +21048,6 @@ vocabulary: essay-cantonese
 竰	yg
 竳	yt
 竒	yr
-竫	yd
 遳	yg
 竛	yi
 遂	yo
@@ -21514,15 +21081,12 @@ vocabulary: essay-cantonese
 齳	yj
 齟	ym
 龃	ym
-贙	yc
-覤	yu
 齽	yf
 齼	yo
 導	yi
 叡	ye
 壡	yg
 鷲	yf
-彪	yh
 齲	yb
 龋	yb
 齗	yl
@@ -21530,7 +21094,6 @@ vocabulary: essay-cantonese
 齭	yl
 齨	yx
 齯	yu
-虥	yi
 齝	yr
 齻	yc
 离	yb
@@ -21543,14 +21106,12 @@ vocabulary: essay-cantonese
 齡	yi
 龄	yi
 齢	yi
-虪	yf
 齘	yl
 齕	yn
 龁	yn
 齚	ys
 齔	yp
 龀	yp
-虝	yh
 齣	yr
 齙	yu
 龅	yu
@@ -21570,7 +21131,6 @@ vocabulary: essay-cantonese
 龌	yg
 齰	ya
 齸	yt
-甝	ym
 齓	yu
 鼑	yl
 鼑	yn
@@ -21604,7 +21164,6 @@ vocabulary: essay-cantonese
 畜	yw
 勷	ys
 蝱	yi
-逯	ye
 邙	yl
 膐	yo
 賌	yc
@@ -22175,7 +21734,6 @@ vocabulary: essay-cantonese
 槩	xd
 毜	xf
 鶞	xa
-鷉	xa
 兟	xg
 郋	xl
 氇	xw
@@ -22257,7 +21815,6 @@ vocabulary: essay-cantonese
 鶱	xf
 蹇	xo
 枽	xd
-鴧	xa
 勊	xs
 剋	xn
 鴳	xa
@@ -22276,7 +21833,6 @@ vocabulary: essay-cantonese
 疢	xf
 痜	xn
 獆	xa
-猏	xs
 猏	xs
 狲	xd
 癓	xk
@@ -22324,13 +21880,10 @@ vocabulary: essay-cantonese
 衶	xl
 粛	xl
 牑	xs
-牑	xs
 刂	xn
 版	xe
-牑	xs
 鬮	xx
 牋	xi
-牑	xs
 闼	xk
 襨	xi
 乚	xu
@@ -22437,7 +21990,6 @@ vocabulary: essay-cantonese
 鱴	xw
 弘	xi
 酁	xl
-憨	xp
 弔	xl
 隲	xh
 陜	xo
@@ -22504,7 +22056,6 @@ vocabulary: essay-cantonese
 慜	xp
 佑	xr
 个	xl
-鯈	xf
 鯈	xf
 倏	xk
 仝	xm
@@ -22617,7 +22168,6 @@ vocabulary: essay-cantonese
 焘	xf
 搣	xf
 攗	xd
-揙	xb
 丯	xj
 摉	xn
 攨	xo
@@ -22764,7 +22314,6 @@ vocabulary: essay-cantonese
 蒯	xn
 顢	xb
 蒄	xi
-繤	xf
 业	xc
 朞	xb
 鷬	xa
@@ -22801,7 +22350,6 @@ vocabulary: essay-cantonese
 蒧	xr
 蔵	xs
 芅	xp
-菺	xb
 丗	xj
 帯	xl
 萓	xm
@@ -22954,7 +22502,6 @@ vocabulary: essay-cantonese
 縯	xm
 繍	xl
 綇	xc
-纒	xw
 絻	xa
 繦	xr
 縆	xm
@@ -23037,8 +22584,6 @@ vocabulary: essay-cantonese
 鴟	xh
 鷎	xh
 翶	xs
-鴟	xh
-鷎	xh
 筇	xn
 凩	xd
 惥	xp
@@ -23077,7 +22622,6 @@ vocabulary: essay-cantonese
 鵶	xh
 忈	xp
 乁	xo
-栥	xd
 堕	xg
 勈	xk
 阝	xl
@@ -23094,7 +22638,6 @@ vocabulary: essay-cantonese
 儵	xh
 儵	xo
 仜	xm
-亇	xn
 伈	xp
 钡	xb
 钆	xu
@@ -23144,13 +22687,11 @@ vocabulary: essay-cantonese
 鵳	xb
 鴭	xr
 頢	xr
-鵳	xb
 麀	xp
 鴯	xb
 玊	xg
 鴊	xm
 忢	xm
-頢	xr
 仦	xf
 倐	xl
 亼	xm
@@ -23193,7 +22734,6 @@ vocabulary: essay-cantonese
 鶐	xa
 奕	xk
 戇	xp
-鶐	xa
 敹	xk
 褎	xv
 顏	xb
@@ -23790,12 +23330,10 @@ vocabulary: essay-cantonese
 ︽	zw
 ︾	zx
 〈	zy
-〉	za
 ︿	zb
 ﹀	zc
 「	zd
 」	ze
-﹁	zf
 ﹂	zg
 『	zh
 』	zi
@@ -24002,7 +23540,6 @@ vocabulary: essay-cantonese
 䬗	ai
 㦹	ai
 㬖	ar
-㫟	ar
 㫝	am
 㫹	al
 㫝	ai
@@ -24029,8 +23566,6 @@ vocabulary: essay-cantonese
 㬐	aa
 㝵	ai
 㬄	ac
-㬐	aa
-㫤	ae
 㬏	ab
 㫫	ac
 㫕	au
@@ -24057,7 +23592,6 @@ vocabulary: essay-cantonese
 䦭	aa
 䦚	ar
 䦧	au
-䦱	af
 㫥	ar
 䦡	ar
 㬠	af
@@ -24120,7 +23654,6 @@ vocabulary: essay-cantonese
 㔠	as
 㓭	an
 䫘	ac
-㫽	ae
 䨃	ag
 㬂	ab
 㬅	as
@@ -24170,7 +23703,6 @@ vocabulary: essay-cantonese
 䯐	bo
 䯍	bi
 䯤	ba
-䯎	bj
 䯗	bg
 㬹	bd
 䯌	bn
@@ -24180,7 +23712,6 @@ vocabulary: essay-cantonese
 䯆	bu
 䏹	bu
 䯚	bb
-䯠	bt
 㓁	bc
 䴍	bf
 䞈	bf
@@ -24190,7 +23721,6 @@ vocabulary: essay-cantonese
 䝰	bi
 㲘	bu
 䝵	bb
-䞈	bf
 䐥	bm
 䐋	bp
 䝹	bu
@@ -24206,7 +23736,6 @@ vocabulary: essay-cantonese
 䞀	bk
 䝯	bd
 䝫	bs
-䝧	bm
 䝧	bm
 䝭	br
 䝼	bb
@@ -24266,13 +23795,11 @@ vocabulary: essay-cantonese
 䏎	bi
 䐫	bo
 䝟	bk
-㬶	br
 䏨	br
 䝙	bk
 䝚	bp
 䝡	bb
 䑄	bl
-䝦	bo
 䑂	bc
 䝞	bn
 䝞	bu
@@ -24281,7 +23808,6 @@ vocabulary: essay-cantonese
 䏼	bi
 䏵	bh
 䐔	bb
-䏵	bh
 䐜	bc
 䐈	bm
 䏞	bd
@@ -24305,7 +23831,6 @@ vocabulary: essay-cantonese
 䐹	bx
 䐓	bc
 䏏	bd
-䏕	bg
 䪶	bc
 䏡	bf
 䏸	br
@@ -24325,7 +23850,6 @@ vocabulary: essay-cantonese
 䐂	be
 䐞	bm
 䢆	bi
-㬹	bd
 䐳	bf
 䞎	ba
 䏑	bo
@@ -24344,7 +23868,6 @@ vocabulary: essay-cantonese
 䞏	bp
 䏟	bh
 䐇	ba
-䏛	bm
 䏛	bm
 䏶	bg
 䐑	bd
@@ -24380,7 +23903,6 @@ vocabulary: essay-cantonese
 䐽	bb
 䐵	bc
 䐙	bj
-䐵	bc
 㬸	bp
 㒺	bv
 䑆	bv
@@ -24507,7 +24029,6 @@ vocabulary: essay-cantonese
 䁴	bm
 㼏	bo
 䑈	bd
-䐂	be
 䨉	bg
 㬷	bd
 䤚	bg
@@ -24520,7 +24041,6 @@ vocabulary: essay-cantonese
 㬵	bk
 㬿	bk
 䐮	bm
-䐮	bm
 䑊	bc
 䚻	br
 䢷	bl
@@ -24529,7 +24049,6 @@ vocabulary: essay-cantonese
 㓃	bp
 䑋	bv
 䏠	bt
-䵊	bc
 䵊	bc
 䏽	br
 䥵	cu
@@ -24563,7 +24082,6 @@ vocabulary: essay-cantonese
 䲲	cf
 䤞	cu
 䥝	cp
-䥇	cm
 䤹	ce
 䥱	cf
 䤩	cp
@@ -24609,7 +24127,6 @@ vocabulary: essay-cantonese
 㞃	cu
 䜮	cq
 䜪	cn
-䤢	cs
 䜬	cw
 䜫	cm
 䜯	cd
@@ -24639,7 +24156,6 @@ vocabulary: essay-cantonese
 䤧	cr
 䥧	cu
 䥥	cc
-䥧	cu
 䥦	cb
 䤮	ch
 䤠	cm
@@ -24671,7 +24187,6 @@ vocabulary: essay-cantonese
 㯟	de
 㯃	de
 䠂	do
-㯟	de
 㪔	de
 㰈	dj
 㭼	da
@@ -24803,7 +24318,6 @@ vocabulary: essay-cantonese
 㯓	dm
 㯷	do
 㮆	dq
-㰜	dc
 㮓	dm
 㰑	dd
 㮲	du
@@ -24860,7 +24374,6 @@ vocabulary: essay-cantonese
 㯞	db
 㭃	di
 㯍	di
-㰘	dt
 㭮	dn
 㯿	dv
 㮨	de
@@ -24879,7 +24392,6 @@ vocabulary: essay-cantonese
 㯙	dk
 㯈	dl
 㰋	dc
-㯆	dm
 㯆	dm
 㯌	do
 㯉	dd
@@ -25013,7 +24525,6 @@ vocabulary: essay-cantonese
 㵳	eh
 㲼	ek
 㳒	ei
-㳗	eg
 㵔	ea
 㳍	eb
 㴎	ef
@@ -25037,7 +24548,6 @@ vocabulary: essay-cantonese
 㴂	eb
 㴛	ek
 㳥	et
-㴳	eh
 㴿	ec
 㳁	eo
 㴻	ei
@@ -25183,7 +24693,6 @@ vocabulary: essay-cantonese
 䊜	fi
 䊀	fr
 䊛	fe
-䊛	fe
 㸊	fc
 䊧	fc
 䊘	fb
@@ -25202,7 +24711,6 @@ vocabulary: essay-cantonese
 䊟	fb
 䊣	fc
 䊔	fk
-䊣	fc
 䊪	fb
 䊋	fg
 䊫	fy
@@ -25318,7 +24826,6 @@ vocabulary: essay-cantonese
 㱿	ge
 䐨	ge
 䶲	gu
-䶲	gu
 䎃	gm
 䵺	gl
 㚃	gt
@@ -25411,7 +24918,6 @@ vocabulary: essay-cantonese
 㘨	gb
 䞴	gr
 䞯	gd
-䞴	gr
 䤰	gc
 䞱	gr
 䞗	gh
@@ -25571,7 +25077,6 @@ vocabulary: essay-cantonese
 㽇	hn
 䎗	hm
 䮸	hf
-䈀	hn
 䵵	hf
 䉵	hv
 䇗	hi
@@ -25799,7 +25304,6 @@ vocabulary: essay-cantonese
 䰡	ho
 㲳	hu
 䰦	hj
-䈧	hf
 䉊	hj
 㔟	hs
 䖸	hi
@@ -25818,7 +25322,6 @@ vocabulary: essay-cantonese
 㪆	he
 䰧	hn
 䰧	hu
-䈿	hc
 䈯	hc
 䈒	hj
 䚌	hu
@@ -25906,7 +25409,6 @@ vocabulary: essay-cantonese
 䇟	hs
 䬂	hv
 䬒	he
-䬒	he
 䬁	hp
 䬊	ho
 䬅	hs
@@ -25934,7 +25436,6 @@ vocabulary: essay-cantonese
 䫸	hh
 䫿	hr
 䬚	hf
-䬝	hc
 䬝	hc
 䬀	hs
 䬑	hb
@@ -25997,7 +25498,6 @@ vocabulary: essay-cantonese
 䈜	he
 㣯	hb
 䉑	hf
-㣴	hc
 㣴	hc
 㣸	hm
 㼓	hc
@@ -26083,7 +25583,6 @@ vocabulary: essay-cantonese
 㔚	hs
 㓢	hn
 䫠	hc
-䇸	hg
 㰶	ho
 䧼	hg
 䑜	hd
@@ -26130,7 +25629,6 @@ vocabulary: essay-cantonese
 䄟	hf
 㦌	hp
 㲓	hi
-䫢	hc
 䫁	hc
 䈄	he
 㲌	hs
@@ -26210,8 +25708,6 @@ vocabulary: essay-cantonese
 䑢	hu
 䑥	he
 䑠	hn
-䑮	hd
-䶱	hu
 䑧	hi
 䉨	he
 䧷	hg
@@ -26343,7 +25839,6 @@ vocabulary: essay-cantonese
 㐣	in
 䏿	ib
 䁈	iu
-䳊	if
 㹜	ik
 㢊	ir
 㥷	ip
@@ -26400,7 +25895,6 @@ vocabulary: essay-cantonese
 䴟	ii
 䴤	im
 䴪	ie
-䴪	ie
 䴥	ir
 䘅	ii
 䫲	ic
@@ -26439,7 +25933,6 @@ vocabulary: essay-cantonese
 䜣	il
 䜨	ip
 䜥	im
-㓪	ih
 䜧	im
 䜤	ic
 䜩	if
@@ -26501,7 +25994,6 @@ vocabulary: essay-cantonese
 䆙	jm
 䇁	jq
 䆷	jb
-䆻	jk
 䆸	jt
 䆴	ju
 䨈	jg
@@ -26550,7 +26042,6 @@ vocabulary: essay-cantonese
 䧴	jg
 䴯	jh
 䵆	jo
-䵃	jc
 䵃	jc
 䴾	jm
 䴵	jt
@@ -26775,11 +26266,9 @@ vocabulary: essay-cantonese
 㹾	kr
 㹝	kp
 㺞	kc
-㹾	kr
 㺂	kr
 㹽	ki
 㺑	kh
-㺔	kf
 㺆	ko
 㺎	kb
 㹹	ko
@@ -26802,7 +26291,6 @@ vocabulary: essay-cantonese
 㹴	kk
 㹳	kr
 㹵	km
-㺖	kk
 㹶	kg
 㺅	kk
 㺥	ki
@@ -26930,7 +26418,6 @@ vocabulary: essay-cantonese
 㾬	ka
 䢁	kb
 䢀	kn
-㾲	kk
 䢂	kt
 㾓	kb
 㿲	ke
@@ -26944,7 +26431,6 @@ vocabulary: essay-cantonese
 㤎	kp
 㧝	kq
 㔔	kr
-㾔	kr
 㿋	kd
 㖙	kp
 㔖	ks
@@ -26967,22 +26453,10 @@ vocabulary: essay-cantonese
 㾾	kc
 㚎	ku
 㞭	ku
-㞁	kp
-㞂	kv
-㝿	ke
-㝽	ke
 㿂	kk
-㞈	kb
-㞀	kf
-㞄	ku
-㝾	km
-㞆	kr
 㝼	kd
 䣍	kl
-㞉	km
 㽾	ku
-㞅	kd
-㞇	kv
 㪑	ke
 㪺	kj
 㿈	kg
@@ -27249,7 +26723,6 @@ vocabulary: essay-cantonese
 䘶	le
 䧵	lg
 䫫	lc
-䘵	le
 䣚	ll
 㪹	lj
 䙟	lq
@@ -27360,7 +26833,6 @@ vocabulary: essay-cantonese
 㔄	mn
 㪀	mk
 䊲	mm
-䊲	mm
 䀾	mu
 㱊	mo
 䬸	mv
@@ -27430,7 +26902,6 @@ vocabulary: essay-cantonese
 㻜	mo
 㻡	md
 㻰	ms
-㻍	mk
 㻍	mk
 䑒	mi
 㻓	me
@@ -27534,7 +27005,6 @@ vocabulary: essay-cantonese
 䊄	md
 㱥	me
 㱶	mh
-䅃	md
 㱡	mu
 㱭	me
 㱱	mi
@@ -27544,23 +27014,19 @@ vocabulary: essay-cantonese
 㱧	mu
 㱠	mr
 㱵	mc
-䡗	mj
 㱰	mj
 㱦	mr
 㡂	mb
 㱮	mo
 㱹	mm
 㱛	mi
-䂬	mr
 㼗	mn
-㼦	mn
 㱙	ms
 㐉	mn
 㱷	md
 㤠	mp
 㘸	mg
 䴕	mm
-㧬	mq
 㱴	mc
 㠫	mo
 㐓	mn
@@ -27632,7 +27098,6 @@ vocabulary: essay-cantonese
 䂝	mi
 䃺	my
 䂯	mg
-䃣	mf
 䃯	md
 㢦	mp
 䂸	mm
@@ -27689,7 +27154,6 @@ vocabulary: essay-cantonese
 䜳	mv
 䃩	mv
 䃬	mi
-䃗	mn
 䃳	mv
 䂺	md
 䂩	mk
@@ -27745,7 +27209,6 @@ vocabulary: essay-cantonese
 䲮	mf
 䲶	mf
 㓰	mn
-䪲	mc
 㒬	mg
 㒮	mo
 㤅	mp
@@ -27783,12 +27246,10 @@ vocabulary: essay-cantonese
 䣾	mm
 䤇	me
 䣫	me
-䤇	me
 䩊	mu
 䙲	mk
 䩍	mf
 䣦	ms
-䙴	mu
 㕅	ml
 䤏	mq
 䣿	mt
@@ -27824,7 +27285,6 @@ vocabulary: essay-cantonese
 䤀	mr
 䤍	mb
 䤑	mc
-䤑	mc
 䤂	md
 䤁	mv
 䤊	mj
@@ -27852,7 +27312,6 @@ vocabulary: essay-cantonese
 䚛	nr
 䚚	nu
 䚩	nb
-䚛	nr
 䚜	nj
 䚦	nn
 䚦	nu
@@ -27917,7 +27376,6 @@ vocabulary: essay-cantonese
 䱠	ni
 䱶	nl
 䱛	nm
-䱶	nl
 䰽	nb
 䱿	nl
 䱞	nf
@@ -27936,7 +27394,6 @@ vocabulary: essay-cantonese
 䰵	nd
 䲜	nf
 䱤	nx
-䲎	nk
 䱓	ng
 䲊	nb
 䱚	ne
@@ -27978,7 +27435,6 @@ vocabulary: essay-cantonese
 䰲	nu
 䱺	nt
 䱂	ns
-䱚	ne
 䱲	no
 䲃	nd
 䱱	nb
@@ -28018,7 +27474,6 @@ vocabulary: essay-cantonese
 䧓	nr
 䧦	nf
 䧟	nx
-䧓	nr
 䧋	nu
 䧌	nv
 䧍	nr
@@ -28026,7 +27481,6 @@ vocabulary: essay-cantonese
 䧒	no
 䧏	nj
 䧄	nr
-䧊	nr
 䧊	nr
 䧭	np
 䧖	ni
@@ -28045,13 +27499,11 @@ vocabulary: essay-cantonese
 䦿	nl
 䧈	nw
 䧩	nk
-䧈	nw
 䦺	nn
 䧣	nf
 䦻	nd
 䧰	nf
 䦽	nn
-䧩	nk
 䧯	ni
 䧗	ne
 䧔	np
@@ -28080,7 +27532,6 @@ vocabulary: essay-cantonese
 㢶	na
 㣆	ng
 䰜	nn
-䲤	nw
 䲟	nl
 㢨	nj
 䯃	nv
@@ -28097,7 +27548,6 @@ vocabulary: essay-cantonese
 㣅	na
 㢾	ng
 䲞	nt
-㚋	nr
 㚋	nr
 㮗	nd
 㩼	ne
@@ -28145,7 +27595,6 @@ vocabulary: essay-cantonese
 䣀	nl
 㽜	nw
 䭪	ng
-䗺	ni
 㢴	nk
 㢴	ni
 㣃	nn
@@ -28234,7 +27683,6 @@ vocabulary: essay-cantonese
 䬧	ou
 䭙	oa
 䬷	on
-䭛	ok
 䭈	oq
 䭃	op
 䭝	oa
@@ -28324,7 +27772,6 @@ vocabulary: essay-cantonese
 㑱	od
 㐴	oi
 㒱	oi
-㒈	ok
 䫛	oc
 㔕	os
 㲴	ol
@@ -28364,7 +27811,6 @@ vocabulary: essay-cantonese
 䥾	om
 㐌	od
 䥿	os
-䦂	om
 䦂	om
 䥽	oe
 䦄	ov
@@ -28525,7 +27971,6 @@ vocabulary: essay-cantonese
 㤹	pe
 㤶	ph
 㦐	pc
-㤶	ph
 㦇	pp
 㤄	pb
 㥀	pm
@@ -28557,8 +28002,6 @@ vocabulary: essay-cantonese
 㤱	pt
 㤉	ph
 㥼	pf
-㥛	pm
-㦑	pk
 㦕	pm
 㦩	pp
 㥠	pb
@@ -28634,7 +28077,6 @@ vocabulary: essay-cantonese
 㧏	qk
 㧇	qm
 䴖	qm
-㨄	qr
 䨼	qe
 㩴	qg
 㨙	qk
@@ -28803,7 +28245,6 @@ vocabulary: essay-cantonese
 㩚	qo
 㨾	qe
 㩘	qi
-㨲	qd
 㨺	qb
 㨷	qm
 㨅	qb
@@ -28813,7 +28254,6 @@ vocabulary: essay-cantonese
 㩢	qi
 㧄	qu
 㨑	qe
-㨏	qf
 㨏	qf
 㨟	qt
 㩗	qs
@@ -28840,7 +28280,6 @@ vocabulary: essay-cantonese
 㧤	qu
 㧧	qu
 㨈	ql
-㩬	qi
 㧗	qp
 㨜	qk
 㩀	qk
@@ -29019,7 +28458,6 @@ vocabulary: essay-cantonese
 䠰	rg
 䠜	rj
 䟖	ru
-䟿	re
 䠪	ri
 䟧	rw
 㗚	rd
@@ -29091,7 +28529,6 @@ vocabulary: essay-cantonese
 㗕	rb
 㘂	rp
 㖆	rw
-㙱	rg
 㱼	re
 㕳	rk
 㖤	re
@@ -29102,7 +28539,6 @@ vocabulary: essay-cantonese
 㒭	ru
 㗀	ri
 㕽	ro
-㖨	re
 㖥	rd
 㘁	rj
 㗄	rs
@@ -29178,7 +28614,6 @@ vocabulary: essay-cantonese
 䮅	sv
 䭴	sj
 䮟	se
-䮟	se
 䮮	sn
 䮿	so
 䮨	sj
@@ -29207,12 +28642,10 @@ vocabulary: essay-cantonese
 䮀	su
 䮜	sd
 䮞	sa
-䮯	sk
 䣖	su
 䯂	sd
 䯀	sj
 䮬	sk
-䮲	sc
 䮲	sc
 䮗	sj
 䮷	si
@@ -29235,7 +28668,6 @@ vocabulary: essay-cantonese
 䰂	sd
 䯾	sr
 䯶	sm
-䯾	sr
 㞒	su
 䯳	si
 䰍	se
@@ -29266,7 +28698,6 @@ vocabulary: essay-cantonese
 䰆	sd
 䯮	ss
 䰁	se
-㔯	sr
 㞛	sa
 䯰	sl
 㞞	so
@@ -29278,7 +28709,6 @@ vocabulary: essay-cantonese
 䰈	sm
 䰃	sc
 㞙	se
-䰁	se
 䰄	sp
 㔱	so
 㔸	sn
@@ -29293,7 +28723,6 @@ vocabulary: essay-cantonese
 䫮	sc
 㻨	si
 䜿	st
-䦋	sk
 䦉	sc
 䦊	sf
 䏉	sf
@@ -29301,7 +28730,6 @@ vocabulary: essay-cantonese
 䏃	sc
 䎻	sr
 䏅	sf
-䎻	sr
 䏀	sn
 㵨	se
 䎺	sn
@@ -29323,7 +28751,6 @@ vocabulary: essay-cantonese
 䎴	st
 䏆	sa
 䏈	sf
-䎼	se
 䏊	sp
 㞠	sf
 䪳	sc
@@ -29354,7 +28781,6 @@ vocabulary: essay-cantonese
 䎌	so
 䎎	su
 㞘	so
-䎑	se
 㞌	sd
 㞔	sn
 㔰	sy
@@ -29419,8 +28845,6 @@ vocabulary: essay-cantonese
 㮍	td
 䓨	tu
 䔄	tu
-䓟	tr
-䕎	tw
 䒟	ty
 䖁	tp
 䒔	tc
@@ -29513,7 +28937,6 @@ vocabulary: essay-cantonese
 䕗	tl
 䒢	tl
 䕟	tc
-䓘	tr
 䕷	tf
 䔃	tm
 䔗	tq
@@ -29563,7 +28986,6 @@ vocabulary: essay-cantonese
 䩘	ti
 䔰	tw
 䩑	tn
-䩯	tm
 䩠	tg
 䩥	tm
 䩥	tv
@@ -29585,13 +29007,11 @@ vocabulary: essay-cantonese
 䪁	to
 䪇	ti
 䪄	tc
-䪄	tc
 䩸	tj
 䪆	tt
 䩶	ti
 䪎	tb
 㜸	tv
-䩮	te
 䪉	tv
 䪅	ti
 䪊	tp
@@ -29606,7 +29026,6 @@ vocabulary: essay-cantonese
 䩙	ti
 䒴	tb
 䚆	tu
-䓭	tn
 䓭	tn
 䔆	tg
 䓄	tl
@@ -29676,7 +29095,6 @@ vocabulary: essay-cantonese
 䒭	ti
 䕬	tm
 䔲	tt
-䒳	td
 䔡	tf
 䓲	tu
 䔑	tj
@@ -29828,7 +29246,6 @@ vocabulary: essay-cantonese
 㼷	un
 㟊	ud
 䣙	ul
-㟘	ur
 㟠	uu
 㟎	uv
 㪜	ue
@@ -29839,7 +29256,6 @@ vocabulary: essay-cantonese
 㟣	ui
 㠨	ui
 䳳	uf
-㞊	uu
 㞊	uu
 㓽	un
 㱁	uo
@@ -29873,7 +29289,6 @@ vocabulary: essay-cantonese
 㟾	ub
 䫜	uc
 㞫	uo
-㟌	uh
 㞽	uv
 㟑	ud
 㟮	uk
@@ -29918,8 +29333,6 @@ vocabulary: essay-cantonese
 㟆	uj
 㠜	uo
 㠝	uc
-㟼	uk
-㠂	uk
 㟛	um
 㞻	us
 㟭	ua
@@ -30053,7 +29466,6 @@ vocabulary: essay-cantonese
 䊺	vm
 㽋	vn
 䌚	vd
-䌁	vv
 䋊	vm
 㝈	vd
 䋴	vd
@@ -30096,7 +29508,6 @@ vocabulary: essay-cantonese
 䌲	vf
 䌙	vc
 䌍	vm
-䌙	vc
 䌭	vf
 䌋	vr
 䌯	vg
@@ -30192,7 +29603,6 @@ vocabulary: essay-cantonese
 䍀	vt
 㛐	vk
 䌷	vw
-㛉	vw
 䌿	vw
 䌸	vi
 㛒	vt
@@ -30207,14 +29617,12 @@ vocabulary: essay-cantonese
 㚫	ve
 㛚	vb
 㚨	vj
-㜟	vk
 㣇	vb
 㜶	vi
 㚺	vd
 㛆	vd
 㛀	vm
 㛯	vs
-䶯	vu
 㚷	vf
 㜝	vw
 䗍	vi
@@ -30225,9 +29633,7 @@ vocabulary: essay-cantonese
 㜃	vr
 㣽	vp
 㚬	vm
-㚬	vm
 㚿	vu
-㜜	vk
 㛕	vu
 㜏	vc
 㛣	vo
@@ -30235,7 +29641,6 @@ vocabulary: essay-cantonese
 㚾	vu
 㚶	vr
 㛰	va
-㛎	vr
 㖲	vp
 㗠	vp
 䘫	vv
@@ -30256,7 +29661,6 @@ vocabulary: essay-cantonese
 㫁	vl
 㛶	vf
 㔢	vs
-㛶	vf
 㛧	vr
 㜐	vt
 㜠	vg
@@ -30303,7 +29707,6 @@ vocabulary: essay-cantonese
 䵬	wa
 䵦	wd
 䵱	wr
-䳴	wf
 䵯	wg
 䵨	wh
 䵢	wd
@@ -30569,14 +29972,12 @@ vocabulary: essay-cantonese
 䛻	yu
 䛽	yx
 䜠	yc
-䛇	yr
 䛮	yr
 䛡	yr
 䚽	yu
 䛂	yt
 䛜	yk
 䛼	ym
-䛮	yr
 䛋	yh
 䜗	yp
 䛸	yr
@@ -30704,29 +30105,20 @@ vocabulary: essay-cantonese
 㪭	ye
 䇆	yj
 䇏	yd
-䖑	ya
-䖜	ya
 䶕	yu
 䶤	yb
 䶡	yn
-䖕	ym
 䶧	yu
 䆃	yd
 䶜	yr
 㲊	ye
-䬌	yi
-䖚	yf
 䶢	yr
-䖛	yf
 䶪	yg
 㐫	yk
 䶝	yo
 䶚	yi
-䖌	yn
 䶗	yr
-䖘	yi
 䶟	yx
-䖋	yo
 䶖	yn
 䶨	yo
 䶔	yd
@@ -30736,7 +30128,6 @@ vocabulary: essay-cantonese
 䶙	ys
 䶞	yc
 䶣	yt
-䖖	yl
 㪫	ye
 䶥	ym
 䶘	yt
@@ -31001,7 +30392,6 @@ vocabulary: essay-cantonese
 𣅿	ar
 𠘀	ay
 𠮊	ae
-𣇯	as
 𣋷	ac
 𣌏	ae
 𣊈	ap
@@ -31051,7 +30441,6 @@ vocabulary: essay-cantonese
 𣅢	aj
 𨛴	al
 𩞹	av
-𩞹	av
 𣇍	ao
 𢡻	ap
 𢣮	ap
@@ -31071,7 +30460,6 @@ vocabulary: essay-cantonese
 𣌫	ap
 𣆜	am
 𠨠	ao
-𠘀	ay
 𨂢	ao
 𡷦	au
 𣉦	al
@@ -31295,7 +30683,6 @@ vocabulary: essay-cantonese
 𨷦	am
 𨴗	ag
 𨳨	ak
-𨷆	am
 𨳪	ab
 𨴉	ae
 𨳎	am
@@ -31338,7 +30725,6 @@ vocabulary: essay-cantonese
 𨶧	aa
 𨶢	af
 𨶾	ag
-𨷺	au
 𨵀	am
 𨳙	ab
 𨶨	an
@@ -31360,7 +30746,6 @@ vocabulary: essay-cantonese
 𨵸	ak
 𨵦	an
 𨵅	ar
-𨶆	ar
 𨴟	ao
 𨴰	as
 𨴞	aq
@@ -31474,7 +30859,6 @@ vocabulary: essay-cantonese
 𣋘	aa
 𣇞	ad
 𢆝	aj
-𦧪	ar
 𣉉	ak
 𣊰	am
 𠕦	an
@@ -31540,7 +30924,6 @@ vocabulary: essay-cantonese
 𣆓	am
 𣆲	ae
 𦐇	am
-𣋣	at
 𢤃	ap
 𣉾	ar
 𣅗	au
@@ -31814,9 +31197,7 @@ vocabulary: essay-cantonese
 𩩢	bu
 𢧘	bi
 𩪮	bi
-𩪮	bi
 𩩴	br
-𩩯	bb
 𩪬	bc
 𩩮	be
 𩪉	bp
@@ -31888,9 +31269,7 @@ vocabulary: essay-cantonese
 𩩈	bi
 𩪳	bm
 𩩂	br
-𩩊	br
 𩩗	br
-𩩶	bv
 𩨘	bn
 𩩵	bk
 𦡪	bt
@@ -31903,7 +31282,6 @@ vocabulary: essay-cantonese
 𣍯	bq
 𦙸	bq
 𩩩	bv
-𩪕	bk
 𩩐	bb
 𩨵	bc
 𩨴	bs
@@ -31928,7 +31306,6 @@ vocabulary: essay-cantonese
 𩪫	bd
 𩪝	bg
 𩪭	be
-𩪴	bv
 𩪼	bg
 𦚻	bt
 𣎭	bw
@@ -32090,9 +31467,7 @@ vocabulary: essay-cantonese
 𧸀	bb
 𧴽	bg
 𧸂	bk
-𧵳	br
 𦉿	bs
-𧶵	bx
 𧴷	bh
 𧵋	bf
 𦙝	bn
@@ -32105,7 +31480,6 @@ vocabulary: essay-cantonese
 𪏍	bc
 𧴯	bd
 𧷾	bb
-𧸂	bk
 𧸸	br
 𧵥	bu
 𧶳	bb
@@ -32118,7 +31492,6 @@ vocabulary: essay-cantonese
 𧸤	ba
 𧹊	bb
 𧸘	bo
-𧶗	br
 𧶟	br
 𦛱	br
 𧶅	by
@@ -32144,7 +31517,6 @@ vocabulary: essay-cantonese
 𧸦	bt
 𧶋	bu
 𧸭	bg
-𧸦	bt
 𦝅	bp
 𧷸	bk
 𧷻	bc
@@ -32159,7 +31531,6 @@ vocabulary: essay-cantonese
 𧶿	bv
 𧶩	bt
 𧶥	bt
-𪏍	bc
 𦢴	bk
 𧵮	bu
 𧶲	bb
@@ -32446,7 +31817,6 @@ vocabulary: essay-cantonese
 𧲯	bk
 𧴄	bb
 𦚖	bo
-𧳑	bh
 𦡘	bg
 𧴃	bl
 𧳯	ba
@@ -32578,7 +31948,6 @@ vocabulary: essay-cantonese
 𦟟	bd
 𤴋	bw
 𤴎	bw
-𦣆	by
 𦡻	bn
 𦢑	bp
 𦟠	bf
@@ -32604,8 +31973,6 @@ vocabulary: essay-cantonese
 𦞀	bk
 𣍻	bm
 𠕡	bp
-𦙅	bs
-𦜏	bk
 𤔺	br
 𡬰	bo
 𦢎	bc
@@ -32800,7 +32167,6 @@ vocabulary: essay-cantonese
 𦚵	bw
 𤿚	be
 𦙗	bm
-𦙀	be
 𣍾	bb
 𦙻	bf
 𦢈	bb
@@ -32823,7 +32189,6 @@ vocabulary: essay-cantonese
 𪚮	bu
 𪑪	bf
 𤔒	bj
-𦝥	bx
 𠕹	bk
 𤓻	bk
 𦘵	bn
@@ -32850,7 +32215,6 @@ vocabulary: essay-cantonese
 𤔄	br
 𣍴	bu
 𦡅	bw
-𪚮	bu
 𦟢	ba
 𧱔	bb
 𣍪	bb
@@ -32887,7 +32251,6 @@ vocabulary: essay-cantonese
 𦝝	bk
 𧢛	bn
 𦛲	bq
-𥂄	bt
 𤓽	bd
 𡬷	bi
 𡬼	bi
@@ -32923,9 +32286,7 @@ vocabulary: essay-cantonese
 𠠊	bm
 𩑜	bc
 𩒟	bc
-𩕢	bc
 𨢏	bw
-𪔆	bj
 𦞕	bk
 𤓸	bm
 𦠦	bu
@@ -32934,7 +32295,6 @@ vocabulary: essay-cantonese
 𠖁	bi
 𦝢	bk
 𢝔	bp
-𪔊	bp
 𡱸	bo
 𦝚	bt
 𦢞	ba
@@ -32981,10 +32341,7 @@ vocabulary: essay-cantonese
 𦌯	bf
 𦢕	bb
 𦛼	bc
-𦜲	bi
-𦛜	br
 𦝵	br
-𦞛	br
 𦞝	bd
 𦞈	bk
 𦋔	be
@@ -32993,7 +32350,6 @@ vocabulary: essay-cantonese
 𨿸	bg
 𩞺	bv
 𦊭	br
-𩞺	bv
 𠕿	bp
 𦙋	bp
 𦋀	bb
@@ -33015,7 +32371,6 @@ vocabulary: essay-cantonese
 𢼱	be
 𦌤	be
 𣥙	bm
-𦌤	be
 𦟋	br
 𦉺	bv
 𦊀	bv
@@ -33101,7 +32456,6 @@ vocabulary: essay-cantonese
 𩀓	bg
 𩟨	bv
 𠕨	bd
-𩟨	bv
 𦛽	bn
 𢛇	bp
 𢝯	bp
@@ -33116,7 +32470,6 @@ vocabulary: essay-cantonese
 𠕕	bh
 𦛺	bn
 𪎼	bc
-𪎼	bc
 𪏎	bc
 𠃭	bu
 𠃹	bu
@@ -33126,7 +32479,6 @@ vocabulary: essay-cantonese
 𦚪	bt
 𡜝	bv
 𦝖	bb
-𦠆	bc
 𧪬	bf
 𠖐	bw
 𣎜	bu
@@ -33164,7 +32516,6 @@ vocabulary: essay-cantonese
 𢚩	bp
 𦠧	bp
 𦟧	br
-𦡶	bt
 𦡿	bt
 𦠳	bd
 𦛑	bg
@@ -33199,7 +32550,6 @@ vocabulary: essay-cantonese
 𦡮	ba
 𦡧	bd
 𦠭	bl
-𦝱	bw
 𦜪	bd
 𡬬	bi
 𥁍	bk
@@ -33218,7 +32568,6 @@ vocabulary: essay-cantonese
 𦢃	br
 𣎮	bs
 𣎰	bf
-𦟤	bg
 𦡂	bg
 𦡦	bg
 𧖱	bl
@@ -33471,11 +32820,9 @@ vocabulary: essay-cantonese
 𥅞	bm
 𥋨	bp
 𥇿	bm
-𥄅	bs
 𥊱	bt
 𥋲	bc
 𧡉	bf
-𥆙	bh
 𥌬	bg
 𥉶	bp
 𥋦	bp
@@ -33567,7 +32914,6 @@ vocabulary: essay-cantonese
 𥋸	bw
 𥆺	bw
 𥄬	bm
-𥈍	be
 𥈂	bm
 𥄙	bf
 𥄚	bf
@@ -33584,7 +32930,6 @@ vocabulary: essay-cantonese
 𥆆	bv
 𥅳	bj
 𥃳	bs
-𥈊	bx
 𥇑	bb
 𥉢	bg
 𥄊	bl
@@ -33670,7 +33015,6 @@ vocabulary: essay-cantonese
 𥅔	bj
 𥄰	bm
 𥇥	bo
-𥆡	br
 𥋎	bu
 𥇸	bu
 𥆉	be
@@ -33745,7 +33089,6 @@ vocabulary: essay-cantonese
 𥋉	bj
 𥄿	bm
 𥄶	br
-𥌈	bt
 𥉗	bu
 𥇔	bv
 𥉊	bf
@@ -33778,10 +33121,8 @@ vocabulary: essay-cantonese
 𥉌	br
 𥌘	bu
 𥆈	bp
-𥇉	bu
 𥍍	bt
 𥉇	bb
-𥊳	br
 𥈞	bb
 𥉮	bb
 𥍐	bd
@@ -34137,7 +33478,6 @@ vocabulary: essay-cantonese
 𨨱	cr
 𨪍	cv
 𨪫	cx
-𨫟	cd
 𨪊	ci
 𣼪	cr
 𨮶	cf
@@ -34297,7 +33637,6 @@ vocabulary: essay-cantonese
 𨧖	cd
 𨬈	cd
 𨯇	cq
-𨰞	cy
 𨫨	cf
 𨰋	ct
 𨦂	cu
@@ -34331,7 +33670,6 @@ vocabulary: essay-cantonese
 𠈂	cr
 𨫓	cg
 𨨅	cm
-𨩮	cb
 𨮛	ch
 𨯋	ck
 𣌶	cw
@@ -34494,7 +33832,6 @@ vocabulary: essay-cantonese
 𨦙	cn
 𨰖	cf
 𨦄	cn
-𨩲	cr
 𨫮	cc
 𧯚	ct
 𨨵	ct
@@ -34504,7 +33841,6 @@ vocabulary: essay-cantonese
 𨯲	cc
 𨮭	cl
 𨦹	cl
-𨫌	ca
 𨥛	cm
 𨱀	cm
 𨫊	cd
@@ -34525,7 +33861,6 @@ vocabulary: essay-cantonese
 𨥺	ci
 𨥨	ch
 𨥤	cn
-𨬒	ck
 𡲞	cr
 𨭝	cf
 𨧞	cl
@@ -34640,7 +33975,6 @@ vocabulary: essay-cantonese
 𨯉	cj
 𨰀	cj
 𨦶	co
-𨫼	ck
 𠮦	cr
 𧯑	ca
 𧯎	cb
@@ -34679,7 +34013,6 @@ vocabulary: essay-cantonese
 𧮷	cu
 𨿜	cg
 𧮰	cn
-𧮰	cn
 𧮵	cr
 𧮿	cr
 𧯁	ck
@@ -34688,7 +34021,6 @@ vocabulary: essay-cantonese
 𨫰	cb
 𨭐	cj
 𨰫	ck
-𨪐	cm
 𨩗	cr
 𨬱	cs
 𨫘	cu
@@ -34740,7 +34072,6 @@ vocabulary: essay-cantonese
 𨧪	cb
 𨫒	cb
 𨱐	cb
-𨯿	cc
 𨦫	cm
 𨮅	co
 𨬖	cd
@@ -34865,7 +34196,6 @@ vocabulary: essay-cantonese
 𡯚	cu
 𢹁	cq
 𨰁	cg
-𡰛	ct
 𡰛	ct
 𨬫	cn
 𡰉	cc
@@ -35298,7 +34628,6 @@ vocabulary: essay-cantonese
 𥀸	du
 𠠉	dn
 𤿍	dd
-𪌆	de
 𪌞	di
 𤿬	dt
 𪌃	dj
@@ -35320,7 +34649,6 @@ vocabulary: essay-cantonese
 𪍄	de
 𪌀	dn
 𪌒	do
-𪚷	du
 𤿒	db
 𪌅	db
 𣗙	dg
@@ -35331,7 +34659,6 @@ vocabulary: essay-cantonese
 𪎀	dm
 𪌇	dn
 𪍍	dn
-𪌿	dp
 𪌟	ds
 𣛯	dt
 𪋼	dp
@@ -35344,7 +34671,6 @@ vocabulary: essay-cantonese
 𪌐	dq
 𣝠	df
 𪍲	da
-𪍮	dk
 𣒩	dr
 𪌭	db
 𪌸	dq
@@ -35371,7 +34697,6 @@ vocabulary: essay-cantonese
 𪍙	dp
 𪍀	dc
 𪎅	dm
-𪍶	dr
 𥀛	da
 𥀯	di
 𣠴	dk
@@ -35379,14 +34704,12 @@ vocabulary: essay-cantonese
 𥀋	dw
 𥀑	dw
 𡛬	dv
-𪍄	de
 𪍨	dd
 𪍔	dv
 𪍁	dd
 𪎆	dg
 𪍹	di
 𪍺	dv
-𪍝	dt
 𪍪	dj
 𪍯	df
 𪋿	dy
@@ -35572,7 +34895,6 @@ vocabulary: essay-cantonese
 𣓛	dp
 𣖏	du
 𣏚	dp
-𣘛	du
 𣠉	dm
 𣠊	dq
 𣙾	ds
@@ -35585,12 +34907,10 @@ vocabulary: essay-cantonese
 𣞡	de
 𣖅	dj
 𣠑	dj
-𣓌	dr
 𣙫	dt
 𣏾	di
 𣟖	dr
 𣙪	dd
-𣟖	dr
 𣡂	dy
 𣐚	de
 𣗿	dm
@@ -35620,15 +34940,10 @@ vocabulary: essay-cantonese
 𣟸	dd
 𣕘	dd
 𣛴	dp
-𣓖	db
-𣕄	db
-𣓅	dd
 𣞒	dk
 𣡹	dp
-𣓠	ds
 𣛮	dt
 𣠯	dv
-𣟴	dv
 𣜰	dc
 𣒏	df
 𣙃	df
@@ -35775,8 +35090,6 @@ vocabulary: essay-cantonese
 𣔉	dy
 𣏀	dn
 𣙿	dc
-𣛻	dd
-𣚙	di
 𣗧	db
 𣙶	dm
 𤴚	do
@@ -35823,7 +35136,6 @@ vocabulary: essay-cantonese
 𣒟	do
 𣏇	di
 𣏿	dk
-𣕊	de
 𣜂	dm
 𣓈	db
 𣔯	db
@@ -35863,7 +35175,6 @@ vocabulary: essay-cantonese
 𣔸	do
 𣒽	dp
 𣎷	dn
-𣇮	da
 𣟁	dg
 𣗽	dp
 𣔞	do
@@ -35884,7 +35195,6 @@ vocabulary: essay-cantonese
 𣗑	dj
 𧌐	di
 𩙐	di
-𧎀	di
 𨢹	dw
 𣓜	dd
 𣔹	dk
@@ -35894,9 +35204,7 @@ vocabulary: essay-cantonese
 𤴜	dd
 𩛳	dv
 𣐕	dm
-𩛳	dv
 𢝗	dp
-𢜣	dp
 𣛇	dr
 𣚦	di
 𦖝	dj
@@ -35948,7 +35256,6 @@ vocabulary: essay-cantonese
 𣏙	dn
 𣜴	dp
 𣒍	dr
-𣘞	dw
 𪒁	df
 𨤸	dg
 𠾂	dr
@@ -35962,7 +35269,6 @@ vocabulary: essay-cantonese
 𣞚	dm
 𣛌	db
 𠎙	dr
-𩞌	dv
 𣑰	dp
 𣑻	dq
 𣗯	dq
@@ -36069,7 +35375,6 @@ vocabulary: essay-cantonese
 𩏁	dd
 𣓻	dv
 𣕬	dy
-𩏊	dm
 𩎕	de
 𩎝	du
 𩎼	dp
@@ -36082,7 +35387,6 @@ vocabulary: essay-cantonese
 𩎖	dn
 𣞶	dj
 𢾝	dk
-𩎖	dn
 𩏩	do
 𣛋	dr
 𩏛	dt
@@ -36171,7 +35475,6 @@ vocabulary: essay-cantonese
 𣡃	dv
 𠢦	dm
 𠢫	dm
-𣝽	dk
 𣏧	do
 𠄃	dn
 𣞘	do
@@ -36286,7 +35589,6 @@ vocabulary: essay-cantonese
 𣞔	do
 𣠇	do
 𣝡	dv
-𣞼	dv
 𢣡	dp
 𣔀	dp
 𣚭	dd
@@ -36345,7 +35647,6 @@ vocabulary: essay-cantonese
 𣡎	dd
 𣑌	dr
 𣝙	df
-𣒈	dg
 𣝤	dg
 𣚓	db
 𣘆	db
@@ -36523,7 +35824,6 @@ vocabulary: essay-cantonese
 𣶪	eg
 𤃅	ei
 𣵡	ej
-𦧥	er
 𣺯	em
 𣍒	eg
 𣶯	en
@@ -36760,7 +36060,6 @@ vocabulary: essay-cantonese
 𩜥	ev
 𢼅	ek
 𣷜	ek
-𩜥	ev
 𠭺	eh
 𠴸	er
 𠭎	er
@@ -36990,7 +36289,6 @@ vocabulary: essay-cantonese
 𤄻	eu
 𤅁	ev
 𤅛	ev
-𣸄	ea
 𤅃	ec
 𣹊	eh
 𣴝	eo
@@ -37048,8 +36346,6 @@ vocabulary: essay-cantonese
 𤄟	er
 𣽦	ev
 𤃼	eb
-𣸔	ef
-𣶉	ej
 𣾆	er
 𣶫	ea
 𣴤	ei
@@ -37188,9 +36484,7 @@ vocabulary: essay-cantonese
 𩉍	el
 𠚫	en
 𤂗	eb
-𣽖	ei
 𤄎	eu
-𩟗	ev
 𩟗	ev
 𣷡	ep
 𣸁	eh
@@ -37224,7 +36518,6 @@ vocabulary: essay-cantonese
 𤃩	er
 𤅟	er
 𤄆	es
-𥁼	et
 𣴨	eu
 𤂪	ev
 𤄐	ew
@@ -37270,7 +36563,6 @@ vocabulary: essay-cantonese
 𩒍	ec
 𣳙	ej
 𣲇	en
-𣳩	eo
 𠮔	ep
 𣽏	ep
 𣶢	es
@@ -37281,7 +36573,6 @@ vocabulary: essay-cantonese
 𣹖	em
 𤃣	ec
 𤂮	ef
-𤁪	ec
 𣸺	ed
 𣸐	ee
 𤂬	er
@@ -37417,16 +36708,12 @@ vocabulary: essay-cantonese
 𣺫	eh
 𣲤	el
 𤂛	eo
-𣶗	ee
 𣸊	ei
-𣸮	ei
 𣸇	ek
 𣲚	em
 𤀒	ep
 𣵣	er
 𣾨	eu
-𣻦	ew
-𣸊	ei
 𣴾	ed
 𣺢	ed
 𣴳	eg
@@ -37574,7 +36861,6 @@ vocabulary: essay-cantonese
 𣵹	eg
 𣼉	en
 𣱼	eh
-𥞹	ed
 𣴀	eh
 𣷋	ei
 𣹣	em
@@ -38214,7 +37500,6 @@ vocabulary: essay-cantonese
 𥸾	fl
 𥼕	ft
 𥽰	fd
-𥽰	fd
 𥽓	fi
 𥽨	fr
 𥺁	fi
@@ -38293,8 +37578,6 @@ vocabulary: essay-cantonese
 𥼳	fp
 𥸧	fn
 𥹘	fb
-𥼻	fc
-𥻓	fr
 𥻥	fb
 𥺉	ft
 𥻅	fw
@@ -38336,10 +37619,8 @@ vocabulary: essay-cantonese
 𡮋	fk
 𥺽	fb
 𥺌	fd
-𥹕	fi
 𥸽	fn
 𥽋	fo
-𥺴	fp
 𥻲	fr
 𥼪	fa
 𥹁	fs
@@ -38412,7 +37693,6 @@ vocabulary: essay-cantonese
 𥻶	ft
 𥼂	fg
 𥺺	ft
-𥼙	ff
 𥻻	fb
 𥽔	fb
 𥼮	fd
@@ -38553,7 +37833,6 @@ vocabulary: essay-cantonese
 𥜛	fc
 𩖖	fo
 𤒳	fw
-𦧡	fr
 𥚡	ff
 𤓧	fp
 𤌜	fw
@@ -38785,7 +38064,6 @@ vocabulary: essay-cantonese
 𤈙	fn
 𡦤	fd
 𩻪	ff
-𪛆	fu
 𣀱	fk
 𤌿	fk
 𢾗	fk
@@ -38847,7 +38125,6 @@ vocabulary: essay-cantonese
 𤈜	fg
 𠦖	fj
 𤆏	fs
-𤊿	fx
 𠡱	fs
 𤈃	fb
 𤈆	fk
@@ -38904,8 +38181,6 @@ vocabulary: essay-cantonese
 𦂗	ff
 𤑟	fa
 𤏯	fg
-𪚯	fu
-𪚱	fu
 𡗑	fv
 𤋟	fe
 𤌍	fg
@@ -38943,7 +38218,6 @@ vocabulary: essay-cantonese
 𡭶	fm
 𤇩	fh
 𤆞	fh
-𤆥	fm
 𤆥	fm
 𤇹	fj
 𤆻	fh
@@ -39036,7 +38310,6 @@ vocabulary: essay-cantonese
 𤎋	fj
 𤑱	fj
 𤆾	fm
-𤑸	fu
 𤊞	fv
 𤈓	fg
 𤌬	ff
@@ -39087,7 +38360,6 @@ vocabulary: essay-cantonese
 𤒷	fo
 𤐌	fd
 𤏽	fj
-𤏲	fu
 𤒶	fd
 𤏱	fe
 𤒽	fg
@@ -39173,7 +38445,6 @@ vocabulary: essay-cantonese
 𡢐	fr
 𢖖	fe
 𩔗	fc
-𩱙	fb
 𤊒	fe
 𤊺	fo
 𥹰	fo
@@ -39367,7 +38638,6 @@ vocabulary: essay-cantonese
 𧹣	gr
 𧹿	ga
 𧹪	gb
-𧹣	gr
 𧹵	gd
 𢦁	gp
 𧹠	ge
@@ -39475,8 +38745,6 @@ vocabulary: essay-cantonese
 𤠼	gk
 𣫝	gm
 𪔣	gm
-𪍠	ge
-𪍱	ge
 𡄒	gr
 𣫊	gr
 𪔐	gr
@@ -39522,7 +38790,6 @@ vocabulary: essay-cantonese
 𣫪	ga
 𣫨	gt
 𥃟	gt
-𩟚	gv
 𪔶	gt
 𢠱	gp
 𢡱	gp
@@ -39668,7 +38935,6 @@ vocabulary: essay-cantonese
 𢭋	gq
 𡍹	gj
 𡊳	gm
-𡌃	gr
 𨅘	go
 𡉴	gs
 𡎚	gb
@@ -39763,7 +39029,6 @@ vocabulary: essay-cantonese
 𨞪	gl
 𣤫	go
 𩻉	gf
-𪚸	gu
 𤴢	go
 𡎻	gg
 𣀘	gk
@@ -39773,8 +39038,6 @@ vocabulary: essay-cantonese
 𩇘	gb
 𡒅	gr
 𨄧	go
-𡉴	gs
-𡎚	gb
 𠠐	gi
 𦗙	gj
 𡊯	gt
@@ -39908,10 +39171,8 @@ vocabulary: essay-cantonese
 𡑬	gq
 𤬗	go
 𡑒	gk
-𡍪	gx
 𡊘	gk
 𡍞	gp
-𡐥	gy
 𠟜	gn
 𡋮	go
 𡐯	ge
@@ -39950,7 +39211,6 @@ vocabulary: essay-cantonese
 𡉁	gs
 𡒕	gc
 𡋓	gl
-𡑒	gk
 𨙭	gl
 𡐦	gb
 𡑖	go
@@ -40090,7 +39350,6 @@ vocabulary: essay-cantonese
 𧻱	ge
 𧻪	gk
 𧺺	ge
-𧽶	gf
 𧺺	gk
 𧻧	gj
 𡑨	go
@@ -40149,12 +39408,10 @@ vocabulary: essay-cantonese
 𧼤	gn
 𧽺	gd
 𡋗	gi
-𧼰	gx
 𧻀	gj
 𧺗	gn
 𡉛	gn
 𧺰	gi
-𧾒	gc
 𧻿	gt
 𧼙	go
 𧽸	go
@@ -40396,7 +39653,6 @@ vocabulary: essay-cantonese
 𡊈	gj
 𡜩	gv
 𡔢	gk
-𡔣	gk
 𢼣	ge
 𡃟	gv
 𡔜	gs
@@ -40480,13 +39736,8 @@ vocabulary: essay-cantonese
 𡎡	gd
 𧯻	gr
 𧰡	gm
-𧹌	gc
 𢤥	gp
-𡄻	gr
-𡕆	gr
-𧰕	gt
 𧰝	gt
-𡤜	gv
 𧰘	gj
 𡓅	gi
 𨜴	gl
@@ -40494,9 +39745,7 @@ vocabulary: essay-cantonese
 𣣹	go
 𡍝	gb
 𡔃	gg
-𡏆	gl
 𡒝	gr
-𡒶	gv
 𡑢	gd
 𡐺	gu
 𦍒	gq
@@ -40791,9 +40040,6 @@ vocabulary: essay-cantonese
 𢽹	hk
 𩡁	hi
 𤽍	hn
-𩠻	hn
-𤽿	hp
-𤾙	hr
 𥯭	hs
 𥭷	hv
 𢘣	hp
@@ -40825,7 +40071,6 @@ vocabulary: essay-cantonese
 𩡉	hh
 𥲏	he
 𩡤	ht
-𤾸	hf
 𤽒	hj
 𤽝	hj
 𩡙	hb
@@ -40842,7 +40087,6 @@ vocabulary: essay-cantonese
 𩡎	hi
 𡝪	hv
 𤽸	hg
-𤽺	he
 𣌣	ho
 𠂣	hs
 𤽋	hm
@@ -40965,7 +40209,6 @@ vocabulary: essay-cantonese
 𩔔	hc
 𠔙	hc
 𤪭	hi
-𦧠	hr
 𦦴	hc
 𠿻	hu
 𣩺	hp
@@ -41011,7 +40254,6 @@ vocabulary: essay-cantonese
 𦏗	hf
 𪏑	hc
 𦦥	hm
-𪏑	hc
 𥮚	hn
 𥬰	ht
 𥬥	hu
@@ -41275,7 +40517,6 @@ vocabulary: essay-cantonese
 𥠱	hn
 𥠱	hu
 𢧊	hi
-𥣝	hd
 𥠵	hi
 𥡨	hs
 𥢂	hd
@@ -41430,7 +40671,6 @@ vocabulary: essay-cantonese
 𥤚	hf
 𥤛	hf
 𥡽	he
-𪚼	hu
 𩡠	ha
 𥡺	hb
 𥞂	hi
@@ -41587,7 +40827,6 @@ vocabulary: essay-cantonese
 𥠃	hi
 𪀂	hs
 𨤑	he
-𧰌	ht
 𨤖	hu
 𥞙	hu
 𥞙	hv
@@ -41627,7 +40866,6 @@ vocabulary: essay-cantonese
 𥟋	ht
 𥴙	hj
 𥡒	hj
-𥽱	hm
 𥞑	hb
 𥞅	hp
 𥮕	hn
@@ -41726,7 +40964,6 @@ vocabulary: essay-cantonese
 𥲱	hg
 𩁄	hg
 𩁟	hg
-𩜔	hv
 𩜔	hv
 𥷟	ht
 𢜄	hp
@@ -41856,7 +41093,6 @@ vocabulary: essay-cantonese
 𪀸	hm
 𩿡	hr
 𪁫	ht
-𪁒	hh
 𩿠	hv
 𠂟	hj
 𪆥	hr
@@ -41907,7 +41143,6 @@ vocabulary: essay-cantonese
 𩾒	hn
 𩙾	ho
 𩹤	hf
-𪛁	hu
 𩿴	hy
 𦠂	ho
 𪆄	hf
@@ -41922,7 +41157,6 @@ vocabulary: essay-cantonese
 𪁷	hu
 𥭓	hi
 𩾡	hi
-𩿖	hm
 𩿖	hm
 𪀊	hr
 𪄞	hu
@@ -41952,7 +41186,6 @@ vocabulary: essay-cantonese
 𪈙	hj
 𪇅	hr
 𪄦	hd
-𪁸	hu
 𪈩	hg
 𪃞	hw
 𪇌	hv
@@ -42055,7 +41288,6 @@ vocabulary: essay-cantonese
 𦑝	hm
 𩦛	hf
 𪏓	hc
-𪏓	hc
 𡐱	ht
 𡊥	hg
 𥬻	hp
@@ -42150,7 +41382,6 @@ vocabulary: essay-cantonese
 𨉧	hn
 𨜮	hl
 𢒏	hb
-𨉕	hk
 𨈩	he
 𨈩	hk
 𨈣	hu
@@ -42267,7 +41498,6 @@ vocabulary: essay-cantonese
 𢑏	hm
 𥰢	hm
 𢒫	hi
-𨊔	ht
 𨉸	hf
 𥶕	hr
 𠑼	hu
@@ -42276,7 +41506,6 @@ vocabulary: essay-cantonese
 𨈽	hk
 𨊇	hc
 𦎒	hq
-𨉶	hm
 𨉴	hj
 𨈾	ht
 𥵸	hb
@@ -42319,7 +41548,6 @@ vocabulary: essay-cantonese
 𣥆	hm
 𥮙	hn
 𥰽	ho
-𥮑	hr
 𨉲	hb
 𨉬	hn
 𨤒	hm
@@ -42400,8 +41628,6 @@ vocabulary: essay-cantonese
 𥳋	hp
 𩲭	hj
 𩲥	hr
-𩴄	hb
-𩴡	hg
 𥵃	ht
 𥬪	hj
 𥮉	hb
@@ -42420,7 +41646,6 @@ vocabulary: essay-cantonese
 𩴇	he
 𩴤	hf
 𩲺	hd
-𩴇	he
 𥮾	hh
 𩳘	hd
 𥬒	hk
@@ -42471,14 +41696,12 @@ vocabulary: essay-cantonese
 𣢵	ho
 𩲟	ho
 𩴝	ht
-𩴃	hp
 𨿍	hg
 𨾦	hg
 𩴧	hf
 𩴁	hr
 𩲩	hi
 𩳦	hr
-𩲩	hi
 𩳋	hr
 𩳲	hn
 𢜷	hp
@@ -42500,17 +41723,14 @@ vocabulary: essay-cantonese
 𩴵	ht
 𩲽	hj
 𩱺	hl
-𥰢	hm
 𩴹	hg
 𡭒	hr
 𩴋	hs
-𩴵	ht
 𩳤	hv
 𦜛	hn
 𩣣	hf
 𩣨	hf
 𩥢	hf
-𥶕	hr
 𣱒	hg
 𥱊	hb
 𩴴	hg
@@ -42633,7 +41853,6 @@ vocabulary: essay-cantonese
 𨺔	hb
 𦒢	hm
 𥳡	hc
-𪏒	hc
 𪏒	hc
 𨽪	hj
 𡸁	hu
@@ -42784,7 +42003,6 @@ vocabulary: essay-cantonese
 𪕿	hu
 𦥮	hx
 𥶨	hl
-𪖯	hb
 𢺼	he
 𪖮	ho
 𪖥	hb
@@ -42820,7 +42038,6 @@ vocabulary: essay-cantonese
 𩛁	hv
 𪖖	hk
 𪖛	hm
-𩛁	hv
 𪖴	hd
 𪖫	hy
 𢗹	hp
@@ -42878,12 +42095,10 @@ vocabulary: essay-cantonese
 𥰑	hp
 𥸐	hr
 𧷈	hc
-𧠟	hu
 𧢗	hu
 𥵉	hw
 𨮆	hc
 𥰸	ha
-𣱑	hg
 𥷢	hn
 𥵼	hr
 𥭛	hw
@@ -42907,7 +42122,6 @@ vocabulary: essay-cantonese
 𥠟	hd
 𤯪	hs
 𥡭	hv
-𣱎	hu
 𪉕	hr
 𥭕	hl
 𣂠	hl
@@ -42921,10 +42135,8 @@ vocabulary: essay-cantonese
 𡑈	hr
 𪉓	hm
 𦥲	hx
-𥰸	ha
 𪉇	hi
 𤯰	hm
-𢺾	he
 𢻨	he
 𢻩	he
 𤯙	he
@@ -42933,7 +42145,6 @@ vocabulary: essay-cantonese
 𥴊	hk
 𥴋	ho
 𥯹	ht
-𥯥	hx
 𥱄	hi
 𥷌	hp
 𠡏	hs
@@ -42949,7 +42160,6 @@ vocabulary: essay-cantonese
 𠠇	hn
 𣥋	hm
 𥯿	hb
-𩑾	hc
 𩓭	hc
 𩕎	hc
 𤯨	ht
@@ -42961,12 +42171,8 @@ vocabulary: essay-cantonese
 𥫡	hs
 𥬤	hs
 𥯙	hs
-𤬵	hn
-𣱐	hg
 𠃘	hn
 𥫙	hn
-𥰺	he
-𥳎	hi
 𡖰	hn
 𨚥	hl
 𢑅	hn
@@ -42974,8 +42180,6 @@ vocabulary: essay-cantonese
 𣢡	ho
 𪉁	ho
 𢲿	hq
-𥯹	ht
-𨾦	hg
 𨿠	hg
 𥴃	hj
 𦈼	hu
@@ -43004,7 +42208,6 @@ vocabulary: essay-cantonese
 𩢫	hf
 𩣷	hf
 𢀽	hu
-𣱒	hg
 𠨗	hi
 𤯻	ho
 𤯺	hs
@@ -43132,7 +42335,6 @@ vocabulary: essay-cantonese
 𩖳	ho
 𩗎	hm
 𥬫	hq
-𩗭	hk
 𠂗	hu
 𩖭	hb
 𩗓	hd
@@ -43219,7 +42421,6 @@ vocabulary: essay-cantonese
 𣢛	ho
 𩘼	ht
 𥴳	hp
-𩗲	hd
 𩸡	hf
 𣱱	ho
 𩖯	hb
@@ -43238,9 +42439,7 @@ vocabulary: essay-cantonese
 𥯫	hk
 𩗨	hr
 𩗚	hk
-𩖦	hn
 𩙍	hp
-𩜾	hv
 𩘞	hd
 𩘋	hk
 𩗟	ho
@@ -43252,7 +42451,6 @@ vocabulary: essay-cantonese
 𠝯	hh
 𩖨	hh
 𩖚	hi
-𩖵	hi
 𩘗	ha
 𩘏	hd
 𩖤	hu
@@ -43294,7 +42492,6 @@ vocabulary: essay-cantonese
 𩙚	hx
 𩖺	hm
 𠙌	hq
-𩘭	hg
 𩘡	hh
 𠘵	hs
 𩘳	ha
@@ -43593,18 +42790,14 @@ vocabulary: essay-cantonese
 𢕶	he
 𢖒	he
 𢖉	hk
-𥱷	hc
 𥳹	hc
 𢖙	hm
-𢓉	he
 𥲼	he
 𢓖	hm
 𥭉	hi
 𦤻	hg
 𢕭	hk
 𢕆	hp
-𦧍	hr
-𢔣	hx
 𢓍	hk
 𥰉	hk
 𥮡	hl
@@ -43614,7 +42807,6 @@ vocabulary: essay-cantonese
 𢓲	hr
 𢓆	hu
 𧗡	hn
-𥮘	hp
 𥮆	hr
 𢔸	hb
 𢔴	hl
@@ -43651,7 +42843,6 @@ vocabulary: essay-cantonese
 𤓵	hi
 𢓶	hb
 𢕠	hw
-𢕭	hk
 𧗽	hn
 𧗾	hn
 𢓑	ho
@@ -43680,7 +42871,6 @@ vocabulary: essay-cantonese
 𢔢	hn
 𧗞	hn
 𧗟	hn
-𩞐	hv
 𢓅	ho
 𨑢	ho
 𢕈	hj
@@ -43693,7 +42883,6 @@ vocabulary: essay-cantonese
 𢝩	hp
 𢕛	he
 𢓈	hm
-𢓈	hm
 𢔇	hu
 𢔡	ha
 𤫭	hu
@@ -43701,7 +42890,6 @@ vocabulary: essay-cantonese
 𢔓	hq
 𢓦	hl
 𢖑	hc
-𢕟	hk
 𥰈	hg
 𤔑	hr
 𦥳	hr
@@ -43761,7 +42949,6 @@ vocabulary: essay-cantonese
 𢕘	hg
 𢖅	hn
 𢕅	hn
-𧢒	hu
 𢔎	hg
 𧘀	hn
 𤔀	he
@@ -43862,10 +43049,7 @@ vocabulary: essay-cantonese
 𩔙	hc
 𩔨	hc
 𩕄	hc
-𤇡	hf
-𦧰	hr
 𣱋	hi
-𧐏	hi
 𢏒	hh
 𨛽	hl
 𨝄	hl
@@ -44067,11 +43251,9 @@ vocabulary: essay-cantonese
 𤛛	hb
 𤘦	hl
 𤙛	hd
-𤘡	hn
 𤚎	hn
 𤚋	hp
 𤙱	hr
-𤚬	hr
 𤚻	hr
 𤙿	hu
 𢪐	ho
@@ -44124,7 +43306,6 @@ vocabulary: essay-cantonese
 𤛘	ht
 𤛥	hc
 𥲵	hm
-𤛥	hc
 𤙢	hd
 𤛫	hq
 𤛟	hb
@@ -44242,7 +43423,6 @@ vocabulary: essay-cantonese
 𩓃	hc
 𩔻	hc
 𪄜	hf
-𠭔	he
 𠂾	hf
 𠃂	hm
 𨸿	hm
@@ -44267,7 +43447,6 @@ vocabulary: essay-cantonese
 𥮭	hg
 𦧈	hn
 𢽍	hk
-𦧈	hn
 𦧛	hr
 𡏩	hg
 𦧓	hd
@@ -44490,7 +43669,6 @@ vocabulary: essay-cantonese
 𣰖	hu
 𣰚	hu
 𧗗	hl
-𧖼	hr
 𢨛	hi
 𧗋	hh
 𧖻	hm
@@ -44515,7 +43693,6 @@ vocabulary: essay-cantonese
 𧖨	hs
 𧖵	hu
 𧖪	hi
-𧗐	hk
 𨞌	hl
 𨟋	hl
 𩀩	hg
@@ -44524,10 +43701,8 @@ vocabulary: essay-cantonese
 𡓆	hg
 𧑸	hi
 𧑬	hi
-𥶑	hv
 𥰄	hr
 𥬴	hq
-𥰭	hm
 𥷬	hg
 𧖷	hp
 𥬆	ht
@@ -44643,7 +43818,6 @@ vocabulary: essay-cantonese
 𣯜	he
 𣯁	ho
 𪕻	hu
-𥢑	hr
 𣰳	hu
 𢧕	hi
 𠪻	hi
@@ -44688,7 +43862,6 @@ vocabulary: essay-cantonese
 𣭦	hi
 𧑯	hi
 𠜎	hn
-𠞄	hn
 𠞔	hn
 𣬟	hn
 𣰃	hb
@@ -44700,7 +43873,6 @@ vocabulary: essay-cantonese
 𦤃	hg
 𣭿	ht
 𠂧	hi
-𦧗	hr
 𦤐	ht
 𦤍	hu
 𦤆	hi
@@ -44758,11 +43930,9 @@ vocabulary: essay-cantonese
 𦤜	hh
 𣬫	hl
 𣭔	hi
-𪚬	hn
 𣭝	hr
 𣮞	hr
 𣯙	hr
-𩞚	hv
 𣯘	hd
 𣬱	ho
 𦤈	ho
@@ -44796,7 +43966,6 @@ vocabulary: essay-cantonese
 𣯥	ha
 𣰞	hg
 𣭜	hm
-𣰦	ht
 𣭥	hy
 𣭙	hp
 𩣂	hf
@@ -44951,14 +44120,12 @@ vocabulary: essay-cantonese
 𪔻	hk
 𪕌	hi
 𥶫	hu
-𪕛	hr
 𪕅	hu
 𪕾	hu
 𪕜	hk
 𥰪	hq
 𥭱	hr
 𪕰	he
-𪕜	hk
 𪕝	ho
 𪔹	hh
 𪔺	hi
@@ -44967,7 +44134,6 @@ vocabulary: essay-cantonese
 𪔸	hm
 𪕠	hf
 𣆼	ht
-𠒂	hu
 𪖊	hd
 𪖉	hl
 𪖈	ho
@@ -45118,7 +44284,6 @@ vocabulary: essay-cantonese
 𢻗	he
 𦥨	hu
 𦦘	ho
-𪌲	he
 𨋺	hj
 𡘩	hk
 𦦉	hk
@@ -45146,7 +44311,6 @@ vocabulary: essay-cantonese
 𦦍	hg
 𦦫	hc
 𤐫	hf
-𦦈	hx
 𠢈	hs
 𥕭	hr
 𦥤	hs
@@ -45331,7 +44495,6 @@ vocabulary: essay-cantonese
 𥳭	hh
 𦪾	hm
 𦪧	hk
-𦨯	hr
 𦩺	hd
 𦩒	hm
 𦨘	hl
@@ -45353,7 +44516,6 @@ vocabulary: essay-cantonese
 𦨋	hs
 𥳿	hi
 𦨨	hu
-𦪧	hk
 𦨿	hg
 𨚟	hl
 𦩸	hm
@@ -45361,7 +44523,6 @@ vocabulary: essay-cantonese
 𦪑	he
 𥱃	hu
 𥷶	hv
-𦫉	hu
 𦨈	ho
 𦩟	he
 𥸊	hc
@@ -45411,12 +44572,10 @@ vocabulary: essay-cantonese
 𥯢	hn
 𥰵	hn
 𥸏	hn
-𢛃	hp
 𥶏	hr
 𥴜	hr
 𦪢	hj
 𥱬	hu
-𦨳	hk
 𦨼	hk
 𦪨	hk
 𥯞	hd
@@ -45439,14 +44598,11 @@ vocabulary: essay-cantonese
 𥳘	hg
 𦪋	hg
 𥭴	hj
-𦨶	hk
-𦪗	hc
 𦪗	hc
 𦪠	hj
 𥲰	ho
 𥴦	ho
 𥵆	hp
-𦪋	hg
 𥯽	hr
 𥱱	hr
 𥵪	ht
@@ -45588,7 +44744,6 @@ vocabulary: essay-cantonese
 𩀪	ig
 𩞁	iv
 𣀊	ik
-𩞁	iv
 𪎬	ic
 𪎪	iu
 𪎚	iq
@@ -45604,22 +44759,12 @@ vocabulary: essay-cantonese
 𠫡	id
 𣏩	id
 𣈌	ia
-𪎗	ia
-𪎥	ih
-𪎧	ih
 𣠏	ie
 𢊶	ib
 𢋚	ib
-𪎩	ir
 𢋮	ik
-𥂓	it
 𥉵	iu
-𪎕	ih
 𢊲	id
-𪎦	id
-𪎝	im
-𤇍	if
-𪎖	if
 𣟽	is
 𠢺	is
 𣜨	iu
@@ -45629,71 +44774,42 @@ vocabulary: essay-cantonese
 𪎭	ie
 𢇳	ie
 𢒹	ih
-𪎡	id
 𤔨	io
-𪎑	in
 𣔗	ii
-𪎒	ii
 𣗻	io
 𣝜	ib
 𢧊	ii
-𣝜	ib
 𣞟	ic
 𢻙	ie
 𢋲	ic
 𣗺	ir
 𢉽	ir
-𪎰	ic
 𢌐	im
 𢈠	il
-𪎞	ik
 𢋷	ic
 𨽿	ie
-𪎯	ic
 𢋙	ii
 𠞥	in
 𢉨	in
 𢌁	im
-𪎜	iu
-𪎜	iv
 𢌑	id
-𪎫	io
-𪎮	iq
-𪎱	ib
-𩔶	ic
 𦓡	il
 𪎢	iw
 𢊢	id
 𦥐	ie
 𢋎	if
-𪎙	it
-𪎔	in
-𪎠	in
-𪎛	iu
 𥛇	im
-𩀪	ig
 𣟼	if
-𩞁	iv
 𩐕	im
-𩞁	iv
 𢋢	iw
 𢋤	ie
-𪎬	ic
 𠣺	iu
-𪎪	iu
-𪎚	iq
 𢊠	ir
-𪓹	iu
-𨄬	io
 𠞧	ih
-𦗕	ij
-𤯌	im
 𡻤	iu
 𢋬	ig
 𡡉	iv
 𪎟	iw
-𪎘	ie
-𪎣	iu
 𨐠	ij
 𢇤	ie
 𦜹	ib
@@ -45971,7 +45087,6 @@ vocabulary: essay-cantonese
 𥜔	ig
 𥛈	im
 𥛃	is
-𥜓	it
 𥚍	ir
 𥜉	iq
 𥘹	is
@@ -46124,7 +45239,6 @@ vocabulary: essay-cantonese
 𢧒	ir
 𢦩	ij
 𢋋	ik
-𢧒	ir
 𢊚	io
 𢉟	iv
 𢘱	ip
@@ -46207,8 +45321,6 @@ vocabulary: essay-cantonese
 𢾭	ik
 𢇙	ip
 𢈿	im
-𢉞	ib
-𣒷	id
 𦑵	im
 𢌹	it
 𠔩	ic
@@ -46233,7 +45345,6 @@ vocabulary: essay-cantonese
 𠀋	ik
 𢉜	ia
 𢈻	io
-𦧐	ir
 𢉹	id
 𦠬	io
 𤐮	if
@@ -46263,7 +45374,6 @@ vocabulary: essay-cantonese
 𠜢	in
 𠜺	in
 𦘦	iq
-𩑱	ic
 𩓎	ic
 𤨣	ig
 𠫿	ik
@@ -46276,8 +45386,6 @@ vocabulary: essay-cantonese
 𦛇	io
 𦜑	io
 𢊃	ig
-𨾩	ig
-𩜸	iv
 𩜸	iv
 𢈙	io
 𠫵	ip
@@ -46286,11 +45394,9 @@ vocabulary: essay-cantonese
 𩡷	if
 𢋔	ir
 𢌋	id
-𩠙	iu
 𡹘	iu
 𠫻	ig
 𡜀	iv
-𩠖	iu
 𤲙	iw
 𡘞	iw
 𢿭	ij
@@ -46347,7 +45453,6 @@ vocabulary: essay-cantonese
 𠖾	ij
 𠘝	ic
 𠘂	io
-𢇪	ie
 𣳆	ie
 𤉹	if
 𢊡	iu
@@ -46357,7 +45462,6 @@ vocabulary: essay-cantonese
 𢌖	ip
 𪀦	if
 𪂉	if
-𪂑	if
 𪂵	if
 𠗅	it
 𢧞	iy
@@ -46680,7 +45784,6 @@ vocabulary: essay-cantonese
 𪋇	ig
 𩞇	iv
 𪊸	id
-𩞇	iv
 𢎂	io
 𢖼	ip
 𪊨	ia
@@ -46745,7 +45848,6 @@ vocabulary: essay-cantonese
 𢊂	iw
 𤚥	ir
 𢾹	ik
-𤚥	ir
 𢇠	iu
 𤚷	ij
 𢇞	ir
@@ -46919,7 +46021,6 @@ vocabulary: essay-cantonese
 𢌕	it
 𧖇	ii
 𦉨	iu
-𪁜	if
 𩿰	if
 𣂞	il
 𣰐	iu
@@ -47055,7 +46156,6 @@ vocabulary: essay-cantonese
 𡬐	jm
 𠒈	ju
 𡜌	jv
-𩐊	jm
 𧞢	jv
 𢄿	jb
 𣡖	jd
@@ -47314,7 +46414,6 @@ vocabulary: essay-cantonese
 𥥋	ji
 𥨖	ju
 𥥸	jd
-𥥋	ji
 𥤶	jn
 𥧔	jd
 𥦊	jg
@@ -47338,7 +46437,6 @@ vocabulary: essay-cantonese
 𥨰	jt
 𥤻	jp
 𥧶	ja
-𥧴	je
 𥧼	jb
 𥧵	jd
 𥤺	jq
@@ -47555,7 +46653,6 @@ vocabulary: essay-cantonese
 𠝬	jn
 𠟴	jn
 𨣗	jw
-𪌆	je
 𤩯	ji
 𪌞	ji
 𣯷	ju
@@ -47590,7 +46687,6 @@ vocabulary: essay-cantonese
 𪎀	jm
 𪌇	jn
 𪍍	jn
-𪌿	jp
 𪌴	jg
 𪌟	js
 𢟥	jp
@@ -47605,7 +46701,6 @@ vocabulary: essay-cantonese
 𪌐	jq
 𪍊	jv
 𪍲	ja
-𪍮	jk
 𠿉	jr
 𨙾	ju
 𪌭	jb
@@ -47628,16 +46723,13 @@ vocabulary: essay-cantonese
 𪍙	jp
 𪍀	jc
 𪎅	jm
-𪍶	jr
 𡢖	jv
-𪍄	je
 𪍨	jd
 𪍔	jv
 𪍁	jd
 𪎆	jg
 𪍹	ji
 𪍺	jv
-𪍝	jt
 𪌦	jr
 𪍪	jj
 𪍯	jf
@@ -47843,7 +46935,6 @@ vocabulary: essay-cantonese
 𨎛	jd
 𨊿	je
 𨋌	je
-𨎛	jd
 𨏻	jf
 𨎋	jg
 𨌩	jr
@@ -47911,7 +47002,6 @@ vocabulary: essay-cantonese
 𨍢	jr
 𠦽	jp
 𡩝	js
-𨌋	jr
 𨋒	jt
 𨎷	jc
 𨍏	je
@@ -47963,20 +47053,17 @@ vocabulary: essay-cantonese
 𡨫	jf
 𨋔	ji
 𨍀	jn
-𨍬	ja
 𨋝	js
 𨌡	js
 𨋷	jm
 𨏄	jj
 𨊫	jn
-𨋰	jo
 𨏽	jp
 𨐀	jp
 𨌑	jv
 𨊡	jn
 𨋣	jb
 𨌻	jg
-𨍢	jr
 𨋓	jr
 𨍮	jb
 𨏒	jr
@@ -48007,7 +47094,6 @@ vocabulary: essay-cantonese
 𨌠	je
 𨍐	jb
 𨎤	jt
-𨌢	jd
 𨍠	js
 𨏗	ja
 𠐱	jo
@@ -48057,7 +47143,6 @@ vocabulary: essay-cantonese
 𨊷	jm
 𨌙	jv
 𨍉	jp
-𨊷	jm
 𡨳	jo
 𨌨	ju
 𡪰	jp
@@ -48099,7 +47184,6 @@ vocabulary: essay-cantonese
 𨍝	jj
 𨍞	jk
 𨎔	jo
-𨎩	jc
 𧂽	jq
 𨍜	jv
 𨌣	jb
@@ -48116,7 +47200,6 @@ vocabulary: essay-cantonese
 𨌂	jg
 𨏳	jb
 𨏷	jf
-𨌠	je
 𨏋	jd
 𨊩	jv
 𨌦	jj
@@ -48261,7 +47344,6 @@ vocabulary: essay-cantonese
 𡩧	ju
 𩘒	ji
 𡩟	jo
-𨊢	ji
 𤠊	jk
 𡫉	je
 𡪯	jk
@@ -48296,7 +47378,6 @@ vocabulary: essay-cantonese
 𨛯	jl
 𡑫	jg
 𩀈	jg
-𩝩	jv
 𩝩	jv
 𡧂	jp
 𡧤	jh
@@ -48341,7 +47422,6 @@ vocabulary: essay-cantonese
 𨎱	jp
 𤇵	jf
 𡨺	ji
-𡪯	jk
 𡪄	ja
 𡨸	jd
 𡩌	jq
@@ -48464,7 +47544,6 @@ vocabulary: essay-cantonese
 𪁔	jf
 𧒡	ji
 𢞩	jp
-𢞩	jp
 𡨲	jv
 𡩐	jw
 𡩜	jw
@@ -48514,7 +47593,6 @@ vocabulary: essay-cantonese
 𣣶	jo
 𣤄	jo
 𦢽	jo
-𩟸	jv
 𩟸	jv
 𢪿	jq
 𡬮	ji
@@ -48620,7 +47698,6 @@ vocabulary: essay-cantonese
 𠓈	jf
 𩝓	jv
 𢽉	jk
-𩝓	jv
 𠒠	js
 𨇜	jo
 𠒘	jq
@@ -48823,7 +47900,6 @@ vocabulary: essay-cantonese
 𤺰	ko
 𨾮	kg
 𤵏	kp
-𥨆	kk
 𤷽	kl
 𠛞	kh
 𤵇	kh
@@ -48863,7 +47939,6 @@ vocabulary: essay-cantonese
 𤺷	km
 𤸆	kq
 𨚲	kl
-𤺷	km
 𢾣	kk
 𤷠	kk
 𤵦	ku
@@ -49110,7 +48185,6 @@ vocabulary: essay-cantonese
 𡗷	ko
 𤣄	kf
 𤞔	km
-𤟑	kk
 𤝏	kt
 𤞫	kt
 𤡍	kf
@@ -49147,7 +48221,6 @@ vocabulary: essay-cantonese
 𤸣	ku
 𤢻	kp
 𤢙	kf
-𤟆	kn
 𤟆	kn
 𢼥	kk
 𤝁	ki
@@ -49269,7 +48342,6 @@ vocabulary: essay-cantonese
 𤷸	kl
 𤠣	kk
 𤞘	kg
-𤜰	kn
 𤝰	kr
 𤸭	ko
 𤢾	kn
@@ -49284,7 +48356,6 @@ vocabulary: essay-cantonese
 𤜣	kd
 𤜩	kh
 𤻦	ki
-𤜼	km
 𤜼	km
 𤜻	kp
 𤡧	kp
@@ -49313,7 +48384,6 @@ vocabulary: essay-cantonese
 𤣠	kr
 𤣣	kr
 𤟕	kb
-𤝲	kk
 𤡘	ke
 𤠿	kg
 𤡹	kj
@@ -49433,7 +48503,6 @@ vocabulary: essay-cantonese
 𤡣	km
 𤢓	ko
 𤝓	kr
-𤷑	kr
 𤠖	kb
 𤡈	kj
 𤢭	ko
@@ -49504,7 +48573,6 @@ vocabulary: essay-cantonese
 𡙮	kg
 𢧤	kg
 𤷇	km
-𢧤	kg
 𤸊	kp
 𡙤	kv
 𡗹	kt
@@ -49516,7 +48584,6 @@ vocabulary: essay-cantonese
 𤶽	kd
 𤸴	kf
 𧡵	ku
-𤻚	kb
 𤷿	kk
 𤸃	ke
 𤵾	kp
@@ -49698,9 +48765,7 @@ vocabulary: essay-cantonese
 𢦎	ki
 𤕡	kk
 𤵈	kn
-𤺍	kk
 𠃙	kn
-𤼉	kp
 𠠵	ks
 𡗵	kl
 𤺹	kh
@@ -49737,7 +48802,6 @@ vocabulary: essay-cantonese
 𧥠	kr
 𤸑	ke
 𧶘	kc
-𤵜	kf
 𤵲	kf
 𤵞	kg
 𤵴	kg
@@ -49760,7 +48824,6 @@ vocabulary: essay-cantonese
 𤸗	kk
 𤼋	km
 𤴽	kn
-𢩟	kb
 𤸤	kv
 𡗧	kj
 𤵍	kj
@@ -49775,12 +48838,9 @@ vocabulary: essay-cantonese
 𤷺	ke
 𤶄	kg
 𤶊	ki
-𤷜	ki
 𤻸	km
 𤴸	kn
-𤴽	kn
 𤺠	ku
-𤸤	kv
 𩈧	kl
 𡖳	kn
 𤻍	ko
@@ -49798,7 +48858,6 @@ vocabulary: essay-cantonese
 𤸌	ki
 𩔯	kc
 𩠣	ku
-𤶊	ki
 𪘘	ku
 𤷴	kv
 𡯃	kp
@@ -49974,7 +49033,6 @@ vocabulary: essay-cantonese
 𤼐	kg
 𤼓	kt
 𡘲	kt
-𤺪	kr
 𤸠	kw
 𤻹	ki
 𤼚	ki
@@ -50027,7 +49085,6 @@ vocabulary: essay-cantonese
 𩒘	kc
 𩓹	kc
 𩕦	kc
-𡯘	ke
 𡯋	kj
 𡯞	kb
 𤷳	kr
@@ -50078,7 +49135,6 @@ vocabulary: essay-cantonese
 𤷲	kd
 𤶜	kg
 𡘏	kd
-𤷚	ke
 𤸁	ko
 𡙌	ke
 𤼠	ki
@@ -50260,7 +49316,6 @@ vocabulary: essay-cantonese
 𢄽	lc
 𢂑	lm
 𢃎	lm
-𢄒	lm
 𢂵	lt
 𢅏	lc
 𢃜	lm
@@ -50329,7 +49384,6 @@ vocabulary: essay-cantonese
 𢂌	lp
 𢅹	lb
 𢂘	lg
-𢁮	ln
 𢅐	lo
 𢂃	ls
 𢂳	ly
@@ -50359,7 +49413,6 @@ vocabulary: essay-cantonese
 𢄭	la
 𢃞	lb
 𢄪	lh
-𢅡	lt
 𢄠	lr
 𢁡	li
 𢃟	la
@@ -50665,7 +49718,6 @@ vocabulary: essay-cantonese
 𧔾	lc
 𧓝	lk
 𧓧	ll
-𧓗	lo
 𧋬	lf
 𧋙	le
 𧏩	li
@@ -50677,7 +49729,6 @@ vocabulary: essay-cantonese
 𧒑	lv
 𧏘	le
 𧏕	lo
-𧏓	lw
 𧈥	li
 𧈴	li
 𧔼	li
@@ -50706,10 +49757,7 @@ vocabulary: essay-cantonese
 𧎢	lc
 𧊖	lm
 𧉟	lr
-𧍮	lb
 𧏃	lk
-𧎥	lm
-𧉵	ln
 𧉤	lt
 𧐚	lf
 𧊎	lu
@@ -50978,7 +50026,6 @@ vocabulary: essay-cantonese
 𧓡	lm
 𧋄	lc
 𧞋	lc
-𧎽	la
 𧎲	lj
 𧎦	lp
 𧓲	lv
@@ -51000,7 +50047,6 @@ vocabulary: essay-cantonese
 𧍠	lf
 𧏥	lp
 𧌺	lu
-𧓲	lv
 𧑑	lq
 𧎣	lj
 𧕭	lt
@@ -51036,7 +50082,6 @@ vocabulary: essay-cantonese
 𧔉	ld
 𧕂	lm
 𧍏	lr
-𧌍	le
 𧍼	ln
 𧑀	ld
 𧑳	lf
@@ -51176,7 +50221,6 @@ vocabulary: essay-cantonese
 𧙛	lb
 𤬺	ln
 𧙣	ln
-𪚻	lu
 𨾳	lg
 𠤜	lp
 𧜵	lb
@@ -51263,7 +50307,6 @@ vocabulary: essay-cantonese
 𤖪	ld
 𤖮	li
 𣌨	lm
-𣌨	lm
 𤖵	lr
 𧙻	lq
 𤗮	lc
@@ -51321,7 +50364,6 @@ vocabulary: essay-cantonese
 𧚂	lt
 𣃂	ll
 𧙧	lj
-𧞁	lm
 𢂉	lm
 𠟱	ln
 𩇨	lo
@@ -51368,49 +50410,27 @@ vocabulary: essay-cantonese
 𠁢	ln
 𧘏	ln
 𧝌	lf
-𤗱	lb
-𤗘	lo
 𧚇	lu
-𤖾	lr
 𧞊	lq
 𥄱	lu
 𧠤	lu
 𩰔	lc
 𠔘	li
-𤗉	lp
 𩰏	lh
-𤖭	lh
-𤖷	le
 𩎡	lq
-𤗗	lw
-𤗛	lf
 𣲴	le
-𧛘	lm
 𤇝	lf
-𤗾	lw
 𦨆	lq
-𤗷	lq
 𤮪	lt
 𧘥	lg
-𤘀	li
 𤗼	lw
-𤗿	lg
 𩰛	le
 𤘄	lc
 𧝃	lb
-𤖽	lr
-𤖱	ld
 𥡀	ld
 𤗹	lw
-𤗌	lw
 𢒍	lh
-𤖼	lv
 𤗧	li
-𤗠	lu
-𣂔	ll
-𤖴	ly
-𤖬	le
-𤖫	li
 𣭘	lu
 𧘌	ls
 𤗐	ls
@@ -51419,23 +50439,11 @@ vocabulary: essay-cantonese
 𤗝	lo
 𤗢	ln
 𩰎	li
-𢦤	li
-𤗀	lv
 𧚔	lb
-𤗅	lp
 𤗲	lh
-𤗃	lb
-𤗂	le
 𤝟	lk
-𤗙	lu
 𧜄	lw
-𤗇	lm
 𩰝	lc
-𤗍	lu
-𤖲	lr
-𤗸	lc
-𤗥	ld
-𤗣	ld
 𡗻	lk
 𡘉	lk
 𩰑	lb
@@ -51443,85 +50451,44 @@ vocabulary: essay-cantonese
 𠡂	ls
 𧝍	lb
 𧕒	li
-𤗬	lv
-𤗴	lc
-𤗋	ly
-𠛁	ln
 𤗤	lc
 𤯽	lm
-𤖯	lf
 𩰞	lb
-𤖳	lj
 𩰗	lc
-𤘃	lm
 𧟂	lm
 𩰚	ll
 𠘹	lm
-𤖺	ln
 𤖶	lb
 𩰟	lf
-𤗕	ln
 𧞟	lr
-𤗦	lb
 𩰒	lt
-𤗚	lw
 𩰜	lf
 𩰖	ll
 𢏇	ln
 𧘈	ln
-𧣉	lg
-𧣉	lq
 𧛴	lc
-𤗻	lr
 𤗖	lt
-𤖻	ln
 𨚓	ll
-𤗓	lo
-𤗳	le
 𩰘	lu
 𩰐	lf
-𤖿	lp
 𩰌	ln
 𩰙	lm
 𤗆	ly
 𢘍	lp
-𤖪	ld
-𤖮	li
-𤖵	lr
-𤗮	lc
 𨚭	lu
-𤗜	le
-𤗁	lo
-𤖰	le
-𤗨	la
 𦐡	lm
-𤗺	lj
 𤘁	lo
-𤗵	lo
 𩰓	lu
-𤗶	lc
-𤗩	lb
 𤗽	ld
-𤗰	la
 𤘂	ln
 𡶓	lu
 𤖨	lu
-𤗯	lg
-𤖩	lv
 𥿏	lf
 𧞦	lf
 𥝃	lb
 𤖸	lg
-𤗊	ld
-𤗪	lj
-𤗭	ld
-𤗒	ls
 𤗑	lu
-𤗞	ln
 𤖹	lt
-𤗏	lr
-𤗈	lv
-𤗫	lb
 𩰍	ly
 𧚮	lg
 𧝈	lf
@@ -51533,7 +50500,6 @@ vocabulary: essay-cantonese
 𧟇	lb
 𧛈	lb
 𧛋	lp
-𧚼	lr
 𧜃	ld
 𣢧	lo
 𧚙	ls
@@ -51576,7 +50542,6 @@ vocabulary: essay-cantonese
 𧶙	lc
 𩚾	lv
 𠤢	lm
-𩚾	lv
 𢘠	lp
 𧘱	lp
 𧚻	la
@@ -51676,7 +50641,6 @@ vocabulary: essay-cantonese
 𧞤	le
 𧝵	ld
 𧛩	lr
-𧝙	lu
 𧟋	lt
 𧚭	lt
 𧝫	lb
@@ -51891,7 +50855,6 @@ vocabulary: essay-cantonese
 𩆆	ml
 𩆆	mn
 𧢝	mu
-𤥜	me
 𧟴	mc
 𨪖	mc
 𨮪	mc
@@ -52028,8 +50991,6 @@ vocabulary: essay-cantonese
 𩂔	mk
 𩆂	mc
 𩆃	mc
-𩃞	ms
-𩅶	ms
 𩆌	mc
 𩃄	mh
 𩅄	mp
@@ -52104,7 +51065,6 @@ vocabulary: essay-cantonese
 𩅣	mi
 𩃬	mn
 𩂀	mj
-𩃹	mx
 𩂉	mk
 𩆣	mn
 𢄀	mb
@@ -52114,13 +51074,10 @@ vocabulary: essay-cantonese
 𩅸	mw
 𠕂	mm
 𠕅	mm
-𩅣	mi
 𩁷	mn
 𩃴	mb
 𩄰	mf
 𩂶	mn
-𩆂	mc
-𩆃	mc
 𩱇	mb
 𩃼	mh
 𩂒	mu
@@ -52184,14 +51141,12 @@ vocabulary: essay-cantonese
 𩃪	mi
 𩃫	ma
 𩆁	ma
-𩂇	mn
 𩅼	mo
 𩂙	mi
 𩃺	mk
 𩅋	mq
 𩃔	mi
 𩃢	mi
-𩂢	mo
 𩄴	mq
 𩂖	ms
 𩆈	mu
@@ -52201,7 +51156,6 @@ vocabulary: essay-cantonese
 𢤔	mp
 𩂈	mp
 𩄚	mc
-𩄠	mc
 𩂂	mh
 𩂜	mk
 𩃆	mm
@@ -52280,7 +51234,6 @@ vocabulary: essay-cantonese
 𩆙	mn
 𢙂	mp
 𩄤	mb
-𩄝	mm
 𩂦	mt
 𩄢	mb
 𩆪	mi
@@ -52353,7 +51306,6 @@ vocabulary: essay-cantonese
 𩄱	mu
 𩆇	mu
 𩆇	mv
-𩆱	md
 𩆄	mg
 𩰶	mo
 𩆐	md
@@ -52705,7 +51657,6 @@ vocabulary: essay-cantonese
 𤥋	ml
 𤤵	mj
 𤤥	mo
-𤥢	mr
 𤦖	mu
 𤦞	mj
 𤤷	mr
@@ -52743,8 +51694,6 @@ vocabulary: essay-cantonese
 𤤯	me
 𤧻	mg
 𦥅	md
-𤥾	md
-𤨖	mu
 𤪮	mg
 𤨞	mp
 𤩽	mk
@@ -52890,7 +51839,6 @@ vocabulary: essay-cantonese
 𤥬	mh
 𤦎	mb
 𤧂	mi
-𤦬	mp
 𤪂	mp
 𤦜	mr
 𤩣	mu
@@ -52931,7 +51879,6 @@ vocabulary: essay-cantonese
 𤫠	mk
 𤩩	mm
 𤩭	mu
-𤩄	mc
 𤩄	mc
 𤦵	mv
 𤦡	mc
@@ -52993,7 +51940,6 @@ vocabulary: essay-cantonese
 𤨑	mr
 𢚸	mp
 𤩿	mp
-𤨩	mg
 𤨷	md
 𤩭	mn
 𤧹	mi
@@ -53103,7 +52049,6 @@ vocabulary: essay-cantonese
 𠩾	mf
 𠟄	mh
 𠪺	mh
-𩴣	mi
 𣦯	mm
 𤘎	mr
 𠪁	mo
@@ -53223,9 +52168,6 @@ vocabulary: essay-cantonese
 𦤳	mm
 𩃌	mu
 𠷠	mr
-𢨥	ms
-𠪂	mb
-𠩞	md
 𧖛	mp
 𤩺	mi
 𩅾	mv
@@ -53278,7 +52220,6 @@ vocabulary: essay-cantonese
 𢆛	mt
 𠙻	mu
 𣀋	mk
-𠪫	mk
 𪚟	mj
 𪚒	mp
 𢡰	mp
@@ -53289,7 +52230,6 @@ vocabulary: essay-cantonese
 𠪎	mv
 𣓁	md
 𥀬	me
-𡍶	mg
 𪃉	mf
 𪅷	mf
 𪏬	mc
@@ -53400,7 +52340,6 @@ vocabulary: essay-cantonese
 𠄻	md
 𣓺	ml
 𣦚	ml
-𠨹	me
 𠬡	me
 𤊗	mf
 𣆇	ma
@@ -53605,7 +52544,6 @@ vocabulary: essay-cantonese
 𣧸	mo
 𣧆	mp
 𣨤	mm
-𣩀	mb
 𣨲	me
 𣧡	mv
 𣩏	mp
@@ -53620,10 +52558,8 @@ vocabulary: essay-cantonese
 𠪬	me
 𣩘	mi
 𤮍	mi
-𠪚	mk
 𣩐	ma
 𨺶	me
-𠫊	mp
 𣨭	mr
 𨋑	mj
 𣧂	mk
@@ -53653,7 +52589,6 @@ vocabulary: essay-cantonese
 𣨂	mg
 𠀞	mn
 𣨇	ms
-𣧸	mo
 𣩤	mp
 𣧁	ms
 𣍌	ma
@@ -53698,10 +52633,8 @@ vocabulary: essay-cantonese
 𦈩	mu
 𣧭	mm
 𣩮	ma
-𤬯	mn
 𤬻	mn
 𤭷	mn
-𤭙	mr
 𣨡	mu
 𣨎	mg
 𣨐	ms
@@ -53857,13 +52790,11 @@ vocabulary: essay-cantonese
 𢧈	mi
 𧱹	mi
 𧱾	mk
-𧲄	mf
 𧱦	mh
 𧰰	mu
 𧱿	mb
 𧱵	mr
 𠩧	mm
-𧱚	mb
 𧱓	mh
 𠩸	mv
 𠨺	mj
@@ -53915,7 +52846,6 @@ vocabulary: essay-cantonese
 𢽴	mk
 𧱺	mr
 𧱜	mb
-𧰻	mi
 𧱩	mk
 𧱬	mn
 𧱲	md
@@ -53967,7 +52897,6 @@ vocabulary: essay-cantonese
 𣣰	mn
 𧲋	mo
 𧱠	mp
-𧱱	mh
 𧲘	mi
 𡃠	mr
 𧱙	mv
@@ -53977,7 +52906,6 @@ vocabulary: essay-cantonese
 𠩊	ma
 𧵲	mc
 𧢮	mu
-𠫉	mc
 𠨱	md
 𣑘	md
 𠩽	mm
@@ -53991,7 +52919,6 @@ vocabulary: essay-cantonese
 𠄹	mm
 𠠫	mn
 𩕮	mc
-𣣌	mo
 𢟄	mg
 𨟫	ml
 𠩦	mo
@@ -54217,8 +53144,6 @@ vocabulary: essay-cantonese
 𢎄	mp
 𥓵	mm
 𥒎	mq
-𥓎	mk
-𥔱	mm
 𥕒	ma
 𥔷	mb
 𥖝	mc
@@ -54260,7 +53185,6 @@ vocabulary: essay-cantonese
 𥑞	mb
 𥑿	mb
 𥕴	mf
-𥓑	mn
 𥓑	mn
 𥒙	mi
 𥐪	mi
@@ -54310,13 +53234,11 @@ vocabulary: essay-cantonese
 𢆖	mj
 𥕵	mk
 𦧚	mr
-𥓾	mx
 𥐯	mi
 𥐡	mn
 𥒾	mr
 𠶘	mn
 𥒂	mn
-𡃭	mr
 𦧖	mw
 𥓠	mb
 𥔕	mf
@@ -54327,7 +53249,6 @@ vocabulary: essay-cantonese
 𧭳	mr
 𥗐	mr
 𥔁	mw
-𥑉	mu
 𥑣	mu
 𥕉	ma
 𥒱	mh
@@ -54346,7 +53267,6 @@ vocabulary: essay-cantonese
 𥓒	mx
 𥒥	mn
 𥒊	mr
-𥕵	mk
 𥒔	mm
 𦧝	mm
 𦧝	mv
@@ -54377,10 +53297,7 @@ vocabulary: essay-cantonese
 𥖩	ma
 𦧣	mb
 𥐬	mn
-𦧈	mn
-𥓂	mr
 𦧛	mr
-𥕼	mw
 𥖌	mg
 𥖴	mu
 𥒨	mp
@@ -54487,7 +53404,6 @@ vocabulary: essay-cantonese
 𥖢	md
 𥒞	mq
 𥕪	md
-𥓌	mu
 𥗀	mh
 𥐹	mt
 𦧏	mt
@@ -54604,7 +53520,6 @@ vocabulary: essay-cantonese
 𠠿	ms
 𠨳	mi
 𧊪	mi
-𠞯	mn
 𩑕	mc
 𠄥	ms
 𦏺	mm
@@ -54620,7 +53535,6 @@ vocabulary: essay-cantonese
 𢛀	mp
 𠣣	mo
 𠪮	mj
-𩅷	mv
 𠩐	mv
 𪑤	mf
 𧦪	mr
@@ -54771,7 +53685,6 @@ vocabulary: essay-cantonese
 𩐘	ma
 𣍡	mb
 𣍣	mb
-𨣓	mt
 𢟲	mp
 𠩨	md
 𠪓	mf
@@ -54911,10 +53824,7 @@ vocabulary: essay-cantonese
 𩉑	mq
 𩉚	my
 𨣽	mf
-𩉌	mi
 𨣴	mq
-𩉑	mq
-𩉚	my
 𨠽	ms
 𩈼	mh
 𨣔	mp
@@ -54999,7 +53909,6 @@ vocabulary: essay-cantonese
 𧟪	mi
 𨣷	mm
 𩈅	mj
-𩈙	mr
 𧟦	ml
 𨟺	ms
 𤍟	mf
@@ -55055,12 +53964,6 @@ vocabulary: essay-cantonese
 𩈋	ml
 𧟬	mm
 𧟸	ma
-𨠎	mi
-𩈖	mi
-𨟹	mn
-𨡎	mp
-𩈣	mr
-𨢁	mv
 𠩛	mo
 𨣋	ma
 𨣣	mm
@@ -55077,7 +53980,6 @@ vocabulary: essay-cantonese
 𩉏	mo
 𨡮	mp
 𨢣	mc
-𨟴	mm
 𨡒	mv
 𨟵	mp
 𨠖	mu
@@ -55103,8 +54005,6 @@ vocabulary: essay-cantonese
 𨡉	me
 𦑭	mm
 𩈟	ms
-𨣨	mt
-𨣸	mu
 𩤤	mf
 𩈩	ml
 𨤎	mt
@@ -55131,7 +54031,6 @@ vocabulary: essay-cantonese
 𨢬	md
 𨡸	mf
 𩈚	mt
-𨣁	mr
 𩉋	mp
 𨣱	mi
 𨣆	mk
@@ -55292,7 +54191,6 @@ vocabulary: essay-cantonese
 𢻁	ne
 𧣄	ne
 𧤎	nm
-𪍫	ne
 𧣖	np
 𧣗	nr
 𧤳	nh
@@ -55362,7 +54260,6 @@ vocabulary: essay-cantonese
 𤊱	nf
 𧰼	no
 𧣏	nm
-𧣏	nm
 𣗸	nd
 𧤛	nd
 𢑈	nf
@@ -55379,7 +54276,6 @@ vocabulary: essay-cantonese
 𧥋	ng
 𦒑	nm
 𧥂	np
-𧥈	nt
 𧣒	ns
 𧣶	nu
 𢍅	nt
@@ -55404,7 +54300,6 @@ vocabulary: essay-cantonese
 𡡙	nv
 𧤋	nt
 𧣛	nc
-𧥊	no
 𧥊	no
 𧤯	nm
 𣎕	ne
@@ -55437,7 +54332,6 @@ vocabulary: essay-cantonese
 𦧕	nr
 𢎬	ni
 𢎲	nm
-𦧕	nr
 𨞆	nl
 𨞵	nl
 𢦀	np
@@ -55479,7 +54373,6 @@ vocabulary: essay-cantonese
 𡤽	nm
 𡦘	nb
 𩒜	nc
-𡦌	na
 𡦌	na
 𡤾	nm
 𡥚	nr
@@ -55685,7 +54578,6 @@ vocabulary: essay-cantonese
 𩹣	ng
 𩶅	nm
 𩸼	np
-𩺺	nu
 𩵠	nq
 𩷦	ni
 𩽖	nf
@@ -55713,14 +54605,12 @@ vocabulary: essay-cantonese
 𩶺	nj
 𩶄	nc
 𩵥	nk
-𩻟	nf
 𩹧	np
 𩹶	nr
 𩶙	ne
 𩸅	ni
 𢎓	np
 𩽁	nf
-𩸭	nk
 𩼔	nc
 𩷙	nh
 𩼼	ng
@@ -55819,7 +54709,6 @@ vocabulary: essay-cantonese
 𩹺	nb
 𩽊	nr
 𩸷	nt
-𩵡	nu
 𩻛	na
 𩶀	nh
 𩵯	ni
@@ -55919,7 +54808,6 @@ vocabulary: essay-cantonese
 𩵗	nu
 𩻝	nc
 𩸠	nb
-𩻝	nc
 𩶭	nk
 𩼦	no
 𩷂	nh
@@ -55969,7 +54857,6 @@ vocabulary: essay-cantonese
 𩸽	np
 𩺗	nr
 𩼺	nr
-𩹦	ni
 𩼃	nk
 𩽭	nt
 𩹁	nc
@@ -56152,8 +55039,6 @@ vocabulary: essay-cantonese
 𥎄	nr
 𥎟	nj
 𥍦	nb
-𥍵	np
-𥎄	nr
 𥎃	nd
 𢐔	no
 𥎏	na
@@ -56239,19 +55124,15 @@ vocabulary: essay-cantonese
 𣤱	no
 𡖊	nq
 𡖕	nu
-𪚪	nu
 𢏟	nb
 𨿮	ng
 𩚏	nv
 𢏦	nk
-𩚏	nv
 𡖅	np
 𢙰	np
 𢛆	np
-𢐃	nb
 𦣸	nt
 𡖉	ni
-𦣸	nt
 𪀈	nf
 𠛠	nn
 𡵁	nu
@@ -56331,11 +55212,9 @@ vocabulary: essay-cantonese
 𩀁	ng
 𢌝	nh
 𩝕	nv
-𩝕	nv
 𢌣	ns
 𢞀	np
 𥎲	nl
-𢌥	ng
 𢌥	ng
 𨂣	no
 𠝸	nh
@@ -56372,7 +55251,6 @@ vocabulary: essay-cantonese
 𨺻	na
 𨹢	nm
 𨽌	nd
-𨺄	ng
 𨸨	nm
 𨺾	nm
 𨹴	nd
@@ -56476,7 +55354,6 @@ vocabulary: essay-cantonese
 𨹘	nn
 𨸽	ne
 𨺮	ne
-𨹖	np
 𨽏	nc
 𨺖	nu
 𨺎	ne
@@ -56924,7 +55801,6 @@ vocabulary: essay-cantonese
 𡖑	ni
 𡖜	ni
 𡖒	nm
-𡖒	nm
 𣖦	nd
 𠄘	no
 𡗈	nw
@@ -57109,10 +55985,8 @@ vocabulary: essay-cantonese
 𢏉	no
 𢎙	ns
 𩜕	nv
-𩜕	nv
 𨄝	no
 𩥦	nf
-𩜒	nv
 𩜒	nv
 𦏃	nq
 𢆢	nt
@@ -57197,8 +56071,6 @@ vocabulary: essay-cantonese
 𪚬	nn
 𩚴	nv
 𢼮	nk
-𪚬	nn
-𩚴	nv
 𪚭	ni
 𪚶	nr
 𢪸	nq
@@ -57207,7 +56079,6 @@ vocabulary: essay-cantonese
 𠜰	nh
 𥃢	nt
 𦕕	nj
-𥃢	nt
 𠓄	nf
 𩍂	nj
 𠓍	nt
@@ -57365,9 +56236,7 @@ vocabulary: essay-cantonese
 𠋠	oe
 𠌠	og
 𤣼	oi
-𦧘	or
 𠁄	oy
-𠈥	ob
 𠊻	od
 𠌀	od
 𦜿	ox
@@ -57375,8 +56244,6 @@ vocabulary: essay-cantonese
 𦙢	ol
 𨛇	ol
 𨝙	ol
-𪛖	of
-𪛕	ou
 𠈕	ob
 𢠙	op
 𢣍	op
@@ -57657,7 +56524,6 @@ vocabulary: essay-cantonese
 𠐀	oo
 𠉫	og
 𩝶	ov
-𩝶	ov
 𠍹	or
 𠏾	ov
 𢞫	op
@@ -57676,7 +56542,6 @@ vocabulary: essay-cantonese
 𠉱	os
 𠏿	ol
 𠊏	on
-𠐀	oo
 𠐷	op
 𠐈	os
 𠇊	ov
@@ -57792,7 +56657,6 @@ vocabulary: essay-cantonese
 𩚧	oi
 𩛡	ov
 𩟠	oi
-𩟠	oi
 𩝘	oe
 𩝈	or
 𩞀	oh
@@ -57803,8 +56667,6 @@ vocabulary: essay-cantonese
 𩞋	ob
 𩜴	or
 𩞿	op
-𩚬	on
-𩛪	on
 𩚳	ot
 𠆱	oj
 𠈋	oj
@@ -57870,7 +56732,6 @@ vocabulary: essay-cantonese
 𩛷	or
 𩚽	oi
 𠐲	oi
-𩝟	ox
 𩝼	ot
 𩜄	om
 𩞷	ow
@@ -57878,7 +56739,6 @@ vocabulary: essay-cantonese
 𠄖	on
 𩛄	ob
 𩛫	ok
-𩜴	or
 𥑧	or
 𥑼	or
 𩟬	or
@@ -57918,7 +56778,6 @@ vocabulary: essay-cantonese
 𠉞	op
 𪚕	op
 𪚙	op
-𩝽	oi
 𩟖	ou
 𩝎	oy
 𩚜	ov
@@ -57941,15 +56800,12 @@ vocabulary: essay-cantonese
 𩝧	oh
 𧐂	oi
 𩚨	om
-𩚹	oi
 𩜞	ol
-𩚕	on
 𩚤	on
 𩜶	on
 𩟅	oo
 𩟳	op
 𩜉	or
-𩝞	or
 𩛹	og
 𩜐	op
 𩛠	og
@@ -57986,7 +56842,6 @@ vocabulary: essay-cantonese
 𩞓	ow
 𩟎	od
 𩝁	ot
-𩝁	ot
 𠊘	ob
 𩚒	oi
 𩜧	on
@@ -58017,7 +56872,6 @@ vocabulary: essay-cantonese
 𩞩	oc
 𩝨	op
 𩚵	om
-𩞩	oc
 𩝇	od
 𩜱	ov
 𩟘	of
@@ -58032,7 +56886,6 @@ vocabulary: essay-cantonese
 𩟊	ov
 𩛲	ov
 𩚂	ou
-𠈵	oh
 𩞉	of
 𩜵	ob
 𩝚	oi
@@ -58048,7 +56901,6 @@ vocabulary: essay-cantonese
 𩟧	od
 𩜆	on
 𩝴	oi
-𩛼	oe
 𩛋	ou
 𩝹	ou
 𩜊	ow
@@ -58075,7 +56927,6 @@ vocabulary: essay-cantonese
 𩛭	ob
 𩞙	oj
 𩟆	ob
-𩜽	oh
 𩛜	oi
 𩞈	oo
 𩚋	on
@@ -58129,7 +56980,6 @@ vocabulary: essay-cantonese
 𠐏	ot
 𠍊	oa
 𨾟	og
-𠍅	on
 𠏷	oi
 𠍌	op
 𠉗	ou
@@ -58233,8 +57083,6 @@ vocabulary: essay-cantonese
 𥏲	or
 𩛢	ov
 𥎪	ok
-𥏲	or
-𩛢	ov
 𠋙	on
 𠓵	oo
 𢙠	op
@@ -58305,7 +57153,6 @@ vocabulary: essay-cantonese
 𠁭	ol
 𠌕	ol
 𠓪	ol
-𨁀	oo
 𠎕	oq
 𥫧	on
 𠆪	op
@@ -58328,7 +57175,6 @@ vocabulary: essay-cantonese
 𠓛	om
 𠓤	oa
 𠍛	ob
-𩛛	oc
 𩚀	oi
 𠈗	om
 𣉠	oh
@@ -58372,10 +57218,8 @@ vocabulary: essay-cantonese
 𠊷	oe
 𠓰	oe
 𠋾	of
-𪀼	of
 𠊎	og
 𠓾	og
-𨿂	og
 𠇤	oi
 𠊷	ok
 𠌆	ol
@@ -58396,7 +57240,6 @@ vocabulary: essay-cantonese
 𠉔	ot
 𨎯	oj
 𠇄	ok
-𠎷	om
 𠍴	op
 𠐣	op
 𠆮	os
@@ -58424,23 +57267,15 @@ vocabulary: essay-cantonese
 𤭬	on
 𧭨	or
 𪙼	ou
-𢂂	ob
 𠋕	od
 𠌖	od
-𢻶	oe
-𣲎	oe
 𨝫	ol
 𨗜	ol
-𡦈	oo
 𣢥	oo
 𣣽	oo
 𢛪	op
-𪚕	op
-𪚙	op
 𠈢	ou
 𠆭	ov
-𩚜	ov
-𨡣	ow
 𩻢	of
 𠇮	ob
 𠌈	ob
@@ -58450,7 +57285,6 @@ vocabulary: essay-cantonese
 𠌺	ol
 𠍩	ol
 𠐰	om
-𩛒	ov
 𠎃	oq
 𠈇	ow
 𠉦	ow
@@ -58549,7 +57383,6 @@ vocabulary: essay-cantonese
 𦑤	om
 𣣠	oo
 𤬈	oo
-𠐣	op
 𠍢	os
 𠠶	os
 𣱗	os
@@ -58568,7 +57401,6 @@ vocabulary: essay-cantonese
 𥇮	ou
 𠎖	od
 𠇡	of
-𦧎	or
 𠊱	ok
 𣱚	oi
 𠋎	op
@@ -58657,7 +57489,6 @@ vocabulary: essay-cantonese
 𠉳	on
 𥏂	ok
 𠏚	op
-𠋡	ov
 𠊆	ow
 𠓟	on
 𠐖	oe
@@ -58828,7 +57659,6 @@ vocabulary: essay-cantonese
 𠐨	or
 𠑪	or
 𠋨	ou
-𦧸	oc
 𦧸	oc
 𠟐	oc
 𠞴	oi
@@ -59036,7 +57866,6 @@ vocabulary: essay-cantonese
 𩔝	oc
 𠈳	of
 𠊜	or
-𩱢	ob
 𠊖	on
 𢘂	op
 𠱧	or
@@ -59452,7 +58281,6 @@ vocabulary: essay-cantonese
 𥄽	pu
 𢙊	po
 𨜗	pl
-𪚵	pu
 𢢾	pc
 𢟴	pg
 𠤘	pk
@@ -59590,7 +58418,6 @@ vocabulary: essay-cantonese
 𢡍	pl
 𢗶	pm
 𢡡	pp
-𢣁	pp
 𢤓	pr
 𢝶	pv
 𢤟	pv
@@ -59628,7 +58455,6 @@ vocabulary: essay-cantonese
 𥘈	pf
 𠣓	pi
 𢣒	pi
-𢙊	po
 𢥬	pp
 𧥻	pr
 𢗃	ps
@@ -59680,7 +58506,6 @@ vocabulary: essay-cantonese
 𢠌	pi
 𢜁	po
 𢙛	pr
-𠣽	pk
 𢎯	pk
 𢢴	pf
 𢚀	pm
@@ -59698,7 +58523,6 @@ vocabulary: essay-cantonese
 𢞼	pd
 𢥋	pu
 𢘩	pd
-𢛵	pd
 𢠐	pf
 𢙑	pk
 𠣴	pe
@@ -59770,7 +58594,6 @@ vocabulary: essay-cantonese
 𣬆	pe
 𣬂	pj
 𣬊	pj
-𢗋	pm
 𧣅	pg
 𨚍	pl
 𣢋	po
@@ -60095,7 +58918,6 @@ vocabulary: essay-cantonese
 𠟆	qn
 𩕗	qc
 𢸶	qe
-𢮚	qk
 𢺖	qv
 𢵧	qa
 𢷃	qb
@@ -60245,9 +59067,7 @@ vocabulary: essay-cantonese
 𢩭	qi
 𦔍	qi
 𦔭	qy
-𦔭	qy
 𦔩	qf
-𦔁	qi
 𦔤	qt
 𦔣	qy
 𦔗	qi
@@ -60624,9 +59444,6 @@ vocabulary: essay-cantonese
 𨛚	qu
 𢰾	qp
 𢴂	qb
-𢮄	qd
-𢲙	qv
-𢹞	qv
 𢬿	qt
 𢱋	qe
 𢯪	qu
@@ -60851,7 +59668,6 @@ vocabulary: essay-cantonese
 𢰫	qo
 𢬌	qe
 𢬍	qk
-𢰔	qu
 𢶍	qm
 𢮳	qb
 𧉉	qi
@@ -61089,7 +59905,6 @@ vocabulary: essay-cantonese
 𢷬	qi
 𢫶	ql
 𢶄	qc
-𢳆	qk
 𢮺	qu
 𣕔	qd
 𢴙	qo
@@ -61125,7 +59940,6 @@ vocabulary: essay-cantonese
 𢶚	qt
 𢷭	qv
 𢺭	qp
-𢴂	qb
 𢪩	qe
 𢲈	qe
 𢹚	qe
@@ -61195,7 +60009,6 @@ vocabulary: essay-cantonese
 𢱒	qk
 𢮲	qn
 𢴯	qr
-𢵈	qr
 𢷞	qt
 𢳌	qu
 𢭾	qn
@@ -61519,7 +60332,6 @@ vocabulary: essay-cantonese
 𨝿	rl
 𨿔	rg
 𩞣	rv
-𩞣	rv
 𠷤	ru
 𠰩	rq
 𠺔	rb
@@ -61528,7 +60340,6 @@ vocabulary: essay-cantonese
 𠱂	rs
 𠰘	rt
 𠱄	rt
-𠹻	rk
 𠱡	rt
 𠵹	ru
 𠵜	rv
@@ -61597,7 +60408,6 @@ vocabulary: essay-cantonese
 𡂆	rw
 𠰌	rj
 𢻥	re
-𪍻	re
 𠲿	rl
 𡃤	rc
 𠻳	rk
@@ -61669,7 +60479,6 @@ vocabulary: essay-cantonese
 𠴝	rg
 𠽎	rg
 𠱢	rj
-𠻹	rp
 𡀡	rm
 𢝅	rp
 𠲨	rd
@@ -61850,7 +60659,6 @@ vocabulary: essay-cantonese
 𠹡	rg
 𠺌	ri
 𠺒	rp
-𡄊	rt
 𠽶	ru
 𠱖	rk
 𠹇	rp
@@ -61866,7 +60674,6 @@ vocabulary: essay-cantonese
 𨈗	rh
 𡀭	rs
 𪚩	ru
-𠴰	rr
 𠯫	ri
 𠱝	rb
 𠱮	rb
@@ -61918,9 +60725,6 @@ vocabulary: essay-cantonese
 𠳓	rp
 𠴆	rp
 𠷂	rp
-𠯖	rs
-𠲪	ru
-𠹓	ru
 𠻊	rb
 𠿳	rc
 𠺳	ra
@@ -62131,7 +60935,6 @@ vocabulary: essay-cantonese
 𨁺	rc
 𨆲	rp
 𨀜	rr
-𨀩	rb
 𨄊	rf
 𠻢	rs
 𠽌	rs
@@ -62157,7 +60960,6 @@ vocabulary: essay-cantonese
 𨂐	ro
 𨁉	rw
 𨃀	rf
-𠯘	re
 𠳃	re
 𨄈	rd
 𨀝	re
@@ -62249,8 +61051,6 @@ vocabulary: essay-cantonese
 𨆽	ri
 𨇻	ry
 𨁤	rd
-𨆽	ri
-𨇻	ry
 𨆱	rn
 𨀵	rg
 𨀟	rp
@@ -62264,9 +61064,6 @@ vocabulary: essay-cantonese
 𨀠	rj
 𨀥	ro
 𨁵	ri
-𨁸	rk
-𨂇	rm
-𨃩	rm
 𨇁	rc
 𨁕	rf
 𨂫	ru
@@ -62305,7 +61102,6 @@ vocabulary: essay-cantonese
 𨂁	ru
 𨂁	rv
 𠳒	rm
-𠿓	rm
 𨆚	rm
 𡁓	rn
 𧿢	rs
@@ -62345,13 +61141,11 @@ vocabulary: essay-cantonese
 𠰑	rj
 𧿂	rj
 𧿉	rs
-𨂵	rx
 𨁇	rr
 𧿄	rl
 𨂎	rb
 𨁈	rk
 𨁶	rm
-𨀥	ro
 𧿙	ru
 𠯸	rn
 𨃮	rd
@@ -62467,7 +61261,6 @@ vocabulary: essay-cantonese
 𠿴	ri
 𠹶	rj
 𡀬	rj
-𨁎	rg
 𠻅	ro
 𠹭	rr
 𡂳	rr
@@ -62575,9 +61368,7 @@ vocabulary: essay-cantonese
 𨄮	rj
 𨁐	rt
 𧿫	rj
-𨂪	rh
 𨂋	rl
-𨄉	rm
 𨁾	ro
 𠰪	rm
 𨅅	re
@@ -62667,14 +61458,12 @@ vocabulary: essay-cantonese
 𠷑	re
 𠽟	ri
 𩞂	rv
-𩞂	rv
 𠽹	rr
 𢞈	rp
 𠯎	rq
 𠹳	rd
 𠸅	re
 𠱆	rd
-𠲜	rd
 𠯷	ri
 𡅛	ri
 𡂱	rl
@@ -62685,11 +61474,9 @@ vocabulary: essay-cantonese
 𠲫	ru
 𡁅	ru
 𡁄	rv
-𪔈	rv
 𠽐	rf
 𡁀	ro
 𠼓	ru
-𪚩	ru
 𠰊	ro
 𠺁	ry
 𤋚	rf
@@ -62755,14 +61542,12 @@ vocabulary: essay-cantonese
 𠴇	rc
 𠲇	rf
 𠱴	rg
-𠲏	rg
 𠷊	rk
 𠵴	rl
 𠯏	rn
 𠯼	rn
 𠷢	rn
 𡀍	rp
-𠹸	rv
 𩒻	rc
 𠺪	rd
 𪅺	rf
@@ -62963,7 +61748,6 @@ vocabulary: essay-cantonese
 𩝵	rv
 𦈯	ru
 𣀬	rk
-𩝵	rv
 𡀓	rg
 𢣉	rp
 𠼿	rp
@@ -63215,8 +61999,6 @@ vocabulary: essay-cantonese
 𡀕	rf
 𠵚	rj
 𢁌	rc
-𢁅	rj
-𧰑	rt
 𠹛	rt
 𠲺	re
 𨞍	rl
@@ -63224,10 +62006,8 @@ vocabulary: essay-cantonese
 𠼩	rb
 𡄴	rb
 𠵙	ri
-𩞂	rv
 𢼙	rk
 𠳥	rm
-𩞂	rv
 𢙸	rp
 𪓞	rr
 𪓪	rg
@@ -63396,7 +62176,6 @@ vocabulary: essay-cantonese
 𨃁	rh
 𨄁	ru
 𨆤	rq
-𢌴	rt
 𨃈	ru
 𠿃	rd
 𨅼	ro
@@ -63418,7 +62197,6 @@ vocabulary: essay-cantonese
 𨁧	rb
 𠶼	rv
 𠻥	rd
-𠷍	re
 𨃺	rb
 𨁭	rh
 𨄿	ry
@@ -63512,7 +62290,6 @@ vocabulary: essay-cantonese
 𠳻	rn
 𠳺	rr
 𠷉	rr
-𠰼	rb
 𠲔	rc
 𠳤	rh
 𠯽	rm
@@ -63524,7 +62301,6 @@ vocabulary: essay-cantonese
 𠸼	rj
 𠾜	rm
 𠯡	rn
-𡃧	ro
 𠽖	ro
 𠻫	rp
 𠱚	ry
@@ -63696,8 +62472,6 @@ vocabulary: essay-cantonese
 𩛻	sv
 𩜬	sv
 𢽷	sk
-𩛻	sv
-𩜬	sv
 𠥴	sn
 𡒍	sg
 𢟬	sp
@@ -63903,7 +62677,6 @@ vocabulary: essay-cantonese
 𩤐	ss
 𩢄	su
 𩡯	sn
-𩥝	sp
 𩣄	sp
 𩤬	sb
 𩦣	sb
@@ -63988,7 +62761,6 @@ vocabulary: essay-cantonese
 𩣘	su
 𩤿	se
 𩢼	sg
-𩦹	st
 𩥋	sf
 𩢘	sr
 𩥇	sv
@@ -64020,7 +62792,6 @@ vocabulary: essay-cantonese
 𩣆	sq
 𩥍	sq
 𩤀	sc
-𩦐	sr
 𩥒	su
 𩥒	sv
 𩦗	sj
@@ -64049,13 +62820,11 @@ vocabulary: essay-cantonese
 𩦯	sj
 𩢏	sl
 𩦮	sv
-𩥈	st
 𩢱	sr
 𩡭	sy
 𩤢	sb
 𩧑	sp
 𩦪	sv
-𩥮	sm
 𩥮	sm
 𩣖	sr
 𩣝	sh
@@ -64205,7 +62974,6 @@ vocabulary: essay-cantonese
 𩮷	su
 𠤺	sv
 𩬁	sp
-𩮷	su
 𩬼	se
 𩭧	sj
 𩯙	so
@@ -64224,7 +62992,6 @@ vocabulary: essay-cantonese
 𩬤	sp
 𩯩	ss
 𩬠	sr
-𩭠	sb
 𩯎	st
 𩭒	sh
 𩯭	sc
@@ -64281,7 +63048,6 @@ vocabulary: essay-cantonese
 𩬴	sj
 𩭍	sr
 𩭸	sr
-𩬎	sg
 𩯺	sm
 𩬛	sn
 𢆙	sj
@@ -64339,7 +63105,6 @@ vocabulary: essay-cantonese
 𩬓	sb
 𡳸	sm
 𩬡	sm
-𩬔	si
 𩯸	sm
 𩭮	sp
 𩮩	sr
@@ -64365,7 +63130,6 @@ vocabulary: essay-cantonese
 𩭳	sp
 𩮀	sp
 𩬈	sp
-𡳅	su
 𩭱	sa
 𩮁	sk
 𡱫	si
@@ -64376,7 +63140,6 @@ vocabulary: essay-cantonese
 𠤵	sm
 𩯳	sc
 𩯒	so
-𩮯	sk
 𥁏	st
 𩬫	sc
 𩭚	sd
@@ -64447,7 +63210,6 @@ vocabulary: essay-cantonese
 𩮲	sm
 𩬿	sv
 𩯈	sa
-𩮲	sm
 𩮣	sy
 𩬄	so
 𩯜	ss
@@ -64518,7 +63280,6 @@ vocabulary: essay-cantonese
 𨲄	se
 𨲱	sp
 𨱿	sj
-𨲜	sb
 𨳆	sv
 𨳅	sp
 𨲟	sr
@@ -64556,7 +63317,6 @@ vocabulary: essay-cantonese
 𣥀	so
 𨱟	so
 𨳂	si
-𨲌	sd
 𩻍	sf
 𡳠	sc
 𨱯	sf
@@ -64580,7 +63340,6 @@ vocabulary: essay-cantonese
 𨲠	sm
 𨲛	su
 𨱫	sm
-𨲠	sm
 𨲴	sb
 𨲳	sv
 𡵑	su
@@ -64599,7 +63358,6 @@ vocabulary: essay-cantonese
 𨲨	sm
 𣁸	sj
 𣂊	sj
-𨲨	sm
 𨱲	sp
 𧩾	sr
 𨲦	sm
@@ -64784,7 +63542,6 @@ vocabulary: essay-cantonese
 𨐢	st
 𦖌	sc
 𦕠	sc
-𦖣	sw
 𡲷	sd
 𦗅	si
 𦗢	sr
@@ -64845,7 +63602,6 @@ vocabulary: essay-cantonese
 𥏏	se
 𡰧	ss
 𡱉	sk
-𩠷	su
 𩯢	su
 𡰯	sb
 𠥪	sx
@@ -64925,7 +63681,6 @@ vocabulary: essay-cantonese
 𥊇	su
 𠔐	sc
 𦒗	sa
-𣔿	sd
 𦐍	sk
 𠤯	sf
 𦒐	sk
@@ -64958,14 +63713,11 @@ vocabulary: essay-cantonese
 𦐗	sk
 𦏵	sp
 𦑌	sm
-𦑮	sb
-𢩗	ss
 𦒎	sp
 𦑥	sa
 𦑈	so
 𦒨	si
 𦑐	si
-𨍒	sj
 𦐌	si
 𨞟	sl
 𦑎	su
@@ -64980,7 +63732,6 @@ vocabulary: essay-cantonese
 𡱔	sa
 𨢒	sw
 𦏴	sd
-𠭝	se
 𦒤	sb
 𦐜	sj
 𡲃	sg
@@ -64995,14 +63746,12 @@ vocabulary: essay-cantonese
 𡱓	sn
 𣕡	sd
 𡬶	si
-𠙛	sn
 𡱕	sp
 𣕠	sd
 𢍟	st
 𦑞	sw
 𦐟	ss
 𦏻	ss
-𩈵	sl
 𡰨	sn
 𢏖	sn
 𡦋	sd
@@ -65016,7 +63765,6 @@ vocabulary: essay-cantonese
 𦐙	su
 𦒞	sr
 𡱆	sb
-𡳠	sc
 𦑏	sg
 𨾆	sg
 𥂔	st
@@ -65048,7 +63796,6 @@ vocabulary: essay-cantonese
 𦑄	sk
 𦒁	sm
 𦒅	so
-𦒁	sm
 𦏳	su
 𡱂	sn
 𡳘	so
@@ -65064,7 +63811,6 @@ vocabulary: essay-cantonese
 𦑶	sf
 𦒖	sc
 𦑯	so
-𧩾	sr
 𠰟	sr
 𥪡	st
 𦐹	sj
@@ -65237,7 +63983,6 @@ vocabulary: essay-cantonese
 𠥭	sh
 𩿝	sf
 𪀫	sf
-𩿮	sf
 𢑵	sw
 𣪐	se
 𢀦	sl
@@ -65394,7 +64139,6 @@ vocabulary: essay-cantonese
 𡲈	sk
 𡳝	sj
 𡲼	so
-𤌇	sf
 𥼿	sd
 𡳍	sr
 𪄡	sf
@@ -65419,7 +64163,6 @@ vocabulary: essay-cantonese
 𢎘	ss
 𨲅	sp
 𨲍	sv
-𢁉	sc
 𡳵	sa
 𦧃	sx
 𡱟	sd
@@ -65739,8 +64482,6 @@ vocabulary: essay-cantonese
 𪏤	tp
 𢚱	tp
 𪏇	tm
-𪏗	tb
-𪓎	tb
 𧄭	tt
 𦰠	tt
 𪏪	tc
@@ -65908,7 +64649,6 @@ vocabulary: essay-cantonese
 𧀃	tt
 𦾢	tv
 𠄅	tu
-𦼋	te
 𧅝	ta
 𧅬	ti
 𧅜	tu
@@ -65962,7 +64702,6 @@ vocabulary: essay-cantonese
 𦼥	ta
 𦺌	te
 𦾶	tl
-𪎇	te
 𧁕	tt
 𦴴	tv
 𧀪	tf
@@ -65983,7 +64722,6 @@ vocabulary: essay-cantonese
 𧄻	tm
 𦭑	tn
 𦼬	tt
-𦽘	tt
 𧗎	tt
 𦵩	tw
 𦵜	tw
@@ -66389,7 +65127,6 @@ vocabulary: essay-cantonese
 𣕙	ti
 𧃲	td
 𧂷	tf
-𧀋	ti
 𦽲	tv
 𧆆	tb
 𦽎	te
@@ -66453,7 +65190,6 @@ vocabulary: essay-cantonese
 𦽫	tp
 𦳰	ti
 𧀮	tk
-𦶋	tm
 𦼦	tt
 𧁉	tu
 𦳔	te
@@ -66609,7 +65345,6 @@ vocabulary: essay-cantonese
 𩋢	tm
 𩍏	tw
 𦳛	tn
-𪎃	te
 𩉺	tp
 𧃙	tq
 𩍹	tp
@@ -66646,7 +65381,6 @@ vocabulary: essay-cantonese
 𦱥	tm
 𩋂	ty
 𦬝	tn
-𩍫	te
 𩍌	ti
 𩉼	tl
 𩊒	tp
@@ -66703,13 +65437,11 @@ vocabulary: essay-cantonese
 𩊥	tn
 𩊁	tu
 𩊃	ty
-𩍉	tk
 𨚜	tl
 𩊛	tu
 𦴌	tn
 𩉢	to
 𩍐	tt
-𩌾	ti
 𩊋	tu
 𩊎	tl
 𩉶	tm
@@ -66737,8 +65469,6 @@ vocabulary: essay-cantonese
 𩋍	to
 𩌻	te
 𦾠	tf
-𩊂	ti
-𩋏	tp
 𩋴	tk
 𩉻	td
 𩌞	ta
@@ -66812,7 +65542,6 @@ vocabulary: essay-cantonese
 𢌽	tj
 𪏥	tc
 𧄊	to
-𪏥	tc
 𩎐	tf
 𧃕	to
 𩋖	tp
@@ -66821,7 +65550,6 @@ vocabulary: essay-cantonese
 𩍘	tb
 𩍣	td
 𩊑	tq
-𩌢	tm
 𩋪	tp
 𩊖	tt
 𦺦	ty
@@ -67003,12 +65731,8 @@ vocabulary: essay-cantonese
 𦮃	tp
 𦵰	tw
 𦸜	tw
-𦽃	tb
 𧹘	tc
-𦺯	td
 𣤬	to
-𦾭	ts
-𦽌	tw
 𢼘	tk
 𢿯	tk
 𣁒	tk
@@ -67067,7 +65791,6 @@ vocabulary: essay-cantonese
 𦱃	tt
 𦽯	tm
 𦇂	tb
-𧆆	tb
 𦯘	te
 𦲯	te
 𤯇	tf
@@ -67075,7 +65798,6 @@ vocabulary: essay-cantonese
 𧁞	tf
 𦺶	tn
 𦾑	tn
-𦵬	ts
 𦬬	tg
 𧂖	tc
 𦳙	te
@@ -67088,7 +65810,6 @@ vocabulary: essay-cantonese
 𦹙	tm
 𦲖	tn
 𠀫	th
-𪃖	tf
 𪅀	tf
 𦰘	ti
 𦰘	tm
@@ -67115,11 +65836,9 @@ vocabulary: essay-cantonese
 𦬞	tk
 𦹗	tc
 𦲑	te
-𦼩	tm
 𦾳	tn
 𠢀	ts
 𦬋	ts
-𦻅	ty
 𦲸	tb
 𦻋	tb
 𦹆	tg
@@ -67173,7 +65892,6 @@ vocabulary: essay-cantonese
 𩁚	tg
 𢎌	tp
 𩞎	tv
-𩞎	tv
 𦴱	tn
 𦵃	tp
 𧂱	tt
@@ -67184,7 +65902,6 @@ vocabulary: essay-cantonese
 𦿆	th
 𦳵	tl
 𦷽	tl
-𦸈	to
 𦷩	to
 𧃗	tt
 𦺫	tv
@@ -67231,7 +65948,6 @@ vocabulary: essay-cantonese
 𦻚	tl
 𧃅	tp
 𦭕	te
-𦽯	tm
 𦾞	tt
 𧗆	tt
 𧯷	tt
@@ -67324,7 +66040,6 @@ vocabulary: essay-cantonese
 𦶁	tu
 𦗿	tj
 𦑦	tm
-𦳌	tp
 𦯆	ts
 𡗐	ts
 𦮘	tt
@@ -67421,7 +66136,6 @@ vocabulary: essay-cantonese
 𦿘	tt
 𧂚	tt
 𧗘	tt
-𦾝	tu
 𦼞	tw
 𦲴	tk
 𨝥	tl
@@ -67512,7 +66226,6 @@ vocabulary: essay-cantonese
 𩖎	tc
 𦮱	tg
 𦵕	tm
-𦳇	tr
 𦷮	tr
 𩀔	tg
 𦮤	tp
@@ -67596,7 +66309,6 @@ vocabulary: essay-cantonese
 𧁜	tp
 𦎱	tr
 𦍩	tr
-𨌅	tj
 𦎳	tc
 𦴼	te
 𦾁	tf
@@ -67636,7 +66348,6 @@ vocabulary: essay-cantonese
 𦎈	tq
 𦏂	tr
 𦺤	td
-𦎢	tm
 𦍴	tf
 𦎤	td
 𦍗	tn
@@ -67652,7 +66363,6 @@ vocabulary: essay-cantonese
 𦴽	tg
 𦾣	tg
 𦍪	th
-𦎌	tr
 𦎌	tr
 𦰀	tn
 𦰄	tn
@@ -67687,8 +66397,6 @@ vocabulary: essay-cantonese
 𦏏	ta
 𦎺	tm
 𦍫	ti
-𦍑	ti
-𦏦	tk
 𦏦	tk
 𦍦	tu
 𦵛	tu
@@ -67709,7 +66417,6 @@ vocabulary: essay-cantonese
 𦏫	tu
 𦻴	to
 𦏆	tg
-𪉤	ti
 𦏨	tv
 𦬅	tr
 𦮻	tb
@@ -67778,7 +66485,6 @@ vocabulary: essay-cantonese
 𧃌	ta
 𦱫	tb
 𦲭	tb
-𦺈	tc
 𦷗	tg
 𪓔	tu
 𢿩	te
@@ -67832,7 +66538,6 @@ vocabulary: essay-cantonese
 𤨙	ti
 𦭳	tm
 𦭡	tr
-𧂢	tw
 𦮊	tg
 𨟁	tl
 𨟔	tl
@@ -67864,7 +66569,6 @@ vocabulary: essay-cantonese
 𡚙	tk
 𠄺	tu
 𦮎	tc
-𦵻	ta
 𦻆	td
 𧅄	te
 𦸀	tg
@@ -67872,7 +66576,6 @@ vocabulary: essay-cantonese
 𦶩	tt
 𧃂	tu
 𦹕	tv
-𦳷	tw
 𥃙	ta
 𧰢	tq
 𧆚	tt
@@ -68278,7 +66981,6 @@ vocabulary: essay-cantonese
 𦸰	tm
 𦺿	ta
 𦱀	tb
-𦽟	tb
 𦳺	te
 𧀹	tf
 𦳺	tk
@@ -68291,7 +66993,6 @@ vocabulary: essay-cantonese
 𦿪	tt
 𦹺	tc
 𧂏	tf
-𦸰	tm
 𧂠	tc
 𦯝	tf
 𦳭	tb
@@ -68319,7 +67020,6 @@ vocabulary: essay-cantonese
 𧀴	tb
 𦺱	tc
 𧃢	tc
-𧃍	te
 𦸵	tk
 𦾚	tk
 𦼫	to
@@ -68369,7 +67069,6 @@ vocabulary: essay-cantonese
 𦺳	tr
 𦻫	tv
 𦾪	te
-𧃰	te
 𦸟	tt
 𠅇	tv
 𦮞	td
@@ -68704,13 +67403,8 @@ vocabulary: essay-cantonese
 𡾶	up
 𡾵	ut
 𡾌	uf
-𡵘	us
-𡹫	ub
 𡽟	uh
 𡽦	uh
-𡸒	uk
-𡶃	un
-𡻮	uu
 𡾇	uc
 𡻠	uf
 𩟜	uu
@@ -68791,7 +67485,6 @@ vocabulary: essay-cantonese
 𠚍	ui
 𡴔	ui
 𤢝	uk
-𪍾	ue
 𪈡	uf
 𡶱	ui
 𡻯	uk
@@ -68885,7 +67578,6 @@ vocabulary: essay-cantonese
 𠙿	um
 𡶂	um
 𥘣	uf
-𡷑	uo
 𡾷	ur
 𡹻	us
 𡵧	uu
@@ -69005,7 +67697,6 @@ vocabulary: essay-cantonese
 𡵚	ul
 𡶦	um
 𡼾	ua
-𡥏	ud
 𡷣	ud
 𡸂	ud
 𡸃	um
@@ -69098,7 +67789,6 @@ vocabulary: essay-cantonese
 𠚎	ut
 𡵆	uu
 𡶗	up
-𡷤	uk
 𨤦	ug
 𡽑	uu
 𢿁	ue
@@ -69123,7 +67813,6 @@ vocabulary: essay-cantonese
 𡸘	ue
 𡸨	ue
 𡼅	ul
-𪌨	ue
 𡷝	uu
 𡶋	un
 𡴹	ul
@@ -69153,7 +67842,6 @@ vocabulary: essay-cantonese
 𢌲	ut
 𡻟	uk
 𡶵	uc
-𡺽	ua
 𡻸	ug
 𡺬	ut
 𡺚	uw
@@ -69370,7 +68058,6 @@ vocabulary: essay-cantonese
 𡵻	un
 𡸫	uj
 𡹉	ue
-𡾟	ui
 𡾐	uu
 𡴧	uv
 𡶛	uy
@@ -69556,7 +68243,6 @@ vocabulary: essay-cantonese
 𡡹	vk
 𦆢	vn
 𦂴	vu
-𦁍	vg
 𥾢	vm
 𦄘	vo
 𡞀	vr
@@ -69706,8 +68392,6 @@ vocabulary: essay-cantonese
 𦇑	vq
 𦇺	vy
 𦀾	vd
-𦇑	vq
-𦇺	vy
 𦇰	vo
 𦀐	vg
 𦄅	vf
@@ -69719,7 +68403,6 @@ vocabulary: essay-cantonese
 𦂧	vl
 𦅒	vp
 𦆍	vo
-𦅺	vt
 𦄢	vb
 𦁶	vo
 𦀋	ve
@@ -69770,7 +68453,6 @@ vocabulary: essay-cantonese
 𦀺	vj
 𦃏	ve
 𦆖	vf
-𦃏	ve
 𦅁	va
 𥿭	vi
 𦄍	vk
@@ -69823,7 +68505,6 @@ vocabulary: essay-cantonese
 𤫜	vi
 𦇟	vf
 𥾍	vj
-𦂉	vx
 𦁔	vp
 𥾎	vl
 𥾝	vs
@@ -69907,12 +68588,10 @@ vocabulary: essay-cantonese
 𦅩	va
 𦇬	vb
 𦄱	ve
-𦁌	vi
 𦁸	vl
 𦅖	vm
 𥾨	vn
 𦁇	vp
-𦁤	vp
 𦃹	vr
 𥿐	vs
 𦀢	vo
@@ -69937,7 +68616,6 @@ vocabulary: essay-cantonese
 𥾡	vm
 𦁯	vk
 𦆦	vo
-𥾡	vm
 𦁮	vm
 𦁁	vg
 𦂄	va
@@ -69968,7 +68646,6 @@ vocabulary: essay-cantonese
 𥿗	vc
 𦀚	vg
 𥿓	vr
-𦀚	vg
 𦃴	vw
 𦄛	vw
 𦄶	vl
@@ -69977,7 +68654,6 @@ vocabulary: essay-cantonese
 𦆜	vo
 𦄪	vm
 𠠪	vh
-𦄒	vb
 𦅉	vb
 𥾠	vc
 𥿷	vi
@@ -70170,7 +68846,6 @@ vocabulary: essay-cantonese
 𤮲	vn
 𩟷	vv
 𦉥	vu
-𩟷	vv
 𩞠	vv
 𢣘	vp
 𡜤	vd
@@ -70290,7 +68965,6 @@ vocabulary: essay-cantonese
 𢆲	vs
 𩑴	vc
 𣢜	vo
-𧗒	vt
 𢆯	vl
 𧖀	vi
 𧎶	vi
@@ -70313,7 +68987,6 @@ vocabulary: essay-cantonese
 𠫙	vo
 𡑶	vg
 𩝫	vv
-𩝫	vv
 𩞟	vv
 𡟔	vr
 𡟘	vv
@@ -70325,7 +68998,6 @@ vocabulary: essay-cantonese
 𨄚	vo
 𡞬	ve
 𡣷	vk
-𡝢	vk
 𢆵	vm
 𢇀	vm
 𡡛	vt
@@ -70391,7 +69063,6 @@ vocabulary: essay-cantonese
 𡝻	vs
 𡛀	ve
 𤙘	vq
-𩴪	vi
 𡛕	vi
 𦈆	vc
 𡘾	vk
@@ -70501,7 +69172,6 @@ vocabulary: essay-cantonese
 𤖡	vf
 𡚯	vs
 𤖘	vc
-𡟢	vu
 𤖏	vk
 𦁾	vk
 𤕰	vl
@@ -70537,11 +69207,9 @@ vocabulary: essay-cantonese
 𤕵	vi
 𤕺	vk
 𤖚	vm
-𤕵	vi
 𦈕	vn
 𤕼	vk
 𤕴	vd
-𡟔	vr
 𤕮	vd
 𢪇	vq
 𤖓	vc
@@ -70618,13 +69286,10 @@ vocabulary: essay-cantonese
 𩹒	vf
 𩝖	vv
 𡞳	vk
-𩝖	vv
-𡠤	vi
 𡤎	vu
 𡟚	vt
 𡞿	ve
 𡠵	vf
-𡤞	vu
 𧚲	vv
 𧛵	vv
 𡛫	vo
@@ -70657,7 +69322,6 @@ vocabulary: essay-cantonese
 𨣻	vw
 𡝐	vd
 𡝙	vf
-𦧬	vr
 𡞆	vr
 𠀳	vy
 𡦁	vd
@@ -70715,7 +69379,6 @@ vocabulary: essay-cantonese
 𣭠	vu
 𡟎	vi
 𧊟	vi
-𡝚	vg
 𤥏	vi
 𥙦	vf
 𨚴	vl
@@ -70814,7 +69477,6 @@ vocabulary: essay-cantonese
 𡡣	vd
 𡢬	vd
 𡟝	vo
-𡠎	vi
 𡤮	vr
 𡢯	vv
 𡢫	vi
@@ -70897,7 +69559,6 @@ vocabulary: essay-cantonese
 𡿪	vi
 𡟇	vo
 𡟼	vo
-𩚓	vv
 𩚓	vv
 𢆭	vq
 𡿷	vr
@@ -71042,7 +69703,6 @@ vocabulary: essay-cantonese
 𡇣	wr
 𡗽	wk
 𤱀	wk
-𧶶	we
 𡇕	wn
 𡆽	ws
 𨝑	wl
@@ -71199,7 +69859,6 @@ vocabulary: essay-cantonese
 𪐣	wd
 𪑶	wd
 𪐧	wn
-𪒠	wk
 𪑼	wq
 𪒛	wo
 𪑔	we
@@ -71240,7 +69899,6 @@ vocabulary: essay-cantonese
 𪐛	wh
 𪑍	wn
 𪑱	wg
-𦑲	wm
 𤓅	wn
 𪑣	wu
 𪑩	wc
@@ -71260,7 +69918,6 @@ vocabulary: essay-cantonese
 𪒪	wb
 𪒬	wv
 𪐹	ws
-𪑔	we
 𪒎	wu
 𪑹	wl
 𪐙	wy
@@ -71472,7 +70129,6 @@ vocabulary: essay-cantonese
 𠝹	wn
 𤰽	wn
 𤐍	wf
-𦌟	we
 𦊾	wr
 𦊄	wg
 𦊊	wk
@@ -71499,8 +70155,6 @@ vocabulary: essay-cantonese
 𦊃	wn
 𤱢	wp
 𢼓	wk
-𦊓	wi
-𦊃	wn
 𦊴	wr
 𧮀	wr
 𦌽	wr
@@ -71518,7 +70172,6 @@ vocabulary: essay-cantonese
 𦍂	wc
 𦊯	wd
 𦌕	wr
-𦌔	wc
 𦌔	wc
 𦌡	wu
 𦌭	wl
@@ -71697,7 +70350,6 @@ vocabulary: essay-cantonese
 𡇆	wm
 𤱕	wp
 𡆳	wv
-𡇆	wm
 𤲊	wo
 𡈃	wv
 𤰨	ws
@@ -71762,7 +70414,6 @@ vocabulary: essay-cantonese
 𤲼	wp
 𩕪	wc
 𡇭	wv
-𨝪	wl
 𩙽	wo
 𦒬	wm
 𡇔	wv
@@ -71866,7 +70517,6 @@ vocabulary: essay-cantonese
 𩐸	yy
 𤬥	yv
 𧘼	yv
-𩑁	yf
 𩑈	yc
 𨙐	yv
 𢻕	ye
@@ -71896,9 +70546,7 @@ vocabulary: essay-cantonese
 𩐧	yr
 𢾚	yk
 𨕲	ym
-𩐭	yp
 𩐥	yr
-𩐧	yr
 𩐰	yo
 𠧢	yp
 𩐝	yr
@@ -71983,7 +70631,6 @@ vocabulary: essay-cantonese
 𢅛	yh
 𡯶	yu
 𪚊	yu
-𢅛	yh
 𠆍	yc
 𣦲	yt
 𦓄	yp
@@ -72032,7 +70679,6 @@ vocabulary: essay-cantonese
 𠨁	yv
 𢤅	yp
 𢤊	yp
-𢝃	yp
 𨒗	yq
 𧜈	yv
 𣎘	ya
@@ -72044,7 +70690,6 @@ vocabulary: essay-cantonese
 𦣭	yl
 𢄫	ys
 𢁆	yu
-𦗤	yj
 𥫄	yv
 𠧲	yj
 𩫑	yt
@@ -72208,7 +70853,6 @@ vocabulary: essay-cantonese
 𢀮	ys
 𨘨	ya
 𪏆	yc
-𪏆	yc
 𨔤	ys
 𧰄	yt
 𡟕	yv
@@ -72216,7 +70860,6 @@ vocabulary: essay-cantonese
 𨗐	ya
 𨙠	ya
 𢽫	ye
-𥽽	ym
 𥽽	ym
 𠆓	yk
 𡦨	yn
@@ -72258,7 +70901,6 @@ vocabulary: essay-cantonese
 𥓍	yr
 𨓎	yd
 𣢻	yo
-𩜨	yv
 𩜨	yv
 𦖥	yj
 𠭘	yt
@@ -72349,7 +70991,6 @@ vocabulary: essay-cantonese
 𥗱	yr
 𨝯	yl
 𨟐	yl
-𪚹	yu
 𨖫	yg
 𨾨	yg
 𠅰	yp
@@ -72415,7 +71056,6 @@ vocabulary: essay-cantonese
 𣦫	yl
 𤫻	yo
 𢧁	yi
-𨖠	yb
 𨘟	yo
 𨖎	yr
 𨒲	yd
@@ -72754,8 +71394,6 @@ vocabulary: essay-cantonese
 𩞤	yv
 𦉧	yu
 𨕾	yk
-𩜢	yv
-𩞤	yv
 𣁑	yg
 𢞾	yp
 𢥲	yp
@@ -72846,7 +71484,6 @@ vocabulary: essay-cantonese
 𣏔	yd
 𣥣	ye
 𨘸	ym
-𩏣	yq
 𣑾	yr
 𧘘	yv
 𠭓	ye
@@ -72868,7 +71505,6 @@ vocabulary: essay-cantonese
 𣦩	ye
 𧘦	yv
 𩾰	yf
-𪆛	yf
 𧖭	yt
 𠧔	ye
 𣥷	yl
@@ -72894,7 +71530,6 @@ vocabulary: essay-cantonese
 𣦈	ya
 𣥱	yk
 𣦅	yf
-𨔨	yx
 𣥯	yb
 𠢻	ys
 𣥈	yb
@@ -72918,14 +71553,12 @@ vocabulary: essay-cantonese
 𧦂	yk
 𣥩	yh
 𣥿	yh
-𨒮	yo
 𥎼	yk
 𧨟	yr
 𣥎	yt
 𧥜	yu
 𧘎	yv
 𧝑	yv
-𤮆	yn
 𤮜	yn
 𠧗	yy
 𧣆	yg
@@ -72947,7 +71580,6 @@ vocabulary: essay-cantonese
 𣥐	yo
 𣦁	yo
 𣦊	yo
-𧜍	yv
 𣥰	ye
 𢗓	yp
 𣥅	yp
@@ -73001,7 +71633,6 @@ vocabulary: essay-cantonese
 𨑜	yy
 𣥹	ye
 𨓑	yl
-𧇠	yn
 𨕭	yj
 𣥕	ym
 𣥖	ym
@@ -73098,7 +71729,6 @@ vocabulary: essay-cantonese
 𣣍	yo
 𣩕	yf
 𩼊	yf
-𪛀	yu
 𠖮	yo
 𣦸	yo
 𦚛	yo
@@ -73109,7 +71739,6 @@ vocabulary: essay-cantonese
 𢾛	yk
 𣨄	yr
 𧇎	yr
-𩚻	yv
 𩛈	yv
 𧆫	yn
 𧇹	yk
@@ -73179,7 +71808,6 @@ vocabulary: essay-cantonese
 𨑮	yj
 𢻉	ye
 𠅚	yk
-𪍧	ye
 𨒔	yk
 𨗼	yb
 𨙍	yb
@@ -73203,7 +71831,6 @@ vocabulary: essay-cantonese
 𨗦	yo
 𨗌	ys
 𨗤	ys
-𧘭	yv
 𨒣	yd
 𨕀	yk
 𨞙	yl
@@ -73271,14 +71898,9 @@ vocabulary: essay-cantonese
 𧆧	yu
 𣭁	yu
 𪉈	ym
-𧇥	yd
-𧆸	yf
 𩲨	yi
-𧆹	yp
-𧇱	yr
 𪕊	yv
 𨔪	yj
-𪎁	ye
 𡘌	yk
 𪚔	yk
 𧆴	yb
@@ -73587,8 +72209,6 @@ vocabulary: essay-cantonese
 𧫐	yb
 𧫺	yt
 𧩅	ye
-𧩈	yk
-𧫲	yl
 𧭰	yc
 𧩧	ye
 𧫽	yf
@@ -73673,7 +72293,6 @@ vocabulary: essay-cantonese
 𧨗	yf
 𦧨	yr
 𧥦	ys
-𧬩	ym
 𧥭	yn
 𧭌	yn
 𧨩	yp
@@ -73712,7 +72331,6 @@ vocabulary: essay-cantonese
 𧪾	yf
 𧩌	yt
 𧪣	yf
-𧩦	ym
 𧦽	yf
 𧩖	yg
 𡖡	yn
@@ -73748,7 +72366,6 @@ vocabulary: essay-cantonese
 𧪺	yl
 𧥷	yn
 𧨂	yr
-𧫧	yw
 𧪢	yd
 𧩨	yk
 𧩀	yn
@@ -73779,7 +72396,6 @@ vocabulary: essay-cantonese
 𧪶	yd
 𧩪	yp
 𥪇	ym
-𧥺	ym
 𧩇	ye
 𧧺	yg
 𠹪	yr
@@ -73890,9 +72506,7 @@ vocabulary: essay-cantonese
 𧩳	ys
 𧮉	ys
 𧪋	yh
-𧪘	ym
 𧪿	yb
-𧬆	yr
 𨗓	yu
 𧪜	yb
 𧧥	yw
@@ -73914,7 +72528,6 @@ vocabulary: essay-cantonese
 𧪅	yp
 𧭥	yd
 𧧈	yf
-𧨹	ye
 𧧴	yp
 𧫇	yc
 𧭄	yd
@@ -74275,7 +72888,6 @@ vocabulary: essay-cantonese
 𩚷	yv
 𥫁	ya
 𥩻	yr
-𩚷	yv
 𥪶	ya
 𨗸	yd
 𥩞	yi
@@ -74321,7 +72933,6 @@ vocabulary: essay-cantonese
 𨑘	yu
 𥪄	yb
 𥪪	yt
-𥪋	ye
 𥪬	ye
 𥪢	yc
 𥪎	yj
@@ -74329,7 +72940,6 @@ vocabulary: essay-cantonese
 𨗖	yk
 𥩫	yl
 𨖘	yl
-𨗕	yt
 𨙗	yw
 𥩖	yy
 𥪟	yb
@@ -74350,15 +72960,9 @@ vocabulary: essay-cantonese
 𪘄	yp
 𪘹	yv
 𪙦	ye
-𧇅	ya
-𧇻	yc
 𪙃	yr
-𧇛	yi
 𪘤	yi
-𧈜	yf
-𧇟	yr
 𪗱	ym
-𧇌	yr
 𪘍	yr
 𥉩	yu
 𪘟	yp
@@ -74377,8 +72981,6 @@ vocabulary: essay-cantonese
 𣜦	yd
 𪙁	ym
 𧇨	yd
-𧈇	yh
-𧆯	yh
 𡭎	yi
 𪘜	yl
 𪘨	yo
@@ -74393,24 +72995,16 @@ vocabulary: essay-cantonese
 𤎼	yf
 𪘞	yb
 𪙻	yi
-𩦶	yf
 𪘵	ye
 𪗺	yi
 𪗹	yg
 𪘖	ys
-𧈙	yi
 𪗾	yr
-𧆽	ya
-𪂬	yf
 𪅑	yf
 𪀞	yf
 𪗮	yd
-𧇯	yd
-𧇸	yf
-𧇮	yr
 𪚈	yi
 𪘊	yr
-𧆼	yy
 𨓒	yg
 𨕱	yj
 𪗽	yr
@@ -74436,7 +73030,6 @@ vocabulary: essay-cantonese
 𪗥	yh
 𪘪	yi
 𢎕	yp
-𧇒	ym
 𪗕	yj
 𨔲	yb
 𪘫	ym
@@ -74449,8 +73042,6 @@ vocabulary: essay-cantonese
 𪘌	yk
 𪗩	yp
 𪙏	yr
-𧆻	yr
-𧈑	ye
 𪘋	yi
 𡙴	yk
 𦚾	yb
@@ -74459,7 +73050,6 @@ vocabulary: essay-cantonese
 𪘃	yb
 𪘱	yb
 𠅛	yl
-𧆬	yn
 𧆟	yn
 𠡌	ys
 𠡜	ys
@@ -74482,27 +73072,21 @@ vocabulary: essay-cantonese
 𨖀	yi
 𪗻	yg
 𪗙	yj
-𪘾	yx
 𪗞	yl
 𪘚	yr
 𧈃	ys
 𪘝	yv
 𪗿	yn
-𧇭	ym
 𨕰	yt
 𪗛	yt
 𪙺	yb
 𥫏	ye
-𧈄	ye
 𧘫	yv
 𤭕	yn
 𪗼	yu
-𧆰	yd
 𪙙	yd
 𪘴	yg
 𪗸	yr
-𨛵	yl
-𣣍	yo
 𣤧	yo
 𪙀	yb
 𪚃	yi
@@ -74512,26 +73096,17 @@ vocabulary: essay-cantonese
 𪘠	ym
 𩀻	yg
 𪘮	yg
-𧇚	ya
 𪗣	ys
 𪘒	yr
 𪙎	yr
 𪘡	ym
 𪙸	ym
 𪗟	yn
-𧇎	yr
 𪘁	yr
-𪘒	yr
-𪙎	yr
-𧆫	yn
-𧇹	yk
 𪙮	ya
 𪗣	yp
 𨗳	yp
 𪗷	ya
-𧇰	yp
-𧇶	ya
-𨛸	yu
 𡃬	yb
 𨰒	yc
 𠅠	yn
@@ -74544,7 +73119,6 @@ vocabulary: essay-cantonese
 𪘛	yu
 𨗯	yk
 𪗪	yr
-𩤌	yf
 𩣐	yf
 𪙛	yr
 𪙕	yv
@@ -74553,16 +73127,12 @@ vocabulary: essay-cantonese
 𪙰	yv
 𪚂	yi
 𪙴	yi
-𧇞	yu
 𪙉	ym
 𪚍	ym
 𩠥	yu
 𪙟	ym
 𪗳	ym
 𧇫	yc
-𧈋	yi
-𪙉	ym
-𪚍	ym
 𥅶	yt
 𪘀	yt
 𪚏	yt
@@ -74581,17 +73151,13 @@ vocabulary: essay-cantonese
 𨗞	yw
 𡣼	yv
 𪗵	ye
-𧈆	yy
 𪙧	yi
 𪙧	yk
-𧆢	yl
 𪙝	yi
-𧈈	yd
 𪙂	yn
 𪙷	yv
 𪘩	yd
 𪘭	yd
-𧇙	ys
 𪙳	ym
 𪙚	yb
 𪚋	yk
@@ -74602,7 +73168,6 @@ vocabulary: essay-cantonese
 𧟛	yv
 𪗯	yu
 𪙘	yj
-𪙞	ym
 𨓂	ym
 𪘎	yr
 𧫘	yu
@@ -74648,7 +73213,6 @@ vocabulary: essay-cantonese
 𠙰	yn
 𢶜	yq
 𧚌	yv
-𪀞	yf
 𪀰	yf
 𠅼	yo
 𢒕	yh
@@ -74703,7 +73267,6 @@ vocabulary: essay-cantonese
 𨘁	yf
 𠜡	yh
 𠨑	yl
-𩣐	yf
 𡵍	yu
 𤣥	yv
 𨒰	yd
@@ -74758,7 +73321,6 @@ vocabulary: essay-cantonese
 𢨟	yr
 𤱶	yk
 𪊄	yp
-𪉱	yb
 𢻛	ye
 𦇨	yf
 𪉼	ye
@@ -74782,7 +73344,6 @@ vocabulary: essay-cantonese
 𪊀	yb
 𪉦	yx
 𠧧	yi
-𪉿	yk
 𨛕	yl
 𨛹	yl
 𣢿	yo
@@ -74812,7 +73373,6 @@ vocabulary: essay-cantonese
 𪉫	yj
 𧙪	yv
 𪊇	yt
-𪊇	yt
 𪉴	yd
 𪉯	yv
 𪉷	yl
@@ -74820,13 +73380,11 @@ vocabulary: essay-cantonese
 𠧤	ys
 𠧷	ys
 𪉭	yv
-𪉸	yt
 𤱈	yy
 𢾃	ye
 𢿊	ye
 𪉺	ym
 𣫭	yi
-𪉺	ym
 𠲯	yr
 𪉜	yr
 𪊊	yv
