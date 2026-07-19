@@ -410,7 +410,7 @@ sort: by_weight
 韓帥	jqhb	277
 韓說	jqyu	322
 韓素	jqqf	338
-韓台	jqgg	367
+韓台	jqir	367
 韓特	jqhi	299
 韓通	jqyb	348
 韓為	jqif	309
@@ -643,7 +643,7 @@ sort: by_weight
 雷說	mwyu	388
 雷速	mwyl	279
 雷泰	mwqe	379
-雷台	mwgg	311
+雷台	mwir	311
 雷塘	mwgr	163
 雷濤	mwei	337
 雷婷	mwvn	293
@@ -973,7 +973,7 @@ sort: by_weight
 梁群	edsq	293
 梁珊	edmm	258
 梁肅	edlx	312
-梁台	edgg	275
+梁台	edir	275
 梁婷	edvn	330
 梁頭	edmc	309
 梁熙	edsf	344
@@ -1249,7 +1249,7 @@ sort: by_weight
 秦鵬	qdbf	324
 秦殤	qdmh	367
 秦樹	qddi	269
-秦台	qdgg	228
+秦台	qdir	228
 秦濤	qdei	333
 秦亡	qdyv	354
 秦望	qdyg	309
@@ -4115,7 +4115,7 @@ sort: by_weight
 陳嘉尚	nwgrfr	155
 陳佳氏	nwoghp	206
 陳嘉樹	nwgrdi	120
-陳家台	nwjogg	94
+陳家台	nwjoir	94
 陳家屯	nwjopu	112
 陳家偉	nwjooq	281
 陳嘉偉	nwgroq	196
@@ -4294,7 +4294,7 @@ sort: by_weight
 陳金勝	nwcbs	120
 陳錦石	nwcbmr	191
 陳金石	nwcmr	1
-陳金台	nwcgg	1
+陳金台	nwcir	1
 陳錦棠	nwcbfd	320
 陳錦堂	nwcbfg	150
 陳錦濤	nwcbei	274
@@ -5219,7 +5219,7 @@ sort: by_weight
 陳泰賢	nwqesc	181
 陳太源	nwkief	139
 陳泰運	nwqeyj	228
-陳台證	nwggyt	201
+陳台證	nwiryt	201
 陳湯傳	nwehoi	159
 陳堂傑	nwfgod	210
 陳陶遺	nwnuyc	239
@@ -7397,7 +7397,7 @@ sort: by_weight
 杜斯坎	dgtlgo	199
 杜斯龍	dgtlyp	208
 杜松樹	dgdidi	217
-杜台卿	dggghl	215
+杜台卿	dgirhl	215
 杜特拉	dghiqt	252
 杜特塞	dghijg	1
 杜特世	dghipt	1
@@ -8121,7 +8121,7 @@ sort: by_weight
 韓家人	jqjoo	133
 韓家山	jqjou	139
 韓家墅	jqjowg	242
-韓家台	jqjogg	31
+韓家台	jqjoir	31
 韓家潭	jqjoej	217
 韓家灣	jqjoen	249
 韓家巷	jqjotu	150
@@ -9041,7 +9041,8 @@ sort: by_weight
 姜斯憲	tvtljp	329
 姜素拉	tvqfqt	369
 姜素妍	tvqfvt	31
-蔣台灣	tiggen	69
+蔣臺灣	tiggen	69
+蔣台灣	tiiren	69
 姜泰伍	tvqeom	268
 姜太顯	tvkiac	94
 薑糖茶	tmfrtd	215
@@ -9171,7 +9172,7 @@ sort: by_weight
 蔣月泉	tibhe	199
 姜允成	tviuis	1
 姜雲升	tvmiht	139
-蔣雲台	timigg	159
+蔣雲台	timiir	159
 蔣肇聰	tihqsp	222
 蔣振邦	tiqvql	69
 蔣震道	timvyu	52
@@ -11172,7 +11173,7 @@ sort: by_weight
 李家聲	ddjogj	291
 李家生	ddjohm	112
 李佳氏	ddoghp	363
-李家台	ddjogg	185
+李家台	ddjoir	185
 李家塘	ddjogr	290
 李嘉棠	ddgrfd	221
 李家堂	ddjofg	1
@@ -12979,7 +12980,7 @@ sort: by_weight
 李溪芮	ddektb	363
 李希聖	ddkbsg	175
 李溪勝	ddekbs	1
-李西台	ddmwgg	145
+李西台	ddmwir	145
 李希特	ddkbhi	347
 李西廷	ddmwng	133
 李錫文	ddchyk	94
@@ -14391,7 +14392,7 @@ sort: by_weight
 梁愛詩	edbeyi	359
 梁安琪	edjvmc	386
 梁柏堅	eddasg	270
-梁柏台	eddagg	133
+梁柏台	eddair	133
 梁邦彥	edqlyh	279
 梁寶琪	edjcmc	120
 梁葆貞	edtdyc	239
@@ -15702,7 +15703,7 @@ sort: by_weight
 魯蘇界	natdwl	185
 魯肅墓	nalxtg	185
 魯塔納	nagrvb	199
-魯台會	naggoa	286
+魯台會	nairoa	286
 魯特旗	nahiyc	387
 魯特琴	nahimn	372
 魯庭暉	naigaj	240
@@ -16840,7 +16841,7 @@ sort: by_weight
 馬場坪	sfghgj	271
 馬場山	sfghu	261
 馬長山	sfsvu	219
-馬場台	sfghgg	52
+馬場台	sfghir	52
 馬昌儀	sfaaoi	242
 馬昌營	sfaafr	213
 馬場垣	sfghgm	217
@@ -17245,7 +17246,7 @@ sort: by_weight
 馬加書	sfkrla	1
 馬加斯	sfkrtl	272
 馬佳歲	sfogyh	1
-馬家台	sfjogg	167
+馬家台	sfjoir	167
 馬家灘	sfjoeg	251
 馬家屯	sfjopu	210
 馬家灣	sfjoen	322
@@ -17455,7 +17456,7 @@ sort: by_weight
 馬蘭熱	sftwgf	196
 馬欄山	sfdwu	393
 馬蘭山	sftwu	206
-馬蘭台	sftwgg	196
+馬蘭台	sftwir	196
 馬藍星	sfttam	313
 馬蘭謠	sftwyu	219
 馬欄子	sfdwnd	236
@@ -17532,7 +17533,7 @@ sort: by_weight
 馬力足	sfksro	273
 馬蓮道	sftjyu	219
 馬蓮井	sftjtt	286
-馬蓮台	sftjgg	208
+馬蓮台	sftjir	208
 馬練營	sfvffr	193
 馬亮亮	sfynyn	159
 馬良廟	sfivib	120
@@ -17550,7 +17551,7 @@ sort: by_weight
 馬林契	sfddqk	1
 馬林琴	sfddmn	1
 馬林生	sfddhm	171
-馬林台	sfddgg	82
+馬林台	sfddir	82
 馬林王	sfddmg	82
 馬林型	sfddmg	150
 馬陵河	sfneer	31
@@ -18036,7 +18037,7 @@ sort: by_weight
 馬桶旁	sfdbys	296
 馬桶區	sfdbsr	181
 馬桶塞	sfdbjg	175
-馬桶台	sfdbgg	362
+馬桶台	sfdbir	362
 馬桶套	sfdbki	185
 馬桶吸	sfdbre	262
 馬同學	sfbrhd	291
@@ -19368,7 +19369,7 @@ sort: by_weight
 瀋陽沈	ewnheu	308
 瀋陽四	ewnhwc	178
 瀋陽所	ewnhhl	234
-瀋陽台	ewnhgg	159
+瀋陽台	ewnhir	159
 瀋陽天	ewnhmk	294
 瀋陽玩	ewnhmu	281
 瀋陽王	ewnhmg	127
@@ -19545,7 +19546,7 @@ sort: by_weight
 宋懷強	jdpvni	120
 宋桓公	jddmci	281
 宋皇后	jdhghr	277
-宋皇台	jdhggg	370
+宋皇臺	jdhggg	370
 宋惠公	jdjpci	127
 宋慧琪	jdqpmc	1
 宋基會	jdtgoa	213
@@ -19718,7 +19719,7 @@ sort: by_weight
 宋婷婷	jdvnvn	159
 宋同學	jdbrhd	251
 宋宛穎	jdjupc	236
-宋王台	jdmggg	311
+宋王臺	jdmggg	311
 宋王象	jdmgno	1
 宋煒臣	jdfqsl	213
 宋衛東	jdhndw	224
@@ -20331,7 +20332,7 @@ sort: by_weight
 蘇州熱	tdilgf	103
 蘇州是	tdilao	390
 蘇州水	tdile	167
-蘇州台	tdilgg	181
+蘇州台	tdilir	181
 蘇州通	tdilyb	270
 蘇州灣	tdilen	395
 蘇州我	tdilhi	261
@@ -22384,7 +22385,7 @@ sort: by_weight
 王佳氏	mgoghp	272
 王家樹	mgjodi	94
 王佳歲	mgogyh	52
-王家台	mgjogg	263
+王家台	mgjoir	263
 王家灘	mgjoeg	94
 王家塘	mgjogr	120
 王家田	mgjow	139
@@ -23686,12 +23687,12 @@ sort: by_weight
 王太利	mgkihn	321
 王太年	mgkioq	1
 王太平	mgkimj	206
-王台鋪	mgggcb	94
+王台鋪	mgircb	94
 王泰升	mgqeht	222
 王太伊	mgkiok	1
 王太元	mgkimu	103
 王太嶽	mgkiuk	120
-王台子	mgggnd	69
+王台子	mgirnd	69
 王太祖	mgkiim	94
 王曇首	mgaitu	256
 王坦之	mggmio	304
@@ -25709,7 +25710,7 @@ sort: by_weight
 魏勢力	higsks	256
 魏時亮	hiaiyn	167
 衛士們	hnjmon	322
-衛視台	hniugg	366
+衛視台	hniuir	366
 衛十土	hnjg	1
 衛詩雅	hnyimg	294
 魏淑芬	hieeth	120
@@ -25727,7 +25728,7 @@ sort: by_weight
 衛所制	hnhlhn	313
 衛塔州	hngril	1
 魏泰克	hiqeju	139
-衛台揆	hnggqk	112
+衛台揆	hnirqk	112
 衛太子	hnkind	360
 魏太祖	hikiim	234
 魏特琳	hihimd	279
@@ -25796,7 +25797,7 @@ sort: by_weight
 衛星社	hnamig	210
 衛星蝕	hnamoi	171
 衛星食	hnamov	150
-衛星台	hnamgg	300
+衛星台	hnamir	300
 衛星有	hnamkb	280
 衛星鐘	hnamcg	249
 衛星軸	hnamjw	215
@@ -26831,7 +26832,7 @@ sort: by_weight
 吳先恩	rkhuwp	206
 吳先鋒	rkhucj	185
 吳賢慶	rkscie	217
-吳獻台	rkykgg	31
+吳獻台	rkykir	31
 吳羨婷	rktovn	328
 吳賢玟	rkscmk	150
 吳祥川	rkiqll	201
@@ -27393,7 +27394,7 @@ sort: by_weight
 夏書記	melayu	167
 夏斯季	metlhd	286
 夏思思	mewpwp	155
-夏台鳳	megghf	201
+夏台鳳	meirhf	201
 夏太宗	mekijf	120
 夏特篇	mehihb	1
 夏提雅	meqomg	263
@@ -28246,7 +28247,7 @@ sort: by_weight
 徐穗珍	hdhpmh	208
 徐泰華	hdqetj	1
 徐太浪	hdkiev	256
-徐台英	hdggtk	52
+徐台英	hdirtk	52
 徐太宇	hdkijd	387
 許特爾	yjhimk	331
 許特根	yjhidv	273
@@ -30689,7 +30690,7 @@ sort: by_weight
 岳飛街	ounohn	204
 岳飛廟	ounoib	313
 岳飛墓	ounotg	283
-嶽公台	ukcigg	127
+嶽公台	ukciir	127
 嶽國峰	ukwmuj	145
 嶽華峰	uktjuj	127
 岳家口	oujor	1
@@ -33261,7 +33262,7 @@ sort: by_weight
 張太雷	nvkimw	366
 張太平	nvkimj	217
 張泰山	nvqeu	316
-張台子	nvggnd	324
+張台子	nvirnd	324
 張坦熊	nvgmif	145
 張唐英	nvirtk	127
 張桃芳	nvdots	354
@@ -33535,7 +33536,7 @@ sort: by_weight
 張文生	nvykhm	279
 張文勝	nvykbs	206
 張文壽	nvykgi	127
-張文台	nvykgg	199
+張文台	nvykir	199
 張問陶	nvarnu	325
 張文濤	nvykei	267
 張文韜	nvykdx	249
@@ -35313,7 +35314,7 @@ sort: by_weight
 趙嘉仁	gbgrom	94
 趙佳蕊	gbogtp	193
 趙家山	gbjou	139
-趙家台	gbjogg	178
+趙家台	gbjoir	178
 趙家條	gbjood	224
 趙家屯	gbjopu	171
 趙嘉文	gbgryk	139
@@ -35811,7 +35812,7 @@ sort: by_weight
 趙彥韜	gbyhdx	159
 趙彥衛	gbyhhn	224
 趙燕燕	gbtftf	219
-趙陽台	gbnhgg	159
+趙陽台	gbnhir	159
 趙耀東	gbfgdw	233
 趙毅波	gbyeee	315
 趙宜琛	gbjmmd	31
@@ -36232,7 +36233,7 @@ sort: by_weight
 鄭家口	tljor	82
 鄭家樂	tljovd	1
 鄭家生	tljohm	274
-鄭家台	tljogg	112
+鄭家台	tljoir	112
 鄭家屯	tljopu	359
 鄭嘉雯	tlgrmk	120
 鄭家塢	tljogf	228
@@ -36768,7 +36769,7 @@ sort: by_weight
 鄭州區	tlilsr	175
 鄭州上	tlilym	217
 鄭州四	tlilwc	256
-鄭州台	tlilgg	265
+鄭州台	tlilir	265
 鄭州天	tlilmk	208
 鄭州通	tlilyb	127
 鄭州玩	tlilmu	231
@@ -37116,7 +37117,7 @@ sort: by_weight
 周家人	brjoo	269
 周佳榮	brogfd	163
 周家山	brjou	215
-周家台	brjogg	145
+周家台	brjoir	145
 周家灣	brjoen	208
 周家蔚	brjoti	300
 周家巷	brjotu	255

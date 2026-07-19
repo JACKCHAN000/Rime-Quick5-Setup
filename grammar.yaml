@@ -1,5 +1,15 @@
 # Rime configuration
 
+# 利用繁體中文及粵語語料微調的語法模型，參見 https://github.com/JACKCHAN000/rime-corpus-processing
+hant-cantonese:
+  grammar:
+    language: zh-hant-cantonese
+    collocation_min_length: 2
+    collocation_max_length: 6
+  translator/contextual_suggestions: true
+  translator/max_homophones: 7
+  translator/max_homographs: 7
+
 hant:
   grammar:
     language: zh-hant-t-essay-bgw
