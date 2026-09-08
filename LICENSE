@@ -1,0 +1,42 @@
+# Rime-Quick5-Setup License
+
+Copyright (c) 2020-2026 JACKCHAN000
+
+This repository is a **multi-licensed project** containing original work together with materials adapted from multiple upstream open-source projects.
+
+There is no single license that applies to every file in this repository.
+
+## Original contributions
+
+For materials wholly created by JACKCHAN000 and not derived from third-party copyrighted material:
+
+* **Source code, Lua scripts, configurations and related software:**
+  Licensed under the **MIT License**.
+
+* **Dictionaries, linguistic data, recalculated weights, trained `.gram` models and other data/model assets:**
+  Licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+Commercial and non-commercial use, modification and redistribution are welcome.
+
+Suggested attribution:
+
+> Rime-Quick5-Setup by JACKCHAN000
+> https://github.com/JACKCHAN000/Rime-Quick5-Setup
+
+## Third-party and derived materials
+
+This repository incorporates and modifies materials from multiple upstream Rime projects and other open-source sources under different licenses.
+
+Any file or portion derived from third-party material **retains its applicable upstream license and attribution requirements**.
+
+This license does not attempt to relicense third-party material.
+
+Where a file contains an explicit copyright or license notice, that notice takes precedence.
+
+Where the origin of a file is mixed or uncertain, applicable upstream license requirements should be preserved.
+
+The permissions granted above apply only to rights owned by JACKCHAN000.
+
+---
+
+The purpose of this project is to improve the Quick/速成, Traditional Chinese and Cantonese input experience. Reuse, modification and further development are strongly encouraged, subject to applicable upstream licenses.
